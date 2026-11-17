@@ -34,6 +34,7 @@ from app.schemas.vocabulary import (
 
 from app.services.review_scheduler import apply_learning_status, apply_rating
 from app.services.streak import VIETNAM, record_learning_day
+from app.services.azure_translator import translate_english_to_vietnamese
 
 logger = logging.getLogger(__name__)
 router = APIRouter(tags=["Vocabulary"])
@@ -138,9 +139,11 @@ def dictionary_lookup(word: str, db: Session = Depends(get_db)):
     audio = next((p.get("audio") for p in phonetics if p.get("audio")), None)
     if audio and audio.startswith("//"):
         audio = "https:" + audio
+    english_definition = definition.get("definition")
     cached = Vocabulary(
         lemma=entry.get("word", normalized).lower(), language_code="en", phonetic=phonetic,
-        part_of_speech=meaning.get("partOfSpeech"), definition=definition.get("definition"),
+        part_of_speech=meaning.get("partOfSpeech"), definition=english_definition,
+        vietnamese_definition=translate_english_to_vietnamese(english_definition),
     )
     db.add(cached)
     try:
@@ -153,7 +156,7 @@ def dictionary_lookup(word: str, db: Session = Depends(get_db)):
         ))
     return DictionaryLookupResponse(
         vocabulary_id=cached.id, word=cached.lemma, phonetic=phonetic,
-        part_of_speech=meaning.get("partOfSpeech"), english_definition=definition.get("definition"),
+        part_of_speech=meaning.get("partOfSpeech"), english_definition=english_definition,
         example=definition.get("example"), audio_url=audio,
         synonyms=definition.get("synonyms") or meaning.get("synonyms") or [],
         antonyms=definition.get("antonyms") or meaning.get("antonyms") or [],

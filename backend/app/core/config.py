@@ -54,6 +54,11 @@ class Settings(BaseSettings):
     admin_max_thumbnail_upload_bytes: int = 10485760
     admin_max_subtitle_upload_bytes: int = 2097152
 
+    # Azure AI Translator.  Keep this server-side; Android clients must never
+    # receive this credential.
+    azure_translator_key: SecretStr | None = None
+    azure_translator_endpoint: str = "https://api.cognitive.microsofttranslator.com"
+
     model_config = SettingsConfigDict(
         env_file=".env",
         env_file_encoding="utf-8",

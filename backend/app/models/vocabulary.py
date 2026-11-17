@@ -35,6 +35,7 @@ class Vocabulary(Base):
     phonetic: Mapped[Optional[str]] = mapped_column(String(150), nullable=True)
     part_of_speech: Mapped[Optional[str]] = mapped_column(String(50), nullable=True)
     definition: Mapped[Optional[str]] = mapped_column(Text, nullable=True)
+    vietnamese_definition: Mapped[Optional[str]] = mapped_column(Text, nullable=True)
     created_at: Mapped[Optional[datetime]] = mapped_column(
         DateTime(timezone=True), nullable=True, server_default=func.now()
     )

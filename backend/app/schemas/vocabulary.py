@@ -1,7 +1,7 @@
 from datetime import datetime
 from typing import Literal, Optional
 from uuid import UUID
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict, Field, model_validator
 
 
 class VocabularyResponse(BaseModel):
@@ -11,9 +11,28 @@ class VocabularyResponse(BaseModel):
     phonetic: Optional[str] = None
     part_of_speech: Optional[str] = None
     definition: Optional[str] = None
+    english_definition: Optional[str] = None
     created_at: Optional[datetime] = None
 
     model_config = ConfigDict(from_attributes=True)
+
+    @model_validator(mode="before")
+    @classmethod
+    def use_vietnamese_definition_for_learning_views(cls, value):
+        """Keep the original dictionary definition while cards show Vietnamese."""
+        if isinstance(value, dict):
+            return value
+        english = getattr(value, "definition", None)
+        return {
+            "id": value.id,
+            "lemma": value.lemma,
+            "language_code": value.language_code,
+            "phonetic": value.phonetic,
+            "part_of_speech": value.part_of_speech,
+            "definition": getattr(value, "vietnamese_definition", None) or english,
+            "english_definition": english,
+            "created_at": value.created_at,
+        }
 
 
 class DictionaryLookupResponse(BaseModel):
