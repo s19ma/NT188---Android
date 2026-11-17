@@ -1,0 +1,4 @@
+# Copy this file to local.properties; do not commit local.properties.
+API_BASE_URL=https://your-api.example.com
+# Development only. Production AI requests should go through a protected backend.
+GEMINI_API_KEY=

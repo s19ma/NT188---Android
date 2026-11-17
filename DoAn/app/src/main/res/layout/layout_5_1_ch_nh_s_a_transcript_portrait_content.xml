@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF">
+
+    <!-- Frame: 5.1. Chỉnh sửa transcript (390x877) -->
+
+    <!-- FRAME: Box -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="390dp"
+        android:layout_height="844dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#FFFFFFFF">
+
+        <!-- FRAME: Transcript text area -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="82dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- TEXT: Editable text -->
+            <TextView
+                android:text="To avoid this, you need to set
+clear priorities and make a plan."
+                android:textSize="14sp"
+                android:textColor="#FF0F1729"
+                android:gravity="start"
+                android:fontFamily="Inter"
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- TEXT: Counter -->
+        <TextView
+            android:text="45/500"
+            android:textSize="10sp"
+            android:textColor="#FF63738C"
+            android:gravity="end"
+            android:fontFamily="Inter"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="240dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- TEXT: Field label -->
+        <TextView
+            android:text="Timestamp"
+            android:textSize="11sp"
+            android:textColor="#FF63738C"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:fontFamily="Inter"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="278dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- FRAME: Timestamp input -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="238dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="296dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- TEXT: 00:52 -->
+            <TextView
+                android:text="00:52"
+                android:textSize="12sp"
+                android:textColor="#FF63738C"
+                android:gravity="start"
+                android:fontFamily="Inter"
+        android:layout_width="214dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Play timestamp button -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="48dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="296dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- TEXT: ▶ -->
+            <TextView
+                android:text="▶"
+                android:textSize="13sp"
+                android:textColor="#FF4F45E5"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="32dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Cancel button -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="166dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="370dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- TEXT: Hủy -->
+            <TextView
+                android:text="Hủy"
+                android:textSize="13sp"
+                android:textColor="#FF4F45E5"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="11dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Save button -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="166dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="370dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- TEXT: Lưu -->
+            <TextView
+                android:text="Lưu"
+                android:textSize="13sp"
+                android:textColor="#FFFFFFFF"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="11dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Keyboard placeholder -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="390dp"
+        android:layout_height="252dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="520dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="#FFDBE3EB">
+
+            <!-- TEXT: Keyboard label -->
+            <TextView
+                android:text="Bàn phím"
+                android:textSize="18sp"
+                android:textColor="#FF63738C"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="390dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="108dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Header -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="204dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="#FFFFFFFF">
+
+            <!-- TEXT: Back -->
+            <TextView
+                android:text="‹"
+                android:textSize="24sp"
+                android:textColor="#FF4F45E5"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="20dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TEXT: Title -->
+            <TextView
+                android:text="Chỉnh sửa transcript"
+                android:textSize="15sp"
+                android:textColor="#FF0F1729"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TEXT: Action -->
+            <TextView
+                android:text="✎"
+                android:textSize="12sp"
+                android:textColor="#FF4F45E5"
+                android:gravity="end"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="54dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginTop="23dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

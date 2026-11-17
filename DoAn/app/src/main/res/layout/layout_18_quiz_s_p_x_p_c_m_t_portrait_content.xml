@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8FAFC">
+
+    <!-- Frame: 18. Quiz - Sắp xếp cụm từ (390x844) -->
+
+    <!-- FRAME: Header -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="142dp"
+        android:layout_height="64dp"
+        android:background="#FFFFFFFF">
+
+        <!-- TEXT: Back -->
+        <TextView
+            android:text="‹"
+            android:textSize="24sp"
+            android:textColor="#FF4F45E5"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:fontFamily="Inter"
+        android:layout_width="20dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- TEXT: Action -->
+        <TextView
+            android:text="✎"
+            android:textSize="12sp"
+            android:textColor="#FF4F45E5"
+            android:gravity="end"
+            android:textStyle="bold"
+            android:fontFamily="Inter"
+        android:layout_width="54dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginTop="23dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- FRAME: Box -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="390dp"
+        android:layout_height="780dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="48dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp">
+
+        <!-- TEXT: Quiz · Câu 5/5 -->
+        <TextView
+            android:text="Quiz · Câu 5/5"
+            android:textSize="20sp"
+            android:textColor="#FF0F172A"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:fontFamily="Inter"
+        android:layout_width="138dp"
+        android:layout_height="24dp" />
+
+        <!-- FRAME: Box -->
+        <LinearLayout
+            android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="6dp"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- RECTANGLE: Rectangle -->
+            <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="6dp"
+                android:background="@drawable/bg_rounded_box" />
+        </LinearLayout>
+
+        <!-- FRAME: Box -->
+        <LinearLayout
+            android:orientation="vertical"
+        android:layout_width="107dp"
+        android:layout_height="21dp"
+            android:background="@drawable/bg_rounded_box"
+            android:paddingLeft="10dp"
+            android:paddingTop="4dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="4dp">
+
+            <!-- TEXT: Phrase Ordering -->
+            <TextView
+                android:text="Phrase Ordering"
+                android:textSize="11sp"
+                android:textColor="#FF4F46E5"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="87dp"
+        android:layout_height="13dp" />
+        </LinearLayout>
+
+        <!-- TEXT: Sắp xếp các cụm từ thành câu đúng -->
+        <TextView
+            android:text="Sắp xếp các cụm từ thành câu đúng"
+            android:textSize="15sp"
+            android:textColor="#FF0F172A"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:fontFamily="Inter"
+        android:layout_width="259dp"
+        android:layout_height="18dp" />
+
+        <!-- FRAME: Box -->
+        <LinearLayout
+            android:orientation="horizontal"
+        android:layout_width="350dp"
+        android:layout_height="110dp"
+            android:background="@drawable/bg_rounded_box"
+            android:paddingLeft="14dp"
+            android:paddingTop="14dp"
+            android:paddingRight="14dp"
+            android:paddingBottom="14dp">
+
+            <!-- FRAME: Box -->
+            <LinearLayout
+                android:orientation="vertical"
+        android:layout_width="107dp"
+        android:layout_height="32dp"
+                android:background="@drawable/bg_rounded_box"
+                android:paddingLeft="14dp"
+                android:paddingTop="8dp"
+                android:paddingRight="14dp"
+                android:paddingBottom="8dp">
+
+                <!-- TEXT: Consistency -->
+                <TextView
+                    android:text="Consistency"
+                    android:textSize="13sp"
+                    android:textColor="#FFFFFFFF"
+                    android:gravity="start"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="79dp"
+        android:layout_height="16dp" />
+            </LinearLayout>
+
+            <!-- FRAME: Box -->
+            <LinearLayout
+                android:orientation="vertical"
+        android:layout_width="64dp"
+        android:layout_height="32dp"
+                android:background="@drawable/bg_rounded_box"
+                android:paddingLeft="14dp"
+                android:paddingTop="8dp"
+                android:paddingRight="14dp"
+                android:paddingBottom="8dp">
+
+                <!-- TEXT: beats -->
+                <TextView
+                    android:text="beats"
+                    android:textSize="13sp"
+                    android:textColor="#FFFFFFFF"
+                    android:gravity="start"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="36dp"
+        android:layout_height="16dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- FRAME: Box -->
+        <LinearLayout
+            android:orientation="horizontal"
+        android:layout_width="350dp"
+        android:layout_height="34dp">
+
+            <!-- FRAME: Box -->
+            <LinearLayout
+                android:orientation="vertical"
+        android:layout_width="85dp"
+        android:layout_height="34dp"
+                android:background="@drawable/bg_rounded_box"
+                android:paddingLeft="14dp"
+                android:paddingTop="8dp"
+                android:paddingRight="14dp"
+                android:paddingBottom="8dp">
+
+                <!-- TEXT: intensity -->
+                <TextView
+                    android:text="intensity"
+                    android:textSize="13sp"
+                    android:textColor="#FF64748B"
+                    android:gravity="start"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="55dp"
+        android:layout_height="16dp" />
+            </LinearLayout>
+
+            <!-- FRAME: Box -->
+            <LinearLayout
+                android:orientation="vertical"
+        android:layout_width="97dp"
+        android:layout_height="34dp"
+                android:background="@drawable/bg_rounded_box"
+                android:paddingLeft="14dp"
+                android:paddingTop="8dp"
+                android:paddingRight="14dp"
+                android:paddingBottom="8dp">
+
+                <!-- TEXT: every time -->
+                <TextView
+                    android:text="every time"
+                    android:textSize="13sp"
+                    android:textColor="#FF64748B"
+                    android:gravity="start"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="67dp"
+        android:layout_height="16dp" />
+            </LinearLayout>
+
+            <!-- FRAME: Box -->
+            <LinearLayout
+                android:orientation="vertical"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+                android:background="@drawable/bg_rounded_box"
+                android:paddingLeft="14dp"
+                android:paddingTop="8dp"
+                android:paddingRight="14dp"
+                android:paddingBottom="8dp">
+
+                <!-- TEXT: . -->
+                <TextView
+                    android:text="."
+                    android:textSize="13sp"
+                    android:textColor="#FF64748B"
+                    android:gravity="start"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="4dp"
+        android:layout_height="16dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- FRAME: Box -->
+        <LinearLayout
+            android:orientation="vertical"
+        android:layout_width="100dp"
+        android:layout_height="355dp" />
+
+        <!-- FRAME: Box -->
+        <LinearLayout
+            android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="46dp"
+            android:background="@drawable/bg_rounded_box"
+            android:paddingLeft="0dp"
+            android:paddingTop="14dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="14dp">
+
+            <!-- TEXT: Kiểm tra -->
+            <TextView
+                android:text="Kiểm tra"
+                android:textSize="15sp"
+                android:textColor="#FFFFFFFF"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="61dp"
+        android:layout_height="18dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

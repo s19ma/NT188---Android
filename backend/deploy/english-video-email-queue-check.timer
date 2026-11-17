@@ -1,0 +1,10 @@
+[Unit]
+Description=Periodically check English Through Video email queue
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=1min
+Unit=english-video-email-queue-check.service
+
+[Install]
+WantedBy=timers.target

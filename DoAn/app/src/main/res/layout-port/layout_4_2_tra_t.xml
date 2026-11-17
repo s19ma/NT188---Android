@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF1F5F9">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:clipToPadding="false"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp">
+
+        <!-- Nội dung có thể cuộn trên màn hình thấp hoặc khi cỡ chữ hệ thống lớn. -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFFFF"
+            android:paddingLeft="20dp"
+            android:paddingTop="0dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="12dp"
+            android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/btn_popup_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:text="‹  Quay lại video"
+            android:textSize="14sp"
+            android:textColor="#FF4F46E5"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <!-- FRAME: Box -->
+        <LinearLayout
+            android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="4dp">
+
+            <!-- RECTANGLE: Rectangle -->
+            <LinearLayout
+        android:layout_width="40dp"
+        android:layout_height="4dp"
+                android:background="@drawable/bg_rounded_box" />
+        </LinearLayout>
+
+        <!-- FRAME: Box -->
+        <LinearLayout
+            android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+            <!-- TEXT: resilient -->
+            <TextView
+                android:id="@+id/tv_popup_word"
+                android:text="resilient"
+                android:textSize="28sp"
+                android:textColor="#FF0F172A"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:ellipsize="end" />
+
+            <!-- FRAME: Box -->
+            <LinearLayout
+                android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+                android:background="@drawable/bg_rounded_box"
+                android:paddingLeft="10dp"
+                android:paddingTop="4dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="4dp">
+
+                <!-- TEXT: B2 -->
+                <TextView
+                    android:text="B2"
+                    android:textSize="11sp"
+                    android:textColor="#FF15803D"
+                    android:gravity="start"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- TEXT: /rɪˈzɪliənt/ · adj. -->
+        <TextView
+            android:id="@+id/tv_popup_phonetic"
+            android:text="/rɪˈzɪliənt/  ·  adj."
+            android:textSize="14sp"
+            android:textColor="#FF64748B"
+            android:gravity="start"
+            android:fontFamily="Inter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="10dp" />
+
+        <!-- FRAME: Box -->
+        <LinearLayout
+            android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:background="@drawable/bg_rounded_box"
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingRight="12dp"
+            android:paddingBottom="10dp">
+
+            <!-- TEXT: NGHĨA TRONG NGỮ CẢNH -->
+            <TextView
+                android:text="NGHĨA TRONG NGỮ CẢNH"
+                android:textSize="11sp"
+                android:textColor="#FF4F46E5"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+            <!-- TEXT: kiên cường, mau phục hồi sau khó khăn -->
+            <TextView
+                android:id="@+id/tv_popup_meaning"
+                android:text="kiên cường, mau phục hồi sau khó khăn"
+                android:textSize="15sp"
+                android:textColor="#FF0F172A"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:lineSpacingExtra="3dp" />
+        </LinearLayout>
+
+        <!-- FRAME: Box -->
+        <LinearLayout
+            android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:background="@drawable/bg_rounded_box"
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingRight="12dp"
+            android:paddingBottom="10dp">
+
+            <!-- TEXT: CÂU GỐC · 0:58 -->
+            <TextView
+                android:text="CÂU GỐC · 0:58"
+                android:textSize="11sp"
+                android:textColor="#FF64748B"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+            <!-- TEXT: We need to be resilient in tough times. -->
+            <TextView
+                android:id="@+id/tv_popup_sentence"
+                android:text="We need to be resilient in tough times."
+                android:textSize="14sp"
+                android:textColor="#FF0F172A"
+                android:gravity="start"
+                android:fontFamily="Inter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:lineSpacingExtra="2dp" />
+        </LinearLayout>
+
+        <!-- FRAME: Box -->
+        <LinearLayout
+            android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_rounded_box"
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingRight="12dp"
+            android:paddingBottom="10dp">
+
+            <!-- TEXT: ĐỒNG NGHĨA / TRÁI NGHĨA -->
+            <TextView
+                android:text="ĐỒNG NGHĨA / TRÁI NGHĨA"
+                android:textSize="11sp"
+                android:textColor="#FF64748B"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+            <!-- TEXT: tough, adaptable / fragile, vulnerable -->
+            <TextView
+                android:id="@+id/tv_popup_related"
+                android:text="tough, adaptable  /  fragile, vulnerable"
+                android:textSize="14sp"
+                android:textColor="#FF0F172A"
+                android:gravity="start"
+                android:fontFamily="Inter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:lineSpacingExtra="2dp" />
+        </LinearLayout>
+
+        <!-- FRAME: Box -->
+        <LinearLayout
+            android:id="@+id/btn_save_vocab"
+            android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+            android:background="@drawable/bg_card_primary"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <!-- TEXT: Lưu vào từ điển -->
+            <TextView
+                android:text="Lưu vào từ điển"
+                android:textSize="15sp"
+                android:textColor="#FFFFFFFF"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

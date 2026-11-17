@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF">
+
+    <!-- Frame: 5. Tìm kiếm & chỉnh sửa transcript (390x877) -->
+
+    <!-- FRAME: Box -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="390dp"
+        android:layout_height="844dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#FFFFFFFF">
+
+        <!-- FRAME: Header -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="390dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="#FFFFFFFF">
+
+            <!-- TEXT: Back -->
+            <TextView
+                android:text="‹"
+                android:textSize="24sp"
+                android:textColor="#FF4F45E5"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="20dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TEXT: Title -->
+            <TextView
+                android:text="Transcript"
+                android:textSize="15sp"
+                android:textColor="#FF0F1729"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TEXT: Action -->
+            <TextView
+                android:text="✎"
+                android:textSize="12sp"
+                android:textColor="#FF4F45E5"
+                android:gravity="end"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="54dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginTop="23dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Header -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="140dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="#FFFFFFFF">
+
+            <!-- TEXT: Back -->
+            <TextView
+                android:text="‹"
+                android:textSize="24sp"
+                android:textColor="#FF4F45E5"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="20dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TEXT: Title -->
+            <TextView
+                android:text="Transcript"
+                android:textSize="15sp"
+                android:textColor="#FF0F1729"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TEXT: Action -->
+            <TextView
+                android:text="✎"
+                android:textSize="12sp"
+                android:textColor="#FF4F45E5"
+                android:gravity="end"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="54dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginTop="23dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Search input -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="304dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="82dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- TEXT: Tìm kiếm câu, từ khóa... -->
+            <TextView
+                android:text="Tìm kiếm câu, từ khóa..."
+                android:textSize="12sp"
+                android:textColor="#FF63738C"
+                android:gravity="start"
+                android:fontFamily="Inter"
+        android:layout_width="280dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Edit icon button -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="38dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="332dp"
+        android:layout_marginTop="82dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- TEXT: ✎ -->
+            <TextView
+                android:text="✎"
+                android:textSize="13sp"
+                android:textColor="#FF4F45E5"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="22dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Transcript row -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="142dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- FRAME: Box -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="44dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_rounded_box">
+
+                <!-- TEXT: 00:12 -->
+                <TextView
+                    android:text="00:12"
+                    android:textSize="10sp"
+                    android:textColor="#FF4F45E5"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="34dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- TEXT: Transcript text -->
+            <TextView
+                android:text="So, today we’re going to talk about time management and how it can help you be more productive."
+                android:textSize="11sp"
+                android:textColor="#FF0F1729"
+                android:gravity="start"
+                android:fontFamily="Inter"
+        android:layout_width="272dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Transcript row -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="224dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- FRAME: Box -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="44dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_rounded_box">
+
+                <!-- TEXT: 00:25 -->
+                <TextView
+                    android:text="00:25"
+                    android:textSize="10sp"
+                    android:textColor="#FF4F45E5"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="34dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- TEXT: Transcript text -->
+            <TextView
+                android:text="First, let’s look at some common time wasters."
+                android:textSize="11sp"
+                android:textColor="#FF0F1729"
+                android:gravity="start"
+                android:fontFamily="Inter"
+        android:layout_width="272dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Transcript row -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="306dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- FRAME: Box -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="44dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_rounded_box">
+
+                <!-- TEXT: 00:38 -->
+                <TextView
+                    android:text="00:38"
+                    android:textSize="10sp"
+                    android:textColor="#FF4F45E5"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="34dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- TEXT: Transcript text -->
+            <TextView
+                android:text="Social media, for example, can easily distract us from our goals."
+                android:textSize="11sp"
+                android:textColor="#FF0F1729"
+                android:gravity="start"
+                android:fontFamily="Inter"
+        android:layout_width="272dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Selected transcript row -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="388dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- FRAME: Box -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="44dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_rounded_box">
+
+                <!-- TEXT: 00:52 -->
+                <TextView
+                    android:text="00:52"
+                    android:textSize="10sp"
+                    android:textColor="#FF4F45E5"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="34dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- TEXT: Transcript text -->
+            <TextView
+                android:text="To avoid this, you need to set clear priorities and make a plan."
+                android:textSize="11sp"
+                android:textColor="#FF0F1729"
+                android:gravity="start"
+                android:fontFamily="Inter"
+        android:layout_width="272dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Transcript row -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="470dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- FRAME: Box -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="44dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_rounded_box">
+
+                <!-- TEXT: 01:12 -->
+                <TextView
+                    android:text="01:12"
+                    android:textSize="10sp"
+                    android:textColor="#FF4F45E5"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="34dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- TEXT: Transcript text -->
+            <TextView
+                android:text="Another important tip is to use the Pomodoro technique."
+                android:textSize="11sp"
+                android:textColor="#FF0F1729"
+                android:gravity="start"
+                android:fontFamily="Inter"
+        android:layout_width="272dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Transcript row -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="552dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- FRAME: Box -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="44dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_rounded_box">
+
+                <!-- TEXT: 01:28 -->
+                <TextView
+                    android:text="01:28"
+                    android:textSize="10sp"
+                    android:textColor="#FF4F45E5"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="34dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- TEXT: Transcript text -->
+            <TextView
+                android:text="This means working for 25 minutes, then taking a 5-minute break."
+                android:textSize="11sp"
+                android:textColor="#FF0F1729"
+                android:gravity="start"
+                android:fontFamily="Inter"
+        android:layout_width="272dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Save changes button -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="350dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="730dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- TEXT: Lưu thay đổi -->
+            <TextView
+                android:text="Lưu thay đổi"
+                android:textSize="13sp"
+                android:textColor="#FFFFFFFF"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="342dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

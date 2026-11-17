@@ -1,0 +1,7 @@
+[Unit]
+Description=Log an English Through Video email queue alert
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/logger --priority daemon.err --tag english-video-email-alert "Email worker or queue check failed; inspect the queue and worker service."
+NoNewPrivileges=true

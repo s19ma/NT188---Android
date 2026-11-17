@@ -1,0 +1,17 @@
+[Unit]
+Description=English Through Video FastAPI service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=azureuser
+Group=azureuser
+WorkingDirectory=/home/azureuser/english-video/backend
+EnvironmentFile=/home/azureuser/english-video/backend/.env
+ExecStart=/home/azureuser/english-video/backend/.venv/bin/uvicorn app.main:app --host 127.0.0.1 --port 8000
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

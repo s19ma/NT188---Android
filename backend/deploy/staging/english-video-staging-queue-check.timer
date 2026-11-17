@@ -1,0 +1,10 @@
+[Unit]
+Description=Periodically check English Through Video staging queue
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=1min
+Unit=english-video-staging-queue-check.service
+
+[Install]
+WantedBy=timers.target

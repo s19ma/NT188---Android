@@ -1,0 +1,7 @@
+backend/scratch/
+backend/.env/
+.env
+.env.*
+!.env.example
+*.pem
+*.key

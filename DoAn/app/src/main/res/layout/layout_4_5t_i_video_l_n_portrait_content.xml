@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8FAFC">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="24dp"
+            android:paddingTop="36dp"
+            android:paddingBottom="32dp">
+
+            <!-- BACK BUTTON -->
+            <TextView
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="‹ Quay lại"
+                android:textSize="16sp"
+                android:textColor="#FF4F46E5"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginBottom="16dp" />
+
+            <!-- TITLE -->
+            <TextView
+                android:text="Tải video lên"
+                android:textSize="26sp"
+                android:textColor="#FF0F172A"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp" />
+
+            <!-- PICK VIDEO CARD -->
+            <LinearLayout
+                android:id="@+id/box_pick_file"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:background="@drawable/bg_card_white"
+                android:gravity="center"
+                android:padding="16dp"
+                android:elevation="2dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📁"
+                    android:textSize="32sp"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:id="@+id/tv_selected_file"
+                    android:text="Chọn video từ thiết bị"
+                    android:textSize="15sp"
+                    android:textColor="#FF4F46E5"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:text="MP4, MOV · tối đa 500MB"
+                    android:textSize="12sp"
+                    android:textColor="#FF64748B"
+                    android:fontFamily="Inter" />
+            </LinearLayout>
+
+            <!-- TITLE INPUT BLOCK -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:text="TIÊU ĐỀ VIDEO"
+                    android:textSize="12sp"
+                    android:textColor="#FF64748B"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:background="@drawable/bg_search_bar"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="16dp">
+
+                    <EditText
+                        android:id="@+id/et_video_title"
+                        android:hint="Nhập tiêu đề video"
+                        android:textSize="15sp"
+                        android:textColor="#FF0F172A"
+                        android:textColorHint="#FF94A3B8"
+                        android:background="@null"
+                        android:fontFamily="Inter"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- SUBMIT UPLOAD BUTTON -->
+            <LinearLayout
+                android:id="@+id/btn_submit_upload"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:background="@drawable/bg_card_primary"
+                android:gravity="center"
+                android:elevation="2dp"
+                android:clickable="true"
+                android:focusable="true">
+
+                <TextView
+                    android:text="Tải lên"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFFFF"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

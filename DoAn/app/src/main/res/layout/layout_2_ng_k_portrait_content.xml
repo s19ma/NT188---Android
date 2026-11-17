@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8FAFC">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="24dp"
+            android:paddingTop="36dp"
+            android:paddingBottom="32dp">
+
+            <!-- BACK BUTTON -->
+            <TextView
+                android:id="@+id/tv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="‹ Quay lại"
+                android:textSize="16sp"
+                android:textColor="#FF4F46E5"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginBottom="24dp" />
+
+            <!-- LOGO ICON -->
+            <LinearLayout
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:background="@drawable/bg_card_primary"
+                android:gravity="center"
+                android:elevation="4dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EN"
+                    android:textColor="#FFFFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter" />
+            </LinearLayout>
+
+            <!-- TITLE -->
+            <TextView
+                android:text="Tạo tài khoản"
+                android:textSize="26sp"
+                android:textColor="#FF0F172A"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp" />
+
+            <!-- SUBTITLE -->
+            <TextView
+                android:text="Học tiếng Anh qua video, từ vựng theo ngữ cảnh"
+                android:textSize="14sp"
+                android:textColor="#FF64748B"
+                android:gravity="center"
+                android:fontFamily="Inter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp" />
+
+            <!-- EMAIL FIELD -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp">
+
+                <TextView
+                    android:text="NHẬP EMAIL CỦA BẠN"
+                    android:textSize="12sp"
+                    android:textColor="#FF64748B"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:background="@drawable/bg_search_bar"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="16dp">
+
+                    <EditText
+                        android:id="@+id/et_register_email"
+                        android:hint="you@example.com"
+                        android:textSize="15sp"
+                        android:textColor="#FF0F172A"
+                        android:textColorHint="#FF94A3B8"
+                        android:background="@null"
+                        android:inputType="textEmailAddress"
+                        android:fontFamily="Inter"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_register_password"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/bg_search_bar"
+                android:hint="Mật khẩu"
+                android:inputType="textPassword"
+                android:paddingHorizontal="16dp" />
+
+            <!-- CONTINUE BUTTON -->
+            <EditText
+                android:id="@+id/et_register_confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/bg_search_bar"
+                android:hint="Xác nhận mật khẩu"
+                android:inputType="textPassword"
+                android:paddingHorizontal="16dp" />
+
+            <LinearLayout
+                android:id="@+id/btn_continue"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:background="@drawable/bg_card_primary"
+                android:gravity="center"
+                android:elevation="2dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginBottom="24dp">
+
+                <TextView
+                    android:text="Tiếp tục"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFFFF"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!-- LOGIN PROMPT -->
+            <TextView
+                android:id="@+id/tv_login"
+                android:text="Đã có tài khoản?  Đăng nhập"
+                android:textSize="14sp"
+                android:textColor="#FF64748B"
+                android:gravity="center"
+                android:fontFamily="Inter"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF">
+
+    <!-- Frame: 4.6. Tìm kiếm tổng hợp (390x844) -->
+
+    <!-- FRAME: Box -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="390dp"
+        android:layout_height="844dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#FFFFFFFF">
+
+        <!-- FRAME: Header -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="390dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="#FFFFFFFF">
+
+            <!-- TEXT: Back -->
+            <TextView
+                android:text="‹"
+                android:textSize="24sp"
+                android:textColor="#FF4F45E5"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="20dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TEXT: Title -->
+            <TextView
+                android:text="Tìm kiếm"
+                android:textSize="15sp"
+                android:textColor="#FF0F1729"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Search input -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="350dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="82dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- TEXT: Tìm video, từ vựng... -->
+            <TextView
+                android:text="Tìm video, từ vựng..."
+                android:textSize="12sp"
+                android:textColor="#FF63738C"
+                android:gravity="start"
+                android:fontFamily="Inter"
+        android:layout_width="326dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Search tab -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="108dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="140dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- TEXT: Video -->
+            <TextView
+                android:text="Video"
+                android:textSize="13sp"
+                android:textColor="#FFFFFFFF"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="92dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Search tab -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="108dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="140dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- TEXT: Từ vựng -->
+            <TextView
+                android:text="Từ vựng"
+                android:textSize="13sp"
+                android:textColor="#FF4F45E5"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="92dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Search tab -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="108dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="140dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- TEXT: Tất cả -->
+            <TextView
+                android:text="Tất cả"
+                android:textSize="13sp"
+                android:textColor="#FF4F45E5"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="92dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Filter panel -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="350dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="190dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- TEXT: Title -->
+            <TextView
+                android:text="Bộ lọc"
+                android:textSize="13sp"
+                android:textColor="#FF0F1729"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TEXT: Label -->
+            <TextView
+                android:text="Trình độ"
+                android:textSize="11sp"
+                android:textColor="#FF63738C"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- FRAME: Level chip -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="46dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_rounded_box">
+
+                <!-- TEXT: A1 -->
+                <TextView
+                    android:text="A1"
+                    android:textSize="13sp"
+                    android:textColor="#FF4F45E5"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="30dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- FRAME: Level chip -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="46dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_rounded_box">
+
+                <!-- TEXT: A2 -->
+                <TextView
+                    android:text="A2"
+                    android:textSize="13sp"
+                    android:textColor="#FF4F45E5"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="30dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- FRAME: Level chip -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="46dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_rounded_box">
+
+                <!-- TEXT: B1 -->
+                <TextView
+                    android:text="B1"
+                    android:textSize="13sp"
+                    android:textColor="#FF4F45E5"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="30dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- FRAME: Level chip -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="46dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_rounded_box">
+
+                <!-- TEXT: B2 -->
+                <TextView
+                    android:text="B2"
+                    android:textSize="13sp"
+                    android:textColor="#FFFFFFFF"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="30dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- FRAME: Level chip -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="46dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_rounded_box">
+
+                <!-- TEXT: C1 -->
+                <TextView
+                    android:text="C1"
+                    android:textSize="13sp"
+                    android:textColor="#FF4F45E5"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="30dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- FRAME: Level chip -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="46dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="277dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_rounded_box">
+
+                <!-- TEXT: C2 -->
+                <TextView
+                    android:text="C2"
+                    android:textSize="13sp"
+                    android:textColor="#FF4F45E5"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="30dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- TEXT: Label -->
+            <TextView
+                android:text="Trạng thái từ vựng"
+                android:textSize="11sp"
+                android:textColor="#FF63738C"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="106dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- FRAME: State chip -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="86dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="126dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_rounded_box">
+
+                <!-- TEXT: New -->
+                <TextView
+                    android:text="New"
+                    android:textSize="13sp"
+                    android:textColor="#FF4F45E5"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- FRAME: State chip -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="86dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="126dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_rounded_box">
+
+                <!-- TEXT: Learning -->
+                <TextView
+                    android:text="Learning"
+                    android:textSize="13sp"
+                    android:textColor="#FF4F45E5"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- FRAME: State chip -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="86dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="126dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_rounded_box">
+
+                <!-- TEXT: Mastered -->
+                <TextView
+                    android:text="Mastered"
+                    android:textSize="13sp"
+                    android:textColor="#FF4F45E5"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- TEXT: Label -->
+            <TextView
+                android:text="Tag"
+                android:textSize="11sp"
+                android:textColor="#FF63738C"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="166dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- FRAME: Tag chip -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="92dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="184dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_rounded_box">
+
+                <!-- TEXT: Business -->
+                <TextView
+                    android:text="Business"
+                    android:textSize="13sp"
+                    android:textColor="#FF4F45E5"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="76dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- FRAME: Tag chip -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="92dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="184dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_rounded_box">
+
+                <!-- TEXT: Travel -->
+                <TextView
+                    android:text="Travel"
+                    android:textSize="13sp"
+                    android:textColor="#FF4F45E5"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="76dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- FRAME: Tag chip -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="92dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="184dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_rounded_box">
+
+                <!-- TEXT: Education -->
+                <TextView
+                    android:text="Education"
+                    android:textSize="13sp"
+                    android:textColor="#FF4F45E5"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="76dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- TEXT: Results title -->
+        <TextView
+            android:text="Kết quả tìm kiếm"
+            android:textSize="13sp"
+            android:textColor="#FF0F1729"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:fontFamily="Inter"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="438dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- FRAME: Box -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="350dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="470dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- FRAME: Thumbnail -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="56dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_rounded_box">
+
+                <!-- TEXT: Play -->
+                <TextView
+                    android:text="▶"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFFFF"
+                    android:gravity="start"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="20dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- TEXT: Title -->
+            <TextView
+                android:text="Business English for Beginners"
+                android:textSize="12sp"
+                android:textColor="#FF0F1729"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TEXT: Subtitle -->
+            <TextView
+                android:text="10:24 · B1"
+                android:textSize="10sp"
+                android:textColor="#FF63738C"
+                android:gravity="start"
+                android:fontFamily="Inter"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="31dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Box -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="350dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="552dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- FRAME: Thumbnail -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="56dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_rounded_box">
+
+                <!-- TEXT: Play -->
+                <TextView
+                    android:text="▶"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFFFF"
+                    android:gravity="start"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="20dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- TEXT: Title -->
+            <TextView
+                android:text="Travel Tips for Beginners"
+                android:textSize="12sp"
+                android:textColor="#FF0F1729"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TEXT: Subtitle -->
+            <TextView
+                android:text="08:15 · A2"
+                android:textSize="10sp"
+                android:textColor="#FF63738C"
+                android:gravity="start"
+                android:fontFamily="Inter"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="31dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

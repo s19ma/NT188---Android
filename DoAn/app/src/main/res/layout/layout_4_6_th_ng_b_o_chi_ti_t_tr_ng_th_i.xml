@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF">
+
+    <!-- Frame: 4.6. Thông báo (chi tiết & trạng thái) (390x844) -->
+
+    <!-- FRAME: Box -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="390dp"
+        android:layout_height="844dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#FFFFFFFF">
+
+        <!-- FRAME: Header -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="390dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="#FFFFFFFF">
+
+            <!-- TEXT: Back -->
+            <TextView
+                android:text="‹"
+                android:textSize="24sp"
+                android:textColor="#FF4F45E5"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="20dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TEXT: Title -->
+            <TextView
+                android:text="Thông báo"
+                android:textSize="15sp"
+                android:textColor="#FF0F1729"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Tab -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="108dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- TEXT: Tất cả (24) -->
+            <TextView
+                android:text="Tất cả (24)"
+                android:textSize="13sp"
+                android:textColor="#FFFFFFFF"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="92dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Tab -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="108dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- TEXT: Chưa đọc (5) -->
+            <TextView
+                android:text="Chưa đọc (5)"
+                android:textSize="13sp"
+                android:textColor="#FF4F45E5"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="92dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Tab -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="108dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- TEXT: Đã đọc (19) -->
+            <TextView
+                android:text="Đã đọc (19)"
+                android:textSize="13sp"
+                android:textColor="#FF4F45E5"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="92dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Notification item -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="350dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="128dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- FRAME: Notification icon -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_rounded_box">
+
+                <!-- TEXT: Icon -->
+                <TextView
+                    android:text="♧"
+                    android:textSize="16sp"
+                    android:textColor="#FF4F45E5"
+                    android:gravity="start"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="18dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- TEXT: Message -->
+            <TextView
+                android:text="Hôm nay bạn có 12 thẻ đến hạn ôn tập!"
+                android:textSize="12sp"
+                android:textColor="#FF0F1729"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TEXT: Time -->
+            <TextView
+                android:text="2 giờ trước"
+                android:textSize="10sp"
+                android:textColor="#FF63738C"
+                android:gravity="start"
+                android:fontFamily="Inter"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="42dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TEXT: Menu -->
+            <TextView
+                android:text="⋮"
+                android:textSize="20sp"
+                android:textColor="#FF63738C"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="16dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Notification item -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="350dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="224dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- FRAME: Notification icon -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_rounded_box">
+
+                <!-- TEXT: Icon -->
+                <TextView
+                    android:text="♧"
+                    android:textSize="16sp"
+                    android:textColor="#FF4F45E5"
+                    android:gravity="start"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="18dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- TEXT: Message -->
+            <TextView
+                android:text="Video mới: Business English"
+                android:textSize="12sp"
+                android:textColor="#FF0F1729"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TEXT: Time -->
+            <TextView
+                android:text="3 giờ trước"
+                android:textSize="10sp"
+                android:textColor="#FF63738C"
+                android:gravity="start"
+                android:fontFamily="Inter"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="42dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TEXT: Menu -->
+            <TextView
+                android:text="⋮"
+                android:textSize="20sp"
+                android:textColor="#FF63738C"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="16dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Notification item -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="350dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="320dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- FRAME: Notification icon -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_rounded_box">
+
+                <!-- TEXT: Icon -->
+                <TextView
+                    android:text="♧"
+                    android:textSize="16sp"
+                    android:textColor="#FF4F45E5"
+                    android:gravity="start"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="18dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- TEXT: Message -->
+            <TextView
+                android:text="Bạn đã hoàn thành bài quiz!"
+                android:textSize="12sp"
+                android:textColor="#FF0F1729"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TEXT: Time -->
+            <TextView
+                android:text="6 giờ trước"
+                android:textSize="10sp"
+                android:textColor="#FF63738C"
+                android:gravity="start"
+                android:fontFamily="Inter"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="42dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TEXT: Menu -->
+            <TextView
+                android:text="⋮"
+                android:textSize="20sp"
+                android:textColor="#FF63738C"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="16dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Notification item -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="350dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="416dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- FRAME: Notification icon -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_rounded_box">
+
+                <!-- TEXT: Icon -->
+                <TextView
+                    android:text="♧"
+                    android:textSize="16sp"
+                    android:textColor="#FF4F45E5"
+                    android:gravity="start"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="18dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- TEXT: Message -->
+            <TextView
+                android:text="Nhắc nhở: Học liên tục mỗi ngày"
+                android:textSize="12sp"
+                android:textColor="#FF0F1729"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TEXT: Time -->
+            <TextView
+                android:text="1 ngày trước"
+                android:textSize="10sp"
+                android:textColor="#FF63738C"
+                android:gravity="start"
+                android:fontFamily="Inter"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="42dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TEXT: Menu -->
+            <TextView
+                android:text="⋮"
+                android:textSize="20sp"
+                android:textColor="#FF63738C"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="16dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Notification item -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="350dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="512dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- FRAME: Notification icon -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_rounded_box">
+
+                <!-- TEXT: Icon -->
+                <TextView
+                    android:text="♧"
+                    android:textSize="16sp"
+                    android:textColor="#FF4F45E5"
+                    android:gravity="start"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="18dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- TEXT: Message -->
+            <TextView
+                android:text="Hệ thống bảo trì vào 02:00"
+                android:textSize="12sp"
+                android:textColor="#FF0F1729"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TEXT: Time -->
+            <TextView
+                android:text="1 ngày trước"
+                android:textSize="10sp"
+                android:textColor="#FF63738C"
+                android:gravity="start"
+                android:fontFamily="Inter"
+        android:layout_width="190dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="42dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TEXT: Menu -->
+            <TextView
+                android:text="⋮"
+                android:textSize="20sp"
+                android:textColor="#FF63738C"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="16dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Bottom navigation -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="390dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="772dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="#FFFFFFFF">
+
+            <!-- TEXT: Home -->
+            <TextView
+                android:text="Home"
+                android:textSize="9sp"
+                android:textColor="#FF63738C"
+                android:gravity="center_horizontal"
+                android:fontFamily="Inter"
+        android:layout_width="68dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TEXT: Thư viện -->
+            <TextView
+                android:text="Thư viện"
+                android:textSize="9sp"
+                android:textColor="#FF4F45E5"
+                android:gravity="center_horizontal"
+                android:fontFamily="Inter"
+        android:layout_width="68dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TEXT: Ôn tập -->
+            <TextView
+                android:text="Ôn tập"
+                android:textSize="9sp"
+                android:textColor="#FF63738C"
+                android:gravity="center_horizontal"
+                android:fontFamily="Inter"
+        android:layout_width="68dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TEXT: Tiến độ -->
+            <TextView
+                android:text="Tiến độ"
+                android:textSize="9sp"
+                android:textColor="#FF63738C"
+                android:gravity="center_horizontal"
+                android:fontFamily="Inter"
+        android:layout_width="68dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TEXT: Hồ sơ -->
+            <TextView
+                android:text="Hồ sơ"
+                android:textSize="9sp"
+                android:textColor="#FF63738C"
+                android:gravity="center_horizontal"
+                android:fontFamily="Inter"
+        android:layout_width="68dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="312dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

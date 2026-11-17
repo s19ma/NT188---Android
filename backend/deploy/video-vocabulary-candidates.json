@@ -1,0 +1,5261 @@
+[
+  {
+    "lemma": "a",
+    "status": "ok",
+    "phonetic": "/æɪ/",
+    "part_of_speech": "noun",
+    "definition": "The name of the Latin script letter A/a."
+  },
+  {
+    "lemma": "above",
+    "status": "ok",
+    "phonetic": "/əˈbʌv/",
+    "part_of_speech": "noun",
+    "definition": "Heaven."
+  },
+  {
+    "lemma": "abundance",
+    "status": "ok",
+    "phonetic": "/əˈbʌn.dn̩s/",
+    "part_of_speech": "noun",
+    "definition": "A large quantity; many."
+  },
+  {
+    "lemma": "access",
+    "status": "ok",
+    "phonetic": "/ˈæksɛs/",
+    "part_of_speech": "noun",
+    "definition": "A way or means of approaching or entering; an entrance; a passage."
+  },
+  {
+    "lemma": "acid",
+    "status": "ok",
+    "phonetic": "/ˈæs.ɪd/",
+    "part_of_speech": "noun",
+    "definition": "A sour substance."
+  },
+  {
+    "lemma": "across",
+    "status": "ok",
+    "phonetic": "/əˈkɹɑs/",
+    "part_of_speech": "noun",
+    "definition": "(crosswords, often in combination) A word that runs horizontally in the completed puzzle grid or its associated clue."
+  },
+  {
+    "lemma": "activate",
+    "status": "ok",
+    "phonetic": "/ˈæktɪˌveɪt/",
+    "part_of_speech": "verb",
+    "definition": "To encourage development or induce increased activity; to stimulate."
+  },
+  {
+    "lemma": "actually",
+    "status": "ok",
+    "phonetic": "/-ɪ/",
+    "part_of_speech": "adverb",
+    "definition": "(modal) In act or in fact; really; in truth; positively."
+  },
+  {
+    "lemma": "ad",
+    "status": "ok",
+    "phonetic": "/æd/",
+    "part_of_speech": "noun",
+    "definition": "Advertisement."
+  },
+  {
+    "lemma": "add",
+    "status": "ok",
+    "phonetic": "/æd/",
+    "part_of_speech": "noun",
+    "definition": "An act or instance of adding."
+  },
+  {
+    "lemma": "adding",
+    "status": "ok",
+    "phonetic": "/ˈæ.dɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To join or unite (e.g. one thing to another, or as several particulars) so as to increase the number, augment the quantity or enlarge the magnitude, or so as to form into one aggregate."
+  },
+  {
+    "lemma": "additional",
+    "status": "ok",
+    "phonetic": "/əˈdɪʃənəl/",
+    "part_of_speech": "noun",
+    "definition": "Something added."
+  },
+  {
+    "lemma": "adopters",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "One who adopts"
+  },
+  {
+    "lemma": "adorning",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "verb",
+    "definition": "To make more beautiful and attractive; to decorate."
+  },
+  {
+    "lemma": "aesthetic",
+    "status": "ok",
+    "phonetic": "/iːs.ˈθe.tɪk/",
+    "part_of_speech": "noun",
+    "definition": "The study of art or beauty."
+  },
+  {
+    "lemma": "africa",
+    "status": "not_found"
+  },
+  {
+    "lemma": "after",
+    "status": "ok",
+    "phonetic": "/ˈæf.tə(ɹ)/",
+    "part_of_speech": "adjective",
+    "definition": "Later; second (of two); next, following, subsequent"
+  },
+  {
+    "lemma": "ages",
+    "status": "ok",
+    "phonetic": "/ˈeɪ.dʒɪz/",
+    "part_of_speech": "noun",
+    "definition": "The whole duration of a being, whether animal, plant, or other kind, being alive."
+  },
+  {
+    "lemma": "ago",
+    "status": "ok",
+    "phonetic": "/əˈɡəʊ/",
+    "part_of_speech": "adjective",
+    "definition": "Gone; gone by; gone away; passed; passed away."
+  },
+  {
+    "lemma": "agriculture",
+    "status": "ok",
+    "phonetic": "/ˈæɡɹɪˌkʌltʃə/",
+    "part_of_speech": "noun",
+    "definition": "The art or science of cultivating the ground, including the harvesting of crops, and the rearing and management of livestock"
+  },
+  {
+    "lemma": "airlifted",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "alexandria",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "all",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "allowing",
+    "status": "ok",
+    "phonetic": "/əˈlaʊɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To grant, give, admit, accord, afford, or yield; to let one have."
+  },
+  {
+    "lemma": "allure",
+    "status": "ok",
+    "phonetic": "/əˈl(j)ʊɚ/",
+    "part_of_speech": "noun",
+    "definition": "The power to attract, entice; the quality causing attraction."
+  },
+  {
+    "lemma": "along",
+    "status": "ok",
+    "phonetic": "/əˈlɑŋ/",
+    "part_of_speech": "adverb",
+    "definition": "In company; together."
+  },
+  {
+    "lemma": "alongside",
+    "status": "ok",
+    "phonetic": "/ə.lɒŋˈsaɪd/",
+    "part_of_speech": "adverb",
+    "definition": "Along the side; by the side; side by side with."
+  },
+  {
+    "lemma": "also",
+    "status": "ok",
+    "phonetic": "/ˈɔːl.səʊ/",
+    "part_of_speech": "adverb",
+    "definition": "(focus) In addition; besides; as well; further; too."
+  },
+  {
+    "lemma": "america",
+    "status": "not_found"
+  },
+  {
+    "lemma": "american",
+    "status": "not_found"
+  },
+  {
+    "lemma": "americas",
+    "status": "not_found"
+  },
+  {
+    "lemma": "among",
+    "status": "ok",
+    "phonetic": "/əˈmɒŋ/",
+    "part_of_speech": "preposition",
+    "definition": "Denotes a mingling or intermixing with distinct or separable objects. (See Usage Note at amidst.)"
+  },
+  {
+    "lemma": "amplify",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "an",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "ancestors",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "and",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "In rhythm, the second half of a divided beat."
+  },
+  {
+    "lemma": "animals",
+    "status": "ok",
+    "phonetic": "/ˈæn.ɪ.məlz/",
+    "part_of_speech": "noun",
+    "definition": "In scientific usage, a multicellular organism that is usually mobile, whose cells are not encased in a rigid cell wall (distinguishing it from plants and fungi) and which derives energy solely from the consumption of other organisms (distinguishing it from plants)."
+  },
+  {
+    "lemma": "animation",
+    "status": "ok",
+    "phonetic": "/æn.əˈmeɪ.ʃən/",
+    "part_of_speech": "noun",
+    "definition": "The act of animating, or giving life or spirit."
+  },
+  {
+    "lemma": "another",
+    "status": "ok",
+    "phonetic": "/æˈnʌð.ə(ɹ)/",
+    "part_of_speech": "pronoun",
+    "definition": "An additional one of the same kind."
+  },
+  {
+    "lemma": "any",
+    "status": "ok",
+    "phonetic": "/ˈæni/",
+    "part_of_speech": "adverb",
+    "definition": "To even the slightest extent, at all."
+  },
+  {
+    "lemma": "anything",
+    "status": "ok",
+    "phonetic": "/ˈɛ.nə.θɪŋ/",
+    "part_of_speech": "noun",
+    "definition": "Someone or something of importance."
+  },
+  {
+    "lemma": "appeal",
+    "status": "ok",
+    "phonetic": "/əˈpiːl/",
+    "part_of_speech": "noun",
+    "definition": "An application for the removal of a cause or suit from an inferior to a superior judge or court for re-examination or review."
+  },
+  {
+    "lemma": "appealing",
+    "status": "ok",
+    "phonetic": "/əˈpiː.lɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To call upon another to decide a question controverted, to corroborate a statement, to vindicate one's rights, etc."
+  },
+  {
+    "lemma": "appeared",
+    "status": "ok",
+    "phonetic": "/əˈpiːɹd/",
+    "part_of_speech": "verb",
+    "definition": "To come or be in sight; to be in view; to become visible."
+  },
+  {
+    "lemma": "are",
+    "status": "ok",
+    "phonetic": "/ɛə/",
+    "part_of_speech": "noun",
+    "definition": "An accepted (but deprecated and rarely used) SI unit of area equal to 100 square metres, or a former unit of approximately the same extent. Symbol: a."
+  },
+  {
+    "lemma": "area",
+    "status": "ok",
+    "phonetic": "/ˈɛə̯ɹɪə̯/",
+    "part_of_speech": "noun",
+    "definition": "A measure of the extent of a surface; it is measured in square units."
+  },
+  {
+    "lemma": "around",
+    "status": "ok",
+    "phonetic": "/əˈɹaʊnd/",
+    "part_of_speech": "adjective",
+    "definition": "(with the verb \"to be\") Present in the vicinity."
+  },
+  {
+    "lemma": "as",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "adverb",
+    "definition": "To such an extent or degree; to the same extent or degree."
+  },
+  {
+    "lemma": "ask",
+    "status": "ok",
+    "phonetic": "/ˈask/",
+    "part_of_speech": "noun",
+    "definition": "An act or instance of asking."
+  },
+  {
+    "lemma": "assuming",
+    "status": "ok",
+    "phonetic": "/əˈsjuːmɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To authenticate by means of belief; to surmise; to suppose to be true, especially without proof"
+  },
+  {
+    "lemma": "at",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "verb",
+    "definition": "To reply to or talk to someone, either online or face-to-face. (from the practice of targeting a message or reply to someone online by writing @name)"
+  },
+  {
+    "lemma": "attention",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "audio",
+    "status": "ok",
+    "phonetic": "/ˈɔː.di.əʊ/",
+    "part_of_speech": "noun",
+    "definition": "A sound, or a sound signal"
+  },
+  {
+    "lemma": "austria",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "away",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "ayurvedic",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "adjective",
+    "definition": "Pertaining to or characteristic of Ayurveda."
+  },
+  {
+    "lemma": "background",
+    "status": "ok",
+    "phonetic": "/ˈbæk.ɡɹaʊnd/",
+    "part_of_speech": "noun",
+    "definition": "One's social heritage, or previous life; what one did in the past."
+  },
+  {
+    "lemma": "bacteria",
+    "status": "ok",
+    "phonetic": "/bækˈtɪəɹ.ɪ.ə/",
+    "part_of_speech": "noun",
+    "definition": "A type, species, or strain of bacterium."
+  },
+  {
+    "lemma": "bad",
+    "status": "ok",
+    "phonetic": "/bæːd/",
+    "part_of_speech": "noun",
+    "definition": "Error, mistake."
+  },
+  {
+    "lemma": "banquets",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "A large celebratory meal; a feast."
+  },
+  {
+    "lemma": "basic",
+    "status": "ok",
+    "phonetic": "/ˈbeɪsɪk/",
+    "part_of_speech": "noun",
+    "definition": "A necessary commodity, a staple requirement."
+  },
+  {
+    "lemma": "basins",
+    "status": "ok",
+    "phonetic": "/ˈbeɪsɪnz/",
+    "part_of_speech": "noun",
+    "definition": "A wide bowl for washing, sometimes affixed to a wall"
+  },
+  {
+    "lemma": "battled",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "verb",
+    "definition": "To join in battle; to contend in fight"
+  },
+  {
+    "lemma": "bce",
+    "status": "not_found"
+  },
+  {
+    "lemma": "be",
+    "status": "not_found"
+  },
+  {
+    "lemma": "became",
+    "status": "ok",
+    "phonetic": "/bɪˈkeɪm/",
+    "part_of_speech": "verb",
+    "definition": "To arrive, come (to a place)."
+  },
+  {
+    "lemma": "becoming",
+    "status": "ok",
+    "phonetic": "/bɪˈkʊmɪŋɡ/",
+    "part_of_speech": "verb",
+    "definition": "To arrive, come (to a place)."
+  },
+  {
+    "lemma": "been",
+    "status": "ok",
+    "phonetic": "/biːn/",
+    "part_of_speech": "noun",
+    "definition": "A flying insect, of the clade Anthophila within the hymenopteran superfamily Apoidea, known for its organised societies (though only a minority have them), for collecting pollen and (in some species) producing wax and honey."
+  },
+  {
+    "lemma": "before",
+    "status": "ok",
+    "phonetic": "/bɪˈfɔː/",
+    "part_of_speech": "adverb",
+    "definition": "At an earlier time."
+  },
+  {
+    "lemma": "began",
+    "status": "ok",
+    "phonetic": "/bɪˈɡæn/",
+    "part_of_speech": "verb",
+    "definition": "To start, to initiate or take the first step into something."
+  },
+  {
+    "lemma": "behavior",
+    "status": "ok",
+    "phonetic": "[bɪˈheɪvjə]",
+    "part_of_speech": "noun",
+    "definition": "Human conduct relative to social norms."
+  },
+  {
+    "lemma": "behind",
+    "status": "ok",
+    "phonetic": "/bəˈhaɪnd/",
+    "part_of_speech": "noun",
+    "definition": "The rear, back-end"
+  },
+  {
+    "lemma": "believe",
+    "status": "ok",
+    "phonetic": "/bɪˈliːv/",
+    "part_of_speech": "verb",
+    "definition": "To accept as true, particularly without absolute certainty (i.e., as opposed to knowing)"
+  },
+  {
+    "lemma": "believed",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "verb",
+    "definition": "To accept as true, particularly without absolute certainty (i.e., as opposed to knowing)"
+  },
+  {
+    "lemma": "below",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "benefit",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "berry",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "best",
+    "status": "ok",
+    "phonetic": "/ˈbɛst/",
+    "part_of_speech": "noun",
+    "definition": "The supreme effort one can make, or has made."
+  },
+  {
+    "lemma": "better",
+    "status": "ok",
+    "phonetic": "[ˈbeɾə]",
+    "part_of_speech": "noun",
+    "definition": "An entity, usually animate, deemed superior to another; one who has a claim to precedence; a superior."
+  },
+  {
+    "lemma": "beyond",
+    "status": "ok",
+    "phonetic": "/biˈjɒnd/",
+    "part_of_speech": "noun",
+    "definition": "The unknown."
+  },
+  {
+    "lemma": "binds",
+    "status": "ok",
+    "phonetic": "/baɪndz/",
+    "part_of_speech": "noun",
+    "definition": "That which binds or ties."
+  },
+  {
+    "lemma": "biological",
+    "status": "ok",
+    "phonetic": "/ˌbaɪə(ʊ)ˈlɒdʒɪkəl/",
+    "part_of_speech": "noun",
+    "definition": "A biological product."
+  },
+  {
+    "lemma": "biting",
+    "status": "ok",
+    "phonetic": "/ˈbaɪtɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To cut into something by clamping the teeth."
+  },
+  {
+    "lemma": "bitter",
+    "status": "ok",
+    "phonetic": "/ˈbɪtə/",
+    "part_of_speech": "noun",
+    "definition": "(usually in the plural bitters) A liquid or powder, made from bitter herbs, used in mixed drinks or as a tonic."
+  },
+  {
+    "lemma": "black",
+    "status": "ok",
+    "phonetic": "/blak/",
+    "part_of_speech": "noun",
+    "definition": "The colour/color perceived in the absence of light, but also when no light is reflected, but rather absorbed."
+  },
+  {
+    "lemma": "boiled",
+    "status": "ok",
+    "phonetic": "/bɔɪld/",
+    "part_of_speech": "verb",
+    "definition": "(of liquids) To heat to the point where it begins to turn into a gas."
+  },
+  {
+    "lemma": "both",
+    "status": "ok",
+    "phonetic": "/bəʊθ/",
+    "part_of_speech": "pronoun",
+    "definition": "Each of the two, or of the two kinds."
+  },
+  {
+    "lemma": "bring",
+    "status": "ok",
+    "phonetic": "/ˈbɹɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "(ditransitive) To transport toward somebody/somewhere."
+  },
+  {
+    "lemma": "bringing",
+    "status": "ok",
+    "phonetic": "/ˈbɹɪŋɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "(ditransitive) To transport toward somebody/somewhere."
+  },
+  {
+    "lemma": "british",
+    "status": "not_found"
+  },
+  {
+    "lemma": "built",
+    "status": "ok",
+    "phonetic": "/ˈbɪlt/",
+    "part_of_speech": "verb",
+    "definition": "To form (something) by combining materials or parts."
+  },
+  {
+    "lemma": "bullet",
+    "status": "ok",
+    "phonetic": "/ˈbʊl.ɪt/",
+    "part_of_speech": "noun",
+    "definition": "A projectile, usually of metal, shot from a gun at high speed."
+  },
+  {
+    "lemma": "bullets",
+    "status": "ok",
+    "phonetic": "/ˈbʊl.ɪts/",
+    "part_of_speech": "noun",
+    "definition": "A projectile, usually of metal, shot from a gun at high speed."
+  },
+  {
+    "lemma": "buried",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "adjective",
+    "definition": "Placed in a grave at a burial."
+  },
+  {
+    "lemma": "but",
+    "status": "ok",
+    "phonetic": "/bʊt/",
+    "part_of_speech": "noun",
+    "definition": "An instance or example of using the word \"but\"."
+  },
+  {
+    "lemma": "by",
+    "status": "ok",
+    "phonetic": "/baɪ/",
+    "part_of_speech": "noun",
+    "definition": "A flying insect, of the clade Anthophila within the hymenopteran superfamily Apoidea, known for its organised societies (though only a minority have them), for collecting pollen and (in some species) producing wax and honey."
+  },
+  {
+    "lemma": "called",
+    "status": "ok",
+    "phonetic": "[kɔld]",
+    "part_of_speech": "verb",
+    "definition": "(heading) To use one's voice."
+  },
+  {
+    "lemma": "camels",
+    "status": "ok",
+    "phonetic": "/ˈkæməlz/",
+    "part_of_speech": "noun",
+    "definition": "A beast of burden, much used in desert areas, of the genus Camelus."
+  },
+  {
+    "lemma": "can",
+    "status": "ok",
+    "phonetic": "/ˈkæn/",
+    "part_of_speech": "verb",
+    "definition": "(auxiliary verb, defective) To know how to; to be able to."
+  },
+  {
+    "lemma": "capsaicin",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "capture",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "captured",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "caravans",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "carbonate",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "carefully",
+    "status": "ok",
+    "phonetic": "/ˈkɛːfli/",
+    "part_of_speech": "adverb",
+    "definition": "Sorrowfully."
+  },
+  {
+    "lemma": "categories",
+    "status": "ok",
+    "phonetic": "/ˈkætɪɡ(ə)ɹiz/",
+    "part_of_speech": "noun",
+    "definition": "A group, often named or numbered, to which items are assigned based on similarity or defined criteria."
+  },
+  {
+    "lemma": "causes",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "ce",
+    "status": "not_found"
+  },
+  {
+    "lemma": "cellars",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "An enclosed underground space, often under a building, used for storage or shelter."
+  },
+  {
+    "lemma": "cells",
+    "status": "ok",
+    "phonetic": "/sɛlz/",
+    "part_of_speech": "noun",
+    "definition": "A single-room dwelling for a hermit."
+  },
+  {
+    "lemma": "central",
+    "status": "ok",
+    "phonetic": "/ˈsɛntɹəl/",
+    "part_of_speech": "adjective",
+    "definition": "Being in the centre."
+  },
+  {
+    "lemma": "centuries",
+    "status": "ok",
+    "phonetic": "/ˈsɛn.tʃə.ɹiz/",
+    "part_of_speech": "noun",
+    "definition": "A period of 100 consecutive years; often specifically a numbered period with conventional start and end dates, e.g., the twentieth century, which stretches from (strictly) 1901 through 2000, or (informally) 1900 through 1999. The first century AD was from 1 to 100."
+  },
+  {
+    "lemma": "century",
+    "status": "ok",
+    "phonetic": "/ˈsɛn.t͡ʃə.ɹiː/",
+    "part_of_speech": "noun",
+    "definition": "A period of 100 consecutive years; often specifically a numbered period with conventional start and end dates, e.g., the twentieth century, which stretches from (strictly) 1901 through 2000, or (informally) 1900 through 1999. The first century AD was from 1 to 100."
+  },
+  {
+    "lemma": "change",
+    "status": "ok",
+    "phonetic": "/tʃeɪndʒ/",
+    "part_of_speech": "noun",
+    "definition": "The process of becoming different."
+  },
+  {
+    "lemma": "charging",
+    "status": "ok",
+    "phonetic": "/ˈt͡ʃɑːd͡ʒɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To assign a duty or responsibility to"
+  },
+  {
+    "lemma": "charts",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "A map."
+  },
+  {
+    "lemma": "cheaper",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "adjective",
+    "definition": "Low and/or reduced in price."
+  },
+  {
+    "lemma": "chemical",
+    "status": "ok",
+    "phonetic": "/ˈkɛmɪkəl/",
+    "part_of_speech": "noun",
+    "definition": "Any specific chemical element or chemical compound or alloy."
+  },
+  {
+    "lemma": "chili",
+    "status": "ok",
+    "phonetic": "/ˈt͡ʃɪli/",
+    "part_of_speech": "noun",
+    "definition": "The pungent, spicy fresh or dried fruit of any of several cultivated varieties of capsicum peppers, used in cooking."
+  },
+  {
+    "lemma": "china",
+    "status": "ok",
+    "phonetic": "/tʃʌɪnə/",
+    "part_of_speech": "noun",
+    "definition": "The plant Smilax china, a liana of much of eastern Asia."
+  },
+  {
+    "lemma": "chloride",
+    "status": "ok",
+    "phonetic": "/ˈklɔːɹaɪd/",
+    "part_of_speech": "noun",
+    "definition": "Any salt of hydrochloric acid, such as sodium chloride, or any binary compound of chlorine and another element or radical"
+  },
+  {
+    "lemma": "christopher",
+    "status": "not_found"
+  },
+  {
+    "lemma": "citrus",
+    "status": "ok",
+    "phonetic": "/ˈsɪ.tɹəs/",
+    "part_of_speech": "noun",
+    "definition": "Any of several shrubs or trees of the genus Citrus in the family Rutaceae."
+  },
+  {
+    "lemma": "city",
+    "status": "ok",
+    "phonetic": "/sɪtɪ/",
+    "part_of_speech": "noun",
+    "definition": "A large settlement, bigger than a town; sometimes with a specific legal definition, depending on the place."
+  },
+  {
+    "lemma": "civilizations",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "An organized culture encompassing many communities, often on the scale of a nation or a people; a stage or system of social, political or technical development."
+  },
+  {
+    "lemma": "climates",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "An area of the earth's surface between two parallels of latitude."
+  },
+  {
+    "lemma": "clumping",
+    "status": "ok",
+    "phonetic": "/ˈklʌmpɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To form clusters or lumps."
+  },
+  {
+    "lemma": "coast",
+    "status": "ok",
+    "phonetic": "/kəʊst/",
+    "part_of_speech": "noun",
+    "definition": "The edge of the land where it meets an ocean, sea, gulf, bay, or large lake."
+  },
+  {
+    "lemma": "collecting",
+    "status": "ok",
+    "phonetic": "/kəˈlɛktɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To gather together; amass."
+  },
+  {
+    "lemma": "colors",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "columbus",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "combine",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "come",
+    "status": "ok",
+    "phonetic": "/kʌm/",
+    "part_of_speech": "noun",
+    "definition": "Coming, arrival; approach."
+  },
+  {
+    "lemma": "comes",
+    "status": "ok",
+    "phonetic": "/kʌmz/",
+    "part_of_speech": "verb",
+    "definition": "To move from further away to nearer to."
+  },
+  {
+    "lemma": "commodity",
+    "status": "ok",
+    "phonetic": "/kəˈmɒdəti/",
+    "part_of_speech": "noun",
+    "definition": "Anything movable (a good) that is bought and sold."
+  },
+  {
+    "lemma": "common",
+    "status": "ok",
+    "phonetic": "/ˈkɒmən/",
+    "part_of_speech": "noun",
+    "definition": "Mutual good, shared by more than one."
+  },
+  {
+    "lemma": "communicate",
+    "status": "ok",
+    "phonetic": "/kəˈmjuːnɪkeɪt/",
+    "part_of_speech": "verb",
+    "definition": "To impart"
+  },
+  {
+    "lemma": "company",
+    "status": "ok",
+    "phonetic": "/ˈkʌmp(ə)ni/",
+    "part_of_speech": "noun",
+    "definition": "A team; a group of people who work together professionally."
+  },
+  {
+    "lemma": "comparing",
+    "status": "ok",
+    "phonetic": "/kəmˈpɛəɹɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To assess the similarities and differences between two or more things [\"to compare X with Y\"]. Having made the comparison of X with Y, one might have found it similar to Y or different from Y."
+  },
+  {
+    "lemma": "compelling",
+    "status": "ok",
+    "phonetic": "/kəmˈpɛlɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To drive together, round up"
+  },
+  {
+    "lemma": "completely",
+    "status": "ok",
+    "phonetic": "/kəmˈpliːtli/",
+    "part_of_speech": "adverb",
+    "definition": "(manner) In a complete manner"
+  },
+  {
+    "lemma": "complicated",
+    "status": "ok",
+    "phonetic": "/ˈkɒmplɪkeɪtɪd/",
+    "part_of_speech": "verb",
+    "definition": "To make complex; to modify so as to make something intricate or difficult."
+  },
+  {
+    "lemma": "component",
+    "status": "ok",
+    "phonetic": "/kʌmˈpoʊnənt/",
+    "part_of_speech": "noun",
+    "definition": "A smaller, self-contained part of a larger entity. Often refers to a manufactured object that is part of a larger device."
+  },
+  {
+    "lemma": "components",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "A smaller, self-contained part of a larger entity. Often refers to a manufactured object that is part of a larger device."
+  },
+  {
+    "lemma": "compound",
+    "status": "ok",
+    "phonetic": "/ˈkɒmpaʊnd/",
+    "part_of_speech": "noun",
+    "definition": "An enclosure within which workers, prisoners, or soldiers are confined"
+  },
+  {
+    "lemma": "connecting",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "connection",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "contain",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "containers",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "Someone who contains; something that contains."
+  },
+  {
+    "lemma": "contains",
+    "status": "ok",
+    "phonetic": "/kənˈteɪnz/",
+    "part_of_speech": "verb",
+    "definition": "To hold inside."
+  },
+  {
+    "lemma": "content",
+    "status": "ok",
+    "phonetic": "/kənˈtɛnt/",
+    "part_of_speech": "noun",
+    "definition": "(except in phrases) Satisfaction, contentment; pleasure."
+  },
+  {
+    "lemma": "contents",
+    "status": "ok",
+    "phonetic": "/ˈkɒn.tɛnts/",
+    "part_of_speech": "verb",
+    "definition": "To give contentment or satisfaction; to satisfy; to make happy."
+  },
+  {
+    "lemma": "contest",
+    "status": "ok",
+    "phonetic": "/ˈkɒn.tɛst/",
+    "part_of_speech": "noun",
+    "definition": "Controversy; debate."
+  },
+  {
+    "lemma": "control",
+    "status": "ok",
+    "phonetic": "/kənˈtɹəʊl/",
+    "part_of_speech": "noun",
+    "definition": "Influence or authority over something."
+  },
+  {
+    "lemma": "convincing",
+    "status": "ok",
+    "phonetic": "/kənˈvɪnsɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To make someone believe, or feel sure about something, especially by using logic, argument or evidence."
+  },
+  {
+    "lemma": "cookbook",
+    "status": "ok",
+    "phonetic": "/ˈkʊkˌbʊk/",
+    "part_of_speech": "noun",
+    "definition": "A book or an encyclopedia of recipes and cookery tips."
+  },
+  {
+    "lemma": "core",
+    "status": "ok",
+    "phonetic": "/kɔː/",
+    "part_of_speech": "noun",
+    "definition": "The central part of fruit, containing the kernels or seeds."
+  },
+  {
+    "lemma": "cost",
+    "status": "ok",
+    "phonetic": "/ˈkɑst/",
+    "part_of_speech": "verb",
+    "definition": "To incur a charge of; to require payment of a (specified) price."
+  },
+  {
+    "lemma": "could",
+    "status": "ok",
+    "phonetic": "/kʊd/",
+    "part_of_speech": "verb",
+    "definition": "(auxiliary verb, defective) To know how to; to be able to."
+  },
+  {
+    "lemma": "countries",
+    "status": "ok",
+    "phonetic": "/ˈkʌntɹiz/",
+    "part_of_speech": "noun",
+    "definition": "(chiefly British) An area of land; a district, region."
+  },
+  {
+    "lemma": "cram",
+    "status": "ok",
+    "phonetic": "/kɹæm/",
+    "part_of_speech": "noun",
+    "definition": "The act of cramming (forcing or stuffing something)."
+  },
+  {
+    "lemma": "crazed",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "create",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "created",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "creature",
+    "status": "ok",
+    "phonetic": "/ˈkɹiːt͡ʃə/",
+    "part_of_speech": "noun",
+    "definition": "A living being; an animal or (sometimes derogatory) a human."
+  },
+  {
+    "lemma": "crews",
+    "status": "ok",
+    "phonetic": "/kɹuːz/",
+    "part_of_speech": "noun",
+    "definition": "A pen for livestock such as chickens or pigs"
+  },
+  {
+    "lemma": "crystals",
+    "status": "ok",
+    "phonetic": "/ˈkɹɪstəlz/",
+    "part_of_speech": "noun",
+    "definition": "A solid composed of an array of atoms or molecules possessing long-range order and arranged in a pattern which is periodic in three dimensions."
+  },
+  {
+    "lemma": "cuisine",
+    "status": "ok",
+    "phonetic": "/kwɪˈziːn/",
+    "part_of_speech": "noun",
+    "definition": "A characteristic style of preparing food, often associated with a place of origin."
+  },
+  {
+    "lemma": "culinary",
+    "status": "ok",
+    "phonetic": "/ˈkʌlɪn(ə)ɹi/",
+    "part_of_speech": "adjective",
+    "definition": "Relating to the practice of cookery or the activity of cooking."
+  },
+  {
+    "lemma": "curiosity",
+    "status": "ok",
+    "phonetic": "/ˌkjʊəɹɪˈɒsɪti/",
+    "part_of_speech": "noun",
+    "definition": "(uncountable) Inquisitiveness; the tendency to ask and learn about things by asking questions, investigating, or exploring."
+  },
+  {
+    "lemma": "cut",
+    "status": "ok",
+    "phonetic": "/kʌt/",
+    "part_of_speech": "noun",
+    "definition": "The act of cutting."
+  },
+  {
+    "lemma": "d",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "adjective",
+    "definition": "Abbreviation of declare."
+  },
+  {
+    "lemma": "da",
+    "status": "ok",
+    "phonetic": "/dæ/",
+    "part_of_speech": "noun",
+    "definition": "Father."
+  },
+  {
+    "lemma": "dairy",
+    "status": "ok",
+    "phonetic": "/ˈdɛəɹi/",
+    "part_of_speech": "noun",
+    "definition": "(also dairy products or dairy produce) Products produced from milk."
+  },
+  {
+    "lemma": "dangerous",
+    "status": "ok",
+    "phonetic": "/ˈdeɪnd͡ʒ(ə)ɹəs/",
+    "part_of_speech": "adjective",
+    "definition": "Full of danger."
+  },
+  {
+    "lemma": "darken",
+    "status": "ok",
+    "phonetic": "/ˈdɑːkən/",
+    "part_of_speech": "verb",
+    "definition": "To make dark or darker by reducing light."
+  },
+  {
+    "lemma": "data",
+    "status": "ok",
+    "phonetic": "/ˈdaetə/",
+    "part_of_speech": "noun",
+    "definition": "(plural: data) A measurement of something on a scale understood by both the recorder (a person or device) and the reader (another person or device). The scale is arbitrarily defined, such as from 1 to 10 by ones, 1 to 100 by 0.1, or simply true or false, on or off, yes, no, or maybe, etc."
+  },
+  {
+    "lemma": "delights",
+    "status": "ok",
+    "phonetic": "/dɪˈlaɪts/",
+    "part_of_speech": "noun",
+    "definition": "Joy; pleasure."
+  },
+  {
+    "lemma": "deliver",
+    "status": "ok",
+    "phonetic": "/dɪˈlɪvə(ɹ)/",
+    "part_of_speech": "verb",
+    "definition": "To set free from restraint or danger."
+  },
+  {
+    "lemma": "delivering",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "verb",
+    "definition": "To set free from restraint or danger."
+  },
+  {
+    "lemma": "demanded",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "deposits",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "describe",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "did",
+    "status": "ok",
+    "phonetic": "/dɪd/",
+    "part_of_speech": "verb",
+    "definition": "(auxiliary) A syntactic marker."
+  },
+  {
+    "lemma": "didn",
+    "status": "not_found"
+  },
+  {
+    "lemma": "differently",
+    "status": "ok",
+    "phonetic": "/ˈdifəɹəntli/",
+    "part_of_speech": "adverb",
+    "definition": "(manner) In a different way."
+  },
+  {
+    "lemma": "digest",
+    "status": "ok",
+    "phonetic": "/daɪˈdʒɛst/",
+    "part_of_speech": "verb",
+    "definition": "To distribute or arrange methodically; to work over and classify; to reduce to portions for ready use or application."
+  },
+  {
+    "lemma": "digestive",
+    "status": "ok",
+    "phonetic": "/daɪˈdʒɛstɪv/",
+    "part_of_speech": "noun",
+    "definition": "A substance that aids digestion."
+  },
+  {
+    "lemma": "dinner",
+    "status": "ok",
+    "phonetic": "/ˈdɪnə/",
+    "part_of_speech": "noun",
+    "definition": "A midday meal (in a context in which the evening meal is called supper or tea)."
+  },
+  {
+    "lemma": "direct",
+    "status": "ok",
+    "phonetic": "/d(a)ɪˈɹɛkt/",
+    "part_of_speech": "verb",
+    "definition": "To manage, control, steer."
+  },
+  {
+    "lemma": "directly",
+    "status": "ok",
+    "phonetic": "/daɪˈɹɛk(t)li/",
+    "part_of_speech": "adverb",
+    "definition": "In a direct manner; in a straight line or course."
+  },
+  {
+    "lemma": "discovered",
+    "status": "ok",
+    "phonetic": "/dɪsˈkʌvəd/",
+    "part_of_speech": "verb",
+    "definition": "To find or learn something for the first time."
+  },
+  {
+    "lemma": "discovery",
+    "status": "ok",
+    "phonetic": "/dɪsˈkʌvəɹi/",
+    "part_of_speech": "noun",
+    "definition": "Something discovered."
+  },
+  {
+    "lemma": "dispensing",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "verb",
+    "definition": "To issue, distribute, or give out."
+  },
+  {
+    "lemma": "distract",
+    "status": "ok",
+    "phonetic": "/dɪsˈtɹækt/",
+    "part_of_speech": "verb",
+    "definition": "To divert the attention of."
+  },
+  {
+    "lemma": "do",
+    "status": "ok",
+    "phonetic": "/dʉː/",
+    "part_of_speech": "noun",
+    "definition": "A party, celebration, social function."
+  },
+  {
+    "lemma": "doesn",
+    "status": "not_found"
+  },
+  {
+    "lemma": "domesticated",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "verb",
+    "definition": "To make domestic."
+  },
+  {
+    "lemma": "dominance",
+    "status": "ok",
+    "phonetic": "/ˈdɒmɪnəns/",
+    "part_of_speech": "noun",
+    "definition": "The state of being dominant; of prime importance; supremacy."
+  },
+  {
+    "lemma": "don",
+    "status": "ok",
+    "phonetic": "/dɒn/",
+    "part_of_speech": "noun",
+    "definition": "A university professor, particularly one at Oxford or Cambridge."
+  },
+  {
+    "lemma": "dramatic",
+    "status": "ok",
+    "phonetic": "/dɹəˈmætɪk/",
+    "part_of_speech": "adjective",
+    "definition": "Of or relating to the drama."
+  },
+  {
+    "lemma": "draw",
+    "status": "ok",
+    "phonetic": "/dɹɔː/",
+    "part_of_speech": "noun",
+    "definition": "The result of a contest that neither side has won; a tie."
+  },
+  {
+    "lemma": "dropped",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "dry",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "dub",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "dust",
+    "status": "ok",
+    "phonetic": "/dʌst/",
+    "part_of_speech": "noun",
+    "definition": "Fine particles"
+  },
+  {
+    "lemma": "each",
+    "status": "ok",
+    "phonetic": "/iːt͡ʃ/",
+    "part_of_speech": "noun",
+    "definition": "(operations) An individual item: the least quantitative unit in a grouping."
+  },
+  {
+    "lemma": "earlier",
+    "status": "ok",
+    "phonetic": "/ˈɜː.lɪə/",
+    "part_of_speech": "adjective",
+    "definition": "At a time in advance of the usual or expected event."
+  },
+  {
+    "lemma": "early",
+    "status": "ok",
+    "phonetic": "/ˈɜː.li/",
+    "part_of_speech": "noun",
+    "definition": "A shift (scheduled work period) that takes place early in the day."
+  },
+  {
+    "lemma": "earth",
+    "status": "ok",
+    "phonetic": "/ɜːθ/",
+    "part_of_speech": "proper noun",
+    "definition": "The third planet of the Solar System; the world upon which humans live."
+  },
+  {
+    "lemma": "easier",
+    "status": "ok",
+    "phonetic": "/ˈiː.zi.ə/",
+    "part_of_speech": "adjective",
+    "definition": "Comfortable; at ease."
+  },
+  {
+    "lemma": "easily",
+    "status": "ok",
+    "phonetic": "/ˈiː.zə.liː/",
+    "part_of_speech": "adverb",
+    "definition": "Comfortably, without discomfort or anxiety."
+  },
+  {
+    "lemma": "eat",
+    "status": "ok",
+    "phonetic": "/iːt/",
+    "part_of_speech": "noun",
+    "definition": "Something to be eaten; a meal; a food item."
+  },
+  {
+    "lemma": "eating",
+    "status": "ok",
+    "phonetic": "/ˈiːtɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To ingest; to be ingested."
+  },
+  {
+    "lemma": "edith",
+    "status": "not_found"
+  },
+  {
+    "lemma": "effectively",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "adverb",
+    "definition": "In an efficient or effective manner; with powerful effect."
+  },
+  {
+    "lemma": "egyptians",
+    "status": "not_found"
+  },
+  {
+    "lemma": "elaborate",
+    "status": "ok",
+    "phonetic": "/ɪˈlæbəɹeɪt/",
+    "part_of_speech": "verb",
+    "definition": "To develop in detail or complexity"
+  },
+  {
+    "lemma": "embraced",
+    "status": "ok",
+    "phonetic": "/ɛmˈbɹeɪst/",
+    "part_of_speech": "verb",
+    "definition": "To clasp (someone or each other) in the arms with affection; to take in the arms; to hug."
+  },
+  {
+    "lemma": "end",
+    "status": "ok",
+    "phonetic": "/ɛnd/",
+    "part_of_speech": "noun",
+    "definition": "The terminal point of something in space or time."
+  },
+  {
+    "lemma": "energy",
+    "status": "ok",
+    "phonetic": "/ˈɛnəd͡ʒi/",
+    "part_of_speech": "noun",
+    "definition": "The impetus behind all motion and all activity."
+  },
+  {
+    "lemma": "england",
+    "status": "not_found"
+  },
+  {
+    "lemma": "equal",
+    "status": "ok",
+    "phonetic": "/ˈiːkwəl/",
+    "part_of_speech": "noun",
+    "definition": "A person or thing of equal status to others."
+  },
+  {
+    "lemma": "escape",
+    "status": "ok",
+    "phonetic": "/əˈskeɪp/",
+    "part_of_speech": "noun",
+    "definition": "The act of leaving a dangerous or unpleasant situation."
+  },
+  {
+    "lemma": "especially",
+    "status": "ok",
+    "phonetic": "/əˈspɛʃ(ə)li/",
+    "part_of_speech": "adverb",
+    "definition": "(manner) In a special manner; specially."
+  },
+  {
+    "lemma": "essential",
+    "status": "ok",
+    "phonetic": "/ɪˈsɛn.ʃəl/",
+    "part_of_speech": "noun",
+    "definition": "A necessary ingredient."
+  },
+  {
+    "lemma": "europe",
+    "status": "not_found"
+  },
+  {
+    "lemma": "europeans",
+    "status": "not_found"
+  },
+  {
+    "lemma": "evaporate",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "evaporated",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "even",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "ever",
+    "status": "ok",
+    "phonetic": "/ˈɛvə/",
+    "part_of_speech": "adjective",
+    "definition": "Occurring at any time, occurring even but once during a timespan."
+  },
+  {
+    "lemma": "every",
+    "status": "not_found"
+  },
+  {
+    "lemma": "everyone",
+    "status": "ok",
+    "phonetic": "/ˈɛv.ɹi.wʌn/",
+    "part_of_speech": "pronoun",
+    "definition": "Every person."
+  },
+  {
+    "lemma": "everything",
+    "status": "ok",
+    "phonetic": "/ˈɛvɹiθɪŋ/",
+    "part_of_speech": "pronoun",
+    "definition": "All the things under discussion."
+  },
+  {
+    "lemma": "exactly",
+    "status": "ok",
+    "phonetic": "/ɪɡˈzæk(t)li/",
+    "part_of_speech": "adverb",
+    "definition": "(manner) without approximation; precisely."
+  },
+  {
+    "lemma": "example",
+    "status": "ok",
+    "phonetic": "/əɡˈzæmpl̩/",
+    "part_of_speech": "noun",
+    "definition": "Something that is representative of all such things in a group."
+  },
+  {
+    "lemma": "excelled",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "verb",
+    "definition": "To surpass someone or something; to be better or do better than someone or something."
+  },
+  {
+    "lemma": "exception",
+    "status": "ok",
+    "phonetic": "/əkˈsɛpʃən/",
+    "part_of_speech": "noun",
+    "definition": "The act of excepting or excluding; exclusion; restriction by taking out something which would otherwise be included, as in a class, statement, rule."
+  },
+  {
+    "lemma": "exceptional",
+    "status": "ok",
+    "phonetic": "/ɪkˈsɛpʃənəl/",
+    "part_of_speech": "noun",
+    "definition": "An exception, or something having an exceptional value"
+  },
+  {
+    "lemma": "exempt",
+    "status": "ok",
+    "phonetic": "/ɛɡˈzɛm(p)t/",
+    "part_of_speech": "noun",
+    "definition": "One who has been released from something."
+  },
+  {
+    "lemma": "experts",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "A person with extensive knowledge or ability in a given subject."
+  },
+  {
+    "lemma": "explaining",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "verb",
+    "definition": "To make plain, manifest, or intelligible; to clear of obscurity; to illustrate the meaning of."
+  },
+  {
+    "lemma": "explanatory",
+    "status": "ok",
+    "phonetic": "/ɛkˈsplanət(ə)ɹi/",
+    "part_of_speech": "adjective",
+    "definition": "Intended to serve as an explanation."
+  },
+  {
+    "lemma": "exploded",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "explosive",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "fall",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "families",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "A group of people who are closely related to one another (by blood, marriage or adoption); kin; for example, a set of parents and their children; an immediate family."
+  },
+  {
+    "lemma": "far",
+    "status": "ok",
+    "phonetic": "/fɑː/",
+    "part_of_speech": "adjective",
+    "definition": "Distant; remote in space."
+  },
+  {
+    "lemma": "favored",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "verb",
+    "definition": "To look upon fondly; to prefer."
+  },
+  {
+    "lemma": "february",
+    "status": "not_found"
+  },
+  {
+    "lemma": "feed",
+    "status": "ok",
+    "phonetic": "/ˈfiːd/",
+    "part_of_speech": "noun",
+    "definition": "Food given to (especially herbivorous) animals."
+  },
+  {
+    "lemma": "fell",
+    "status": "ok",
+    "phonetic": "/fɛl/",
+    "part_of_speech": "noun",
+    "definition": "A cutting-down of timber."
+  },
+  {
+    "lemma": "figure",
+    "status": "ok",
+    "phonetic": "/ˈfɪɡjɚ/",
+    "part_of_speech": "noun",
+    "definition": "A drawing or diagram conveying information."
+  },
+  {
+    "lemma": "filled",
+    "status": "ok",
+    "phonetic": "/fɪld/",
+    "part_of_speech": "verb",
+    "definition": "To occupy fully, to take up all of."
+  },
+  {
+    "lemma": "fire",
+    "status": "ok",
+    "phonetic": "/ˈfɑeə(ɹ)/",
+    "part_of_speech": "noun",
+    "definition": "A (usually self-sustaining) chemical reaction involving the bonding of oxygen with carbon or other fuel, with the production of heat and the presence of flame or smouldering."
+  },
+  {
+    "lemma": "first",
+    "status": "ok",
+    "phonetic": "/fɪrst/",
+    "part_of_speech": "noun",
+    "definition": "The person or thing in the first position."
+  },
+  {
+    "lemma": "fish",
+    "status": "ok",
+    "phonetic": "/fɪʃ/",
+    "part_of_speech": "noun",
+    "definition": "A cold-blooded vertebrate animal that lives in water, moving with the help of fins and breathing with gills."
+  },
+  {
+    "lemma": "fit",
+    "status": "ok",
+    "phonetic": "/fɪt/",
+    "part_of_speech": "noun",
+    "definition": "The degree to which something fits."
+  },
+  {
+    "lemma": "fixes",
+    "status": "ok",
+    "phonetic": "/ˈfɪksɪz/",
+    "part_of_speech": "noun",
+    "definition": "A repair or corrective action."
+  },
+  {
+    "lemma": "flavor",
+    "status": "ok",
+    "phonetic": "/ˈfleɪvə/",
+    "part_of_speech": "noun",
+    "definition": "The quality produced by the sensation of taste or, especially, of taste and smell in combined effect."
+  },
+  {
+    "lemma": "flavors",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "floated",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "flocked",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "flourished",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "verb",
+    "definition": "To thrive or grow well."
+  },
+  {
+    "lemma": "flow",
+    "status": "ok",
+    "phonetic": "/fləʊ/",
+    "part_of_speech": "noun",
+    "definition": "A movement in people or things with a particular way in large numbers or amounts"
+  },
+  {
+    "lemma": "followed",
+    "status": "ok",
+    "phonetic": "/ˈfɒləʊd/",
+    "part_of_speech": "verb",
+    "definition": "To go after; to pursue; to move behind in the same path or direction."
+  },
+  {
+    "lemma": "following",
+    "status": "ok",
+    "phonetic": "/ˈfɒləʊɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To go after; to pursue; to move behind in the same path or direction."
+  },
+  {
+    "lemma": "food",
+    "status": "ok",
+    "phonetic": "/fuːd/",
+    "part_of_speech": "noun",
+    "definition": "Any solid substance that can be consumed by living organisms, especially by eating, in order to sustain life."
+  },
+  {
+    "lemma": "for",
+    "status": "not_found"
+  },
+  {
+    "lemma": "forbade",
+    "status": "ok",
+    "phonetic": "/fə(ɹ)ˈbeɪd/",
+    "part_of_speech": "verb",
+    "definition": "To disallow; to proscribe."
+  },
+  {
+    "lemma": "found",
+    "status": "ok",
+    "phonetic": "/faʊnd/",
+    "part_of_speech": "verb",
+    "definition": "To encounter or discover by accident; to happen upon."
+  },
+  {
+    "lemma": "france",
+    "status": "not_found"
+  },
+  {
+    "lemma": "free",
+    "status": "ok",
+    "phonetic": "/fɹiː/",
+    "part_of_speech": "noun",
+    "definition": "Free transfer"
+  },
+  {
+    "lemma": "french",
+    "status": "ok",
+    "phonetic": "/fɹɛnt͡ʃ/",
+    "part_of_speech": "verb",
+    "definition": "To prepare food by cutting it into strips."
+  },
+  {
+    "lemma": "from",
+    "status": "ok",
+    "phonetic": "/fɹɒm/",
+    "part_of_speech": "preposition",
+    "definition": "Used to indicate source or provenance."
+  },
+  {
+    "lemma": "fruit",
+    "status": "ok",
+    "phonetic": "/fɹuːt/",
+    "part_of_speech": "noun",
+    "definition": "(often in the plural) In general, a product of plant growth useful to man or animals."
+  },
+  {
+    "lemma": "fruits",
+    "status": "ok",
+    "phonetic": "/fɹuːts/",
+    "part_of_speech": "noun",
+    "definition": "(often in the plural) In general, a product of plant growth useful to man or animals."
+  },
+  {
+    "lemma": "full",
+    "status": "ok",
+    "phonetic": "/fʊl/",
+    "part_of_speech": "adjective",
+    "definition": "Containing the maximum possible amount that can fit in the space available."
+  },
+  {
+    "lemma": "functions",
+    "status": "ok",
+    "phonetic": "/ˈfʌŋkʃənz/",
+    "part_of_speech": "noun",
+    "definition": "What something does or is used for."
+  },
+  {
+    "lemma": "gain",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "gama",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "gandhi",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "garnish",
+    "status": "ok",
+    "phonetic": "/ˈɡɑːnɪʃ/",
+    "part_of_speech": "noun",
+    "definition": "A set of dishes, often pewter, containing a dozen pieces of several types."
+  },
+  {
+    "lemma": "gatherer",
+    "status": "not_found"
+  },
+  {
+    "lemma": "gemstones",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "A gem, usually made of minerals."
+  },
+  {
+    "lemma": "genoa",
+    "status": "ok",
+    "phonetic": "/ˈdʒeni/",
+    "part_of_speech": "noun",
+    "definition": "A staysail that resembles a jib but extends aft beyond the mast."
+  },
+  {
+    "lemma": "get",
+    "status": "ok",
+    "phonetic": "/ɡɛt/",
+    "part_of_speech": "noun",
+    "definition": "Offspring."
+  },
+  {
+    "lemma": "giant",
+    "status": "ok",
+    "phonetic": "/ˈdʒaɪ.ənt/",
+    "part_of_speech": "noun",
+    "definition": "A mythical human of very great size."
+  },
+  {
+    "lemma": "gifting",
+    "status": "ok",
+    "phonetic": "/ˈɡɪftɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To give as a gift or donation."
+  },
+  {
+    "lemma": "global",
+    "status": "ok",
+    "phonetic": "/ˈɡləʊbəl/",
+    "part_of_speech": "noun",
+    "definition": "A globally scoped identifier."
+  },
+  {
+    "lemma": "go",
+    "status": "ok",
+    "phonetic": "/ɡəʉ/",
+    "part_of_speech": "noun",
+    "definition": "The act of going."
+  },
+  {
+    "lemma": "gochujang",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "A condiment based on red chili, used in Korean cuisine."
+  },
+  {
+    "lemma": "gold",
+    "status": "ok",
+    "phonetic": "/ɡɒʊld/",
+    "part_of_speech": "noun",
+    "definition": "A heavy yellow elemental metal of great value, with atomic number 79 and symbol Au."
+  },
+  {
+    "lemma": "gone",
+    "status": "ok",
+    "phonetic": "/ɡɔːn/",
+    "part_of_speech": "verb",
+    "definition": "To move:"
+  },
+  {
+    "lemma": "graphs",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "(applied mathematics) A data chart (graphical representation of data) intended to illustrate the relationship between a set (or sets) of numbers (quantities, measurements or indicative numbers) and a reference set, whose elements are indexed to those of the former set(s) and may or may not be numbers."
+  },
+  {
+    "lemma": "great",
+    "status": "ok",
+    "phonetic": "/ɡɹeɪt/",
+    "part_of_speech": "noun",
+    "definition": "A person of major significance, accomplishment or acclaim."
+  },
+  {
+    "lemma": "greece",
+    "status": "not_found"
+  },
+  {
+    "lemma": "green",
+    "status": "ok",
+    "phonetic": "/ɡɹiːn/",
+    "part_of_speech": "adjective",
+    "definition": "Having green as its color."
+  },
+  {
+    "lemma": "grew",
+    "status": "ok",
+    "phonetic": "/ɡɹuː/",
+    "part_of_speech": "verb",
+    "definition": "To become larger, to increase in magnitude."
+  },
+  {
+    "lemma": "growers",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "A farmer; one who grows things."
+  },
+  {
+    "lemma": "growing",
+    "status": "ok",
+    "phonetic": "/ˈɡɹəʊɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To become larger, to increase in magnitude."
+  },
+  {
+    "lemma": "guarded",
+    "status": "ok",
+    "phonetic": "/ˈɡɑːdɪd/",
+    "part_of_speech": "verb",
+    "definition": "To protect from danger; to secure against surprise, attack, or injury; to keep in safety; to defend."
+  },
+  {
+    "lemma": "had",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "verb",
+    "definition": "To possess, own."
+  },
+  {
+    "lemma": "hallstatt",
+    "status": "not_found"
+  },
+  {
+    "lemma": "handed",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "hans",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "happily",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "hard",
+    "status": "ok",
+    "phonetic": "/hɑːd/",
+    "part_of_speech": "noun",
+    "definition": "A firm or paved beach or slope convenient for hauling vessels out of the water."
+  },
+  {
+    "lemma": "harissa",
+    "status": "ok",
+    "phonetic": "/həˈɹiːsə/",
+    "part_of_speech": "noun",
+    "definition": "A traditional Armenian dish similar to keşkek; a kind of homogeneous porridge made of previously stewed and boned chicken and coarsely ground soaked wheat."
+  },
+  {
+    "lemma": "harvest",
+    "status": "ok",
+    "phonetic": "/ˈhaːvəst/",
+    "part_of_speech": "noun",
+    "definition": "The third season of the year; autumn; fall."
+  },
+  {
+    "lemma": "harvested",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "verb",
+    "definition": "To bring in a harvest; reap; glean."
+  },
+  {
+    "lemma": "harvesting",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "verb",
+    "definition": "To bring in a harvest; reap; glean."
+  },
+  {
+    "lemma": "has",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "verb",
+    "definition": "To possess, own."
+  },
+  {
+    "lemma": "have",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "A wealthy or privileged person."
+  },
+  {
+    "lemma": "having",
+    "status": "ok",
+    "phonetic": "/ˈhævɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To possess, own."
+  },
+  {
+    "lemma": "he",
+    "status": "ok",
+    "phonetic": "/hi/",
+    "part_of_speech": "noun",
+    "definition": "The game of tag, or it, in which the player attempting to catch the others is called \"he\"."
+  },
+  {
+    "lemma": "headlines",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "The heading or title of a magazine or newspaper article."
+  },
+  {
+    "lemma": "healing",
+    "status": "ok",
+    "phonetic": "/ˈhiːlɪŋ/",
+    "part_of_speech": "noun",
+    "definition": "The process where the cells in the body regenerate and repair themselves."
+  },
+  {
+    "lemma": "health",
+    "status": "ok",
+    "phonetic": "/hɛlθ/",
+    "part_of_speech": "noun",
+    "definition": "The state of being free from physical or psychological disease, illness, or malfunction; wellness."
+  },
+  {
+    "lemma": "heat",
+    "status": "ok",
+    "phonetic": "/hit/",
+    "part_of_speech": "noun",
+    "definition": "Thermal energy."
+  },
+  {
+    "lemma": "heavier",
+    "status": "ok",
+    "phonetic": "/ˈhɛvɪə/",
+    "part_of_speech": "adjective",
+    "definition": "(of a physical object) Having great weight."
+  },
+  {
+    "lemma": "help",
+    "status": "ok",
+    "phonetic": "/hɛlp/",
+    "part_of_speech": "noun",
+    "definition": "Action given to provide assistance; aid."
+  },
+  {
+    "lemma": "helped",
+    "status": "ok",
+    "phonetic": "/hɛlpt/",
+    "part_of_speech": "verb",
+    "definition": "To provide assistance to (someone or something)."
+  },
+  {
+    "lemma": "helps",
+    "status": "ok",
+    "phonetic": "/hɛlps/",
+    "part_of_speech": "noun",
+    "definition": "Action given to provide assistance; aid."
+  },
+  {
+    "lemma": "her",
+    "status": "ok",
+    "phonetic": "/ə(ɹ)/",
+    "part_of_speech": "noun",
+    "definition": "A female person or animal."
+  },
+  {
+    "lemma": "here",
+    "status": "ok",
+    "phonetic": "/hiːɹ/",
+    "part_of_speech": "noun",
+    "definition": "(abstract) This place; this location."
+  },
+  {
+    "lemma": "high",
+    "status": "ok",
+    "phonetic": "/haɪ/",
+    "part_of_speech": "noun",
+    "definition": "A high point or position, literally or figuratively; an elevated place; a superior region; a height; the sky; heaven."
+  },
+  {
+    "lemma": "highlight",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "hikers",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "hole",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "holland",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "A type of linen cloth, originally from Holland."
+  },
+  {
+    "lemma": "honed",
+    "status": "ok",
+    "phonetic": "/həʊnd/",
+    "part_of_speech": "verb",
+    "definition": "To sharpen with a hone; to whet."
+  },
+  {
+    "lemma": "hot",
+    "status": "ok",
+    "phonetic": "/hɒt/",
+    "part_of_speech": "verb",
+    "definition": "(with up) To heat; to make or become hot."
+  },
+  {
+    "lemma": "hotter",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "adjective",
+    "definition": "(of an object) Having a high temperature."
+  },
+  {
+    "lemma": "hours",
+    "status": "ok",
+    "phonetic": "/ˈaʊɚz/",
+    "part_of_speech": "noun",
+    "definition": "A time period of sixty minutes; one twenty-fourth of a day."
+  },
+  {
+    "lemma": "how",
+    "status": "ok",
+    "phonetic": "/hæŏ/",
+    "part_of_speech": "noun",
+    "definition": "The means by which something is accomplished."
+  },
+  {
+    "lemma": "however",
+    "status": "ok",
+    "phonetic": "/hɑʊˈɛvə/",
+    "part_of_speech": "adverb",
+    "definition": "Nevertheless; yet, still; in spite of (that)."
+  },
+  {
+    "lemma": "huge",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "humans",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "humid",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "humor",
+    "status": "ok",
+    "phonetic": "/hjuː.mə(ɹ)/",
+    "part_of_speech": "noun",
+    "definition": "The quality of being amusing, comical, funny."
+  },
+  {
+    "lemma": "hundreds",
+    "status": "ok",
+    "phonetic": "/ˈhʌndɹədz/",
+    "part_of_speech": "noun",
+    "definition": "A hundred-dollar bill, or any other note denominated 100 (e.g. a hundred euros)."
+  },
+  {
+    "lemma": "hungry",
+    "status": "ok",
+    "phonetic": "/ˈhʌŋ.ɡɹi/",
+    "part_of_speech": "adjective",
+    "definition": "Affected by hunger; desiring of food; having a physical need for food."
+  },
+  {
+    "lemma": "hunter",
+    "status": "ok",
+    "phonetic": "/ˈhʌntɚ/",
+    "part_of_speech": "noun",
+    "definition": "One who hunts game for sport or for food; a huntsman or huntswoman."
+  },
+  {
+    "lemma": "i",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "The name of the Latin-script letter I."
+  },
+  {
+    "lemma": "idea",
+    "status": "ok",
+    "phonetic": "/ɑeˈdiə̯/",
+    "part_of_speech": "noun",
+    "definition": "An abstract archetype of a given thing, compared to which real-life examples are seen as imperfect approximations; pure essence, as opposed to actual examples."
+  },
+  {
+    "lemma": "if",
+    "status": "ok",
+    "phonetic": "/ɪf/",
+    "part_of_speech": "noun",
+    "definition": "An uncertainty, possibility, condition, doubt etc."
+  },
+  {
+    "lemma": "ii",
+    "status": "not_found"
+  },
+  {
+    "lemma": "illustrations",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "The act of illustrating; the act of making clear and distinct; education; also, the state of being illustrated, or of being made clear and distinct."
+  },
+  {
+    "lemma": "images",
+    "status": "ok",
+    "phonetic": "/ˈɪmɪd͡ʒɪz/",
+    "part_of_speech": "noun",
+    "definition": "An optical or other representation of a real object; a graphic; a picture."
+  },
+  {
+    "lemma": "imagined",
+    "status": "ok",
+    "phonetic": "/ɪˈmædʒɪnd/",
+    "part_of_speech": "verb",
+    "definition": "To form a mental image of something; to envision or create something in one's mind."
+  },
+  {
+    "lemma": "impact",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "The striking of one body against another; collision."
+  },
+  {
+    "lemma": "improving",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "in",
+    "status": "ok",
+    "phonetic": "/ɪn/",
+    "part_of_speech": "noun",
+    "definition": "A position of power or influence, or a way to get it."
+  },
+  {
+    "lemma": "incorporating",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "verb",
+    "definition": "To include (something) as a part."
+  },
+  {
+    "lemma": "independence",
+    "status": "ok",
+    "phonetic": "/ɪndɪˈpɛndəns/",
+    "part_of_speech": "noun",
+    "definition": "The state or quality of being independent; freedom from dependence; exemption from reliance on, or control by others; self-subsistence or maintenance; direction of one's own affairs without interference."
+  },
+  {
+    "lemma": "india",
+    "status": "not_found"
+  },
+  {
+    "lemma": "indian",
+    "status": "not_found"
+  },
+  {
+    "lemma": "indians",
+    "status": "not_found"
+  },
+  {
+    "lemma": "indonesia",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "industrialization",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "influx",
+    "status": "ok",
+    "phonetic": "/ˈɪnˌflʌks/",
+    "part_of_speech": "noun",
+    "definition": "A flow inward or into something; a coming in."
+  },
+  {
+    "lemma": "information",
+    "status": "ok",
+    "phonetic": "/ˌɪnfəˈmeɪʃən/",
+    "part_of_speech": "noun",
+    "definition": "That which resolves uncertainty; anything that answers the question of \"what a given entity is\"."
+  },
+  {
+    "lemma": "ingredient",
+    "status": "ok",
+    "phonetic": "/ɪnˈɡɹiːdi.ənt/",
+    "part_of_speech": "noun",
+    "definition": "One of the substances present in a mixture, especially food."
+  },
+  {
+    "lemma": "inland",
+    "status": "ok",
+    "phonetic": "/ˈɪnlənd/",
+    "part_of_speech": "noun",
+    "definition": "The interior part of a country."
+  },
+  {
+    "lemma": "inseparable",
+    "status": "ok",
+    "phonetic": "/in.ˈsɛ.p(ə).ɹə.bl/",
+    "part_of_speech": "noun",
+    "definition": "Something that cannot be separated from something else."
+  },
+  {
+    "lemma": "inspires",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "verb",
+    "definition": "To infuse into the mind; to communicate to the spirit; to convey, as by a divine or supernatural influence; to disclose preternaturally; to produce in, as by inspiration."
+  },
+  {
+    "lemma": "instantly",
+    "status": "ok",
+    "phonetic": "/ˈɪnstəntli/",
+    "part_of_speech": "adverb",
+    "definition": "At once; without delay."
+  },
+  {
+    "lemma": "instead",
+    "status": "ok",
+    "phonetic": "/ɪnˈstɛd/",
+    "part_of_speech": "adverb",
+    "definition": "In the place of something (usually mentioned earlier); as a substitute or alternative."
+  },
+  {
+    "lemma": "interesting",
+    "status": "ok",
+    "phonetic": "/ˈɪnt(ə)ɹɛstɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To engage the attention of; to awaken interest in; to excite emotion or passion in, in behalf of a person or thing."
+  },
+  {
+    "lemma": "into",
+    "status": "ok",
+    "phonetic": "/ˈɪn.tuː/",
+    "part_of_speech": "preposition",
+    "definition": "To or towards the inside of."
+  },
+  {
+    "lemma": "invasive",
+    "status": "ok",
+    "phonetic": "/ɪnˈveɪsɪv/",
+    "part_of_speech": "noun",
+    "definition": "An invasive organism, as, a plant or animal."
+  },
+  {
+    "lemma": "invention",
+    "status": "ok",
+    "phonetic": "/ɪnˈvɛnʃən/",
+    "part_of_speech": "noun",
+    "definition": "Something invented."
+  },
+  {
+    "lemma": "irresistible",
+    "status": "ok",
+    "phonetic": "/ˌɪɹɪˈzɪstəbl̩/",
+    "part_of_speech": "adjective",
+    "definition": "Impossile to resist."
+  },
+  {
+    "lemma": "is",
+    "status": "not_found"
+  },
+  {
+    "lemma": "issues",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "The action or an instance of flowing or coming out, an outflow, particularly:"
+  },
+  {
+    "lemma": "it",
+    "status": "ok",
+    "phonetic": "/ɪt/",
+    "part_of_speech": "noun",
+    "definition": "One who is neither a he nor a she; a creature; a dehumanized being."
+  },
+  {
+    "lemma": "its",
+    "status": "ok",
+    "phonetic": "/ɪts/",
+    "part_of_speech": "noun",
+    "definition": "One who is neither a he nor a she; a creature; a dehumanized being."
+  },
+  {
+    "lemma": "join",
+    "status": "ok",
+    "phonetic": "/ˈdʒɔɪn/",
+    "part_of_speech": "noun",
+    "definition": "An intersection of piping or wiring; an interconnect."
+  },
+  {
+    "lemma": "jumped",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "just",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "justification",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "key",
+    "status": "ok",
+    "phonetic": "/kiː/",
+    "part_of_speech": "noun",
+    "definition": "An object designed to open and close a lock."
+  },
+  {
+    "lemma": "kick",
+    "status": "ok",
+    "phonetic": "/kɪk/",
+    "part_of_speech": "noun",
+    "definition": "A hit or strike with the leg, foot or knee."
+  },
+  {
+    "lemma": "kills",
+    "status": "ok",
+    "phonetic": "/kɪlz/",
+    "part_of_speech": "noun",
+    "definition": "The act of killing."
+  },
+  {
+    "lemma": "kitchens",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "A room or area for preparing food."
+  },
+  {
+    "lemma": "known",
+    "status": "ok",
+    "phonetic": "/nəʊn/",
+    "part_of_speech": "verb",
+    "definition": "To perceive the truth or factuality of; to be certain of or that."
+  },
+  {
+    "lemma": "labeled",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "verb",
+    "definition": "To put a label (a ticket or sign) on (something)."
+  },
+  {
+    "lemma": "lacking",
+    "status": "ok",
+    "phonetic": "/ˈlækɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To be without, to need, to require."
+  },
+  {
+    "lemma": "land",
+    "status": "ok",
+    "phonetic": "/lænd/",
+    "part_of_speech": "noun",
+    "definition": "The part of Earth which is not covered by oceans or other bodies of water."
+  },
+  {
+    "lemma": "landing",
+    "status": "ok",
+    "phonetic": "/ˈlændɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To descend to a surface, especially from the air."
+  },
+  {
+    "lemma": "language",
+    "status": "ok",
+    "phonetic": "[ˈleɪŋɡwɪd͡ʒ]",
+    "part_of_speech": "noun",
+    "definition": "A body of words, and set of methods of combining them (called a grammar), understood by a community and used as a form of communication."
+  },
+  {
+    "lemma": "large",
+    "status": "ok",
+    "phonetic": "/ˈlɑːd͡ʒ/",
+    "part_of_speech": "noun",
+    "definition": "An old musical note, equal to two longas, four breves, or eight semibreves."
+  },
+  {
+    "lemma": "larger",
+    "status": "ok",
+    "phonetic": "/ˈlɑː.d͡ʒə/",
+    "part_of_speech": "adjective",
+    "definition": "Of considerable or relatively great size or extent."
+  },
+  {
+    "lemma": "late",
+    "status": "ok",
+    "phonetic": "/leɪt/",
+    "part_of_speech": "noun",
+    "definition": "A shift (scheduled work period) that takes place late in the day or at night."
+  },
+  {
+    "lemma": "latin",
+    "status": "not_found"
+  },
+  {
+    "lemma": "launch",
+    "status": "ok",
+    "phonetic": "/lɔːnt͡ʃ/",
+    "part_of_speech": "noun",
+    "definition": "The movement of a vessel from land into the water; especially, the sliding on ways from the stocks on which it is built. (Compare: to splash a ship.)"
+  },
+  {
+    "lemma": "laws",
+    "status": "ok",
+    "phonetic": "/lɑz/",
+    "part_of_speech": "noun",
+    "definition": "The body of binding rules and regulations, customs and standards established in a community by its legislative and judicial authorities."
+  },
+  {
+    "lemma": "leader",
+    "status": "ok",
+    "phonetic": "/ˈlidɚ/",
+    "part_of_speech": "noun",
+    "definition": "Any person that leads or directs"
+  },
+  {
+    "lemma": "leading",
+    "status": "ok",
+    "phonetic": "/ˈliːdɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To cover, fill, or affect with lead"
+  },
+  {
+    "lemma": "least",
+    "status": "ok",
+    "phonetic": "/list/",
+    "part_of_speech": "noun",
+    "definition": "Something of the smallest possible extent; an indivisible unit."
+  },
+  {
+    "lemma": "leaving",
+    "status": "ok",
+    "phonetic": "/ˈliːvɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To have a consequence or remnant."
+  },
+  {
+    "lemma": "left",
+    "status": "ok",
+    "phonetic": "/lɛft/",
+    "part_of_speech": "noun",
+    "definition": "The left side or direction."
+  },
+  {
+    "lemma": "lengths",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "less",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "lessons",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "let",
+    "status": "ok",
+    "phonetic": "/lɛt/",
+    "part_of_speech": "noun",
+    "definition": "The allowing of possession of a property etc. in exchange for rent."
+  },
+  {
+    "lemma": "light",
+    "status": "ok",
+    "phonetic": "/lʌɪt/",
+    "part_of_speech": "noun",
+    "definition": "Visible electromagnetic radiation. The human eye can typically detect radiation (light) in the wavelength range of about 400 to 750 nanometers. Nearby shorter and longer wavelength ranges, although not visible, are commonly called ultraviolet and infrared light."
+  },
+  {
+    "lemma": "like",
+    "status": "ok",
+    "phonetic": "/laɪk/",
+    "part_of_speech": "noun",
+    "definition": "(usually in the plural) Something that a person likes (prefers)."
+  },
+  {
+    "lemma": "limit",
+    "status": "ok",
+    "phonetic": "/ˈlɪmt/",
+    "part_of_speech": "noun",
+    "definition": "A restriction; a bound beyond which one may not go."
+  },
+  {
+    "lemma": "lisbon",
+    "status": "not_found"
+  },
+  {
+    "lemma": "locals",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "A person who lives near a given place."
+  },
+  {
+    "lemma": "long",
+    "status": "ok",
+    "phonetic": "/ˈlɔːŋ/",
+    "part_of_speech": "noun",
+    "definition": "A long vowel."
+  },
+  {
+    "lemma": "longum",
+    "status": "not_found"
+  },
+  {
+    "lemma": "looking",
+    "status": "ok",
+    "phonetic": "/ˈlʊkɪŋ/",
+    "part_of_speech": "noun",
+    "definition": "The act of one who looks; a glance."
+  },
+  {
+    "lemma": "lose",
+    "status": "ok",
+    "phonetic": "/luːz/",
+    "part_of_speech": "verb",
+    "definition": "To cause (something) to cease to be in one's possession or capability due to unfortunate or unknown circumstances, events or reasons."
+  },
+  {
+    "lemma": "lost",
+    "status": "ok",
+    "phonetic": "/lɒst/",
+    "part_of_speech": "verb",
+    "definition": "To cause (something) to cease to be in one's possession or capability due to unfortunate or unknown circumstances, events or reasons."
+  },
+  {
+    "lemma": "love",
+    "status": "ok",
+    "phonetic": "/lʊv/",
+    "part_of_speech": "noun",
+    "definition": "Strong affection."
+  },
+  {
+    "lemma": "made",
+    "status": "ok",
+    "phonetic": "/meɪd/",
+    "part_of_speech": "noun",
+    "definition": "A grub or maggot."
+  },
+  {
+    "lemma": "magic",
+    "status": "ok",
+    "phonetic": "/ˈmadʒɪk/",
+    "part_of_speech": "noun",
+    "definition": "The application of rituals or actions, especially those based on occult knowledge, to subdue or manipulate natural or supernatural beings and forces in order to have some benefit from them"
+  },
+  {
+    "lemma": "magnesium",
+    "status": "ok",
+    "phonetic": "/ˌmæɡˈniːzi.əm/",
+    "part_of_speech": "noun",
+    "definition": "The chemical element (symbol Mg) with an atomic number of 12. It is a light, easily flammable, silvery-white alkaline earth metal."
+  },
+  {
+    "lemma": "make",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "makes",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "making",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "malabar",
+    "status": "not_found"
+  },
+  {
+    "lemma": "many",
+    "status": "ok",
+    "phonetic": "/ˈmæni/",
+    "part_of_speech": "noun",
+    "definition": "A multitude; a great aggregate; a mass of people; the generality; the common herd."
+  },
+  {
+    "lemma": "march",
+    "status": "ok",
+    "phonetic": "/mɑːtʃ/",
+    "part_of_speech": "noun",
+    "definition": "A formal, rhythmic way of walking, used especially by soldiers, bands and in ceremonies."
+  },
+  {
+    "lemma": "marked",
+    "status": "ok",
+    "phonetic": "/ˈmɑːkɪd/",
+    "part_of_speech": "adjective",
+    "definition": "Having a visible or identifying mark."
+  },
+  {
+    "lemma": "mask",
+    "status": "ok",
+    "phonetic": "/mæsk/",
+    "part_of_speech": "noun",
+    "definition": "A cover, or partial cover, for the face, used for disguise or protection."
+  },
+  {
+    "lemma": "massive",
+    "status": "ok",
+    "phonetic": "/ˈmæs.ɪv/",
+    "part_of_speech": "noun",
+    "definition": "A homogeneous mass of rock, not layered and without an obvious crystal structure."
+  },
+  {
+    "lemma": "may",
+    "status": "ok",
+    "phonetic": "/meɪ/",
+    "part_of_speech": "verb",
+    "definition": "To be strong; to have power (over)."
+  },
+  {
+    "lemma": "meal",
+    "status": "ok",
+    "phonetic": "/miːl/",
+    "part_of_speech": "noun",
+    "definition": "Food that is prepared and eaten, usually at a specific time, and usually in a comparatively large quantity (as opposed to a snack)."
+  },
+  {
+    "lemma": "meals",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "Food that is prepared and eaten, usually at a specific time, and usually in a comparatively large quantity (as opposed to a snack)."
+  },
+  {
+    "lemma": "meanwhile",
+    "status": "ok",
+    "phonetic": "/ˈmiːnhwaɪl/",
+    "part_of_speech": "noun",
+    "definition": "The time between two events."
+  },
+  {
+    "lemma": "meats",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "medicinal",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "medieval",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "members",
+    "status": "ok",
+    "phonetic": "/ˈmɛmbəz/",
+    "part_of_speech": "noun",
+    "definition": "One who officially belongs to a group."
+  },
+  {
+    "lemma": "mental",
+    "status": "ok",
+    "phonetic": "/ˈmɛntəl/",
+    "part_of_speech": "adjective",
+    "definition": "Of or relating to the mind or an intellectual process."
+  },
+  {
+    "lemma": "message",
+    "status": "ok",
+    "phonetic": "/ˈmɛsɪd͡ʒ/",
+    "part_of_speech": "noun",
+    "definition": "A communication, or what is communicated; any concept or information conveyed."
+  },
+  {
+    "lemma": "messages",
+    "status": "ok",
+    "phonetic": "/ˈmɛsɪd͡ʒɪz/",
+    "part_of_speech": "noun",
+    "definition": "A communication, or what is communicated; any concept or information conveyed."
+  },
+  {
+    "lemma": "metals",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "(heading) Chemical elements or alloys, and the mines where their ores come from."
+  },
+  {
+    "lemma": "methods",
+    "status": "ok",
+    "phonetic": "/ˈmɛθədz/",
+    "part_of_speech": "noun",
+    "definition": "A process by which a task is completed; a way of doing something (followed by the adposition of, to or for before the purpose of the process):"
+  },
+  {
+    "lemma": "metric",
+    "status": "ok",
+    "phonetic": "/ˈmɛt.ɹɪk/",
+    "part_of_speech": "noun",
+    "definition": "A measure for something; a means of deriving a quantitative measurement or approximation for otherwise qualitative phenomena (especially used in engineering)."
+  },
+  {
+    "lemma": "mexico",
+    "status": "not_found"
+  },
+  {
+    "lemma": "microbe",
+    "status": "ok",
+    "phonetic": "/ˈmaɪkɹoʊb/",
+    "part_of_speech": "noun",
+    "definition": "Any microorganism, but especially a harmful bacterium."
+  },
+  {
+    "lemma": "mid",
+    "status": "ok",
+    "phonetic": "/mɪd/",
+    "part_of_speech": "adjective",
+    "definition": "Denoting the middle part."
+  },
+  {
+    "lemma": "middle",
+    "status": "ok",
+    "phonetic": "/ˈmɪdəl/",
+    "part_of_speech": "noun",
+    "definition": "A centre, midpoint."
+  },
+  {
+    "lemma": "might",
+    "status": "ok",
+    "phonetic": "/maɪt/",
+    "part_of_speech": "noun",
+    "definition": "Power, strength, force or influence held by a person or group."
+  },
+  {
+    "lemma": "migrants",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "A migratory bird or other animal."
+  },
+  {
+    "lemma": "millions",
+    "status": "ok",
+    "phonetic": "/ˈmɪljənz/",
+    "part_of_speech": "noun",
+    "definition": "(long and short scales) The cardinal number 1,000,000: 106; a thousand thousand."
+  },
+  {
+    "lemma": "minds",
+    "status": "ok",
+    "phonetic": "/maɪndz/",
+    "part_of_speech": "noun",
+    "definition": "The ability for rational thought."
+  },
+  {
+    "lemma": "mined",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "mineral",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "miners",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "moment",
+    "status": "ok",
+    "phonetic": "/ˈməʊmənt/",
+    "part_of_speech": "noun",
+    "definition": "A brief, unspecified amount of time."
+  },
+  {
+    "lemma": "months",
+    "status": "ok",
+    "phonetic": "/mʌnθs/",
+    "part_of_speech": "noun",
+    "definition": "A period into which a year is divided, historically based on the phases of the moon."
+  },
+  {
+    "lemma": "more",
+    "status": "ok",
+    "phonetic": "/ˈmɔː/",
+    "part_of_speech": "adverb",
+    "definition": "To a greater degree or extent."
+  },
+  {
+    "lemma": "morton",
+    "status": "not_found"
+  },
+  {
+    "lemma": "most",
+    "status": "ok",
+    "phonetic": "/ˈməʊst/",
+    "part_of_speech": "noun",
+    "definition": "The greatest amount."
+  },
+  {
+    "lemma": "mountain",
+    "status": "ok",
+    "phonetic": "/ˈmaʊntɪn/",
+    "part_of_speech": "noun",
+    "definition": "An elevation of land of considerable dimensions rising more or less abruptly, forming a conspicuous figure in the landscape, usually having a small extent of surface at its summit."
+  },
+  {
+    "lemma": "mountains",
+    "status": "ok",
+    "phonetic": "/ˈmaʊntn̩z/",
+    "part_of_speech": "noun",
+    "definition": "An elevation of land of considerable dimensions rising more or less abruptly, forming a conspicuous figure in the landscape, usually having a small extent of surface at its summit."
+  },
+  {
+    "lemma": "mouth",
+    "status": "ok",
+    "phonetic": "/mʌʊθ/",
+    "part_of_speech": "noun",
+    "definition": "The opening of a creature through which food is ingested."
+  },
+  {
+    "lemma": "move",
+    "status": "ok",
+    "phonetic": "/muːv/",
+    "part_of_speech": "noun",
+    "definition": "The act of moving; a movement."
+  },
+  {
+    "lemma": "moved",
+    "status": "ok",
+    "phonetic": "/muːvd/",
+    "part_of_speech": "verb",
+    "definition": "To change place or posture; to go, in any manner, from one place or position to another."
+  },
+  {
+    "lemma": "movement",
+    "status": "ok",
+    "phonetic": "/ˈmuːv.mənt/",
+    "part_of_speech": "noun",
+    "definition": "Physical motion between points in space."
+  },
+  {
+    "lemma": "moving",
+    "status": "ok",
+    "phonetic": "/ˈmuːvɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To change place or posture; to go, in any manner, from one place or position to another."
+  },
+  {
+    "lemma": "much",
+    "status": "ok",
+    "phonetic": "/mʌt͡ʃ/",
+    "part_of_speech": "adjective",
+    "definition": "Large, great."
+  },
+  {
+    "lemma": "multiple",
+    "status": "ok",
+    "phonetic": "/ˈmʌltɪpl̩/",
+    "part_of_speech": "noun",
+    "definition": "A whole number that can be divided by another number with no remainder."
+  },
+  {
+    "lemma": "mummy",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "must",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "my",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "mystery",
+    "status": "ok",
+    "phonetic": "/ˈmɪstəɹi/",
+    "part_of_speech": "noun",
+    "definition": "Something secret or unexplainable; an unknown."
+  },
+  {
+    "lemma": "myths",
+    "status": "ok",
+    "phonetic": "/mɪθs/",
+    "part_of_speech": "noun",
+    "definition": "A traditional story which embodies a belief regarding some fact or phenomenon of experience, and in which often the forces of nature and of the soul are personified; a sacred narrative regarding a god, a hero, the origin of the world or of a people, etc."
+  },
+  {
+    "lemma": "national",
+    "status": "ok",
+    "phonetic": "/ˈnæʃ(ə)nəl/",
+    "part_of_speech": "noun",
+    "definition": "A subject of a nation."
+  },
+  {
+    "lemma": "nearly",
+    "status": "ok",
+    "phonetic": "/ˈniːɹli/",
+    "part_of_speech": "adverb",
+    "definition": "With great scrutiny; carefully."
+  },
+  {
+    "lemma": "necessity",
+    "status": "ok",
+    "phonetic": "/nɪˈsɛsəti/",
+    "part_of_speech": "noun",
+    "definition": "The quality or state of being necessary, unavoidable, or absolutely requisite."
+  },
+  {
+    "lemma": "need",
+    "status": "ok",
+    "phonetic": "/niːd/",
+    "part_of_speech": "noun",
+    "definition": "A requirement for something; something needed."
+  },
+  {
+    "lemma": "nerve",
+    "status": "ok",
+    "phonetic": "/nɛɾv/",
+    "part_of_speech": "noun",
+    "definition": "A bundle of neurons with their connective tissue sheaths, blood vessels and lymphatics."
+  },
+  {
+    "lemma": "new",
+    "status": "ok",
+    "phonetic": "/njʉː/",
+    "part_of_speech": "noun",
+    "definition": "Things that are new."
+  },
+  {
+    "lemma": "nice",
+    "status": "ok",
+    "phonetic": "/naɪs/",
+    "part_of_speech": "noun",
+    "definition": "Niceness."
+  },
+  {
+    "lemma": "nigrum",
+    "status": "not_found"
+  },
+  {
+    "lemma": "no",
+    "status": "ok",
+    "phonetic": "/nəʊ/",
+    "part_of_speech": "noun",
+    "definition": "A negating expression; an answer that shows disagreement or disapproval"
+  },
+  {
+    "lemma": "nobility",
+    "status": "ok",
+    "phonetic": "/nəʊˈbɪlɪti/",
+    "part_of_speech": "noun",
+    "definition": "A noble or privileged social class, historically accompanied by a hereditary title; aristocracy."
+  },
+  {
+    "lemma": "north",
+    "status": "ok",
+    "phonetic": "/noːθ/",
+    "part_of_speech": "noun",
+    "definition": "One of the four major compass points, specifically 0°, directed toward the North Pole, and conventionally upwards on a map, abbreviated as N."
+  },
+  {
+    "lemma": "northeastern",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "adjective",
+    "definition": "Of, related to, located in, or from the northeast."
+  },
+  {
+    "lemma": "nostrils",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "Either of the two orifices located on the nose (or on the beak of a bird); used as a passage for air and other gases to travel the nasal passages."
+  },
+  {
+    "lemma": "not",
+    "status": "ok",
+    "phonetic": "/nɒt/",
+    "part_of_speech": "noun",
+    "definition": "A unary operation on logical values that changes true to false, and false to true."
+  },
+  {
+    "lemma": "notes",
+    "status": "ok",
+    "phonetic": "/nəʊts/",
+    "part_of_speech": "noun",
+    "definition": "(heading) A symbol or annotation."
+  },
+  {
+    "lemma": "now",
+    "status": "ok",
+    "phonetic": "/naʊ/",
+    "part_of_speech": "noun",
+    "definition": "The present time."
+  },
+  {
+    "lemma": "object",
+    "status": "ok",
+    "phonetic": "/ˈɒb.d͡ʒɛkt/",
+    "part_of_speech": "noun",
+    "definition": "A thing that has physical existence."
+  },
+  {
+    "lemma": "obvious",
+    "status": "ok",
+    "phonetic": "/ˈɒ.vɪəs/",
+    "part_of_speech": "adjective",
+    "definition": "Easily discovered, seen, or understood; self-explanatory."
+  },
+  {
+    "lemma": "october",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "of",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "off",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "often",
+    "status": "ok",
+    "phonetic": "/ˈɑf(t)ən/",
+    "part_of_speech": "adjective",
+    "definition": "Frequent."
+  },
+  {
+    "lemma": "old",
+    "status": "ok",
+    "phonetic": "/ˈɒʊld/",
+    "part_of_speech": "noun",
+    "definition": "(with the, invariable plural only) People who are old; old beings; the older generation, taken as a group."
+  },
+  {
+    "lemma": "olympic",
+    "status": "not_found"
+  },
+  {
+    "lemma": "on",
+    "status": "ok",
+    "phonetic": "/ɒn/",
+    "part_of_speech": "verb",
+    "definition": "To switch on"
+  },
+  {
+    "lemma": "once",
+    "status": "ok",
+    "phonetic": "/wɒn(t)s/",
+    "part_of_speech": "adverb",
+    "definition": "(frequency) One and only one time."
+  },
+  {
+    "lemma": "one",
+    "status": "ok",
+    "phonetic": "/wan/",
+    "part_of_speech": "noun",
+    "definition": "The digit or figure 1."
+  },
+  {
+    "lemma": "only",
+    "status": "ok",
+    "phonetic": "/ˈəʊn.li/",
+    "part_of_speech": "noun",
+    "definition": "An only child."
+  },
+  {
+    "lemma": "onto",
+    "status": "ok",
+    "phonetic": "/ˈɒn.tuː/",
+    "part_of_speech": "adjective",
+    "definition": "(of a function) Assuming each of the values in its codomain; having its range equal to its codomain."
+  },
+  {
+    "lemma": "option",
+    "status": "ok",
+    "phonetic": "/ˈɒpʃən/",
+    "part_of_speech": "noun",
+    "definition": "One of a set of choices that can be made."
+  },
+  {
+    "lemma": "options",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "One of a set of choices that can be made."
+  },
+  {
+    "lemma": "or",
+    "status": "ok",
+    "phonetic": "/ɔː(ɹ)/",
+    "part_of_speech": "conjunction",
+    "definition": "Connects at least two alternative words, phrases, clauses, sentences, etc. each of which could make a passage true. In English, this is the \"inclusive or.\" The \"exclusive or\" is formed by \"either [...] or\"."
+  },
+  {
+    "lemma": "other",
+    "status": "ok",
+    "phonetic": "/ˈɐðə/",
+    "part_of_speech": "noun",
+    "definition": "An other, another (person, etc), more often rendered as another."
+  },
+  {
+    "lemma": "otherwise",
+    "status": "ok",
+    "phonetic": "/ˈʌð.əˌwaɪz/",
+    "part_of_speech": "adjective",
+    "definition": "Other than supposed; different."
+  },
+  {
+    "lemma": "our",
+    "status": "not_found"
+  },
+  {
+    "lemma": "out",
+    "status": "ok",
+    "phonetic": "/æɔt/",
+    "part_of_speech": "noun",
+    "definition": "A means of exit, escape, reprieve, etc."
+  },
+  {
+    "lemma": "over",
+    "status": "ok",
+    "phonetic": "/ˈəʊ.və(ɹ)/",
+    "part_of_speech": "noun",
+    "definition": "A set of six legal balls bowled."
+  },
+  {
+    "lemma": "own",
+    "status": "ok",
+    "phonetic": "/ˈəʊn/",
+    "part_of_speech": "adjective",
+    "definition": "Belonging to; possessed; proper to. Often marks a possessive determiner as reflexive, referring back to the subject of the clause or sentence."
+  },
+  {
+    "lemma": "pain",
+    "status": "ok",
+    "phonetic": "/peɪn/",
+    "part_of_speech": "noun",
+    "definition": "An ache or bodily suffering, or an instance of this; an unpleasant sensation, resulting from a derangement of functions, disease, or injury by violence; hurt."
+  },
+  {
+    "lemma": "pair",
+    "status": "ok",
+    "phonetic": "/pɛə(ɹ)/",
+    "part_of_speech": "noun",
+    "definition": "Two similar or identical things taken together; often followed by of."
+  },
+  {
+    "lemma": "park",
+    "status": "ok",
+    "phonetic": "[paːk]",
+    "part_of_speech": "noun",
+    "definition": "An area of land set aside for environment preservation or recreation."
+  },
+  {
+    "lemma": "part",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "parts",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "pay",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "paying",
+    "status": "ok",
+    "phonetic": "/ˈpeɪ.ɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To give money or other compensation to in exchange for goods or services."
+  },
+  {
+    "lemma": "people",
+    "status": "ok",
+    "phonetic": "/ˈpiːpəl/",
+    "part_of_speech": "noun",
+    "definition": "Used as plural of person; a body of human beings considered generally or collectively; a group of two or more persons."
+  },
+  {
+    "lemma": "peppers",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "A plant of the family Piperaceae."
+  },
+  {
+    "lemma": "peppery",
+    "status": "ok",
+    "phonetic": "/ˈpɛpəɹi/",
+    "part_of_speech": "adjective",
+    "definition": "Having the taste of pepper."
+  },
+  {
+    "lemma": "performs",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "verb",
+    "definition": "To do something; to execute."
+  },
+  {
+    "lemma": "personal",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "pharaoh",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "photographs",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "phrases",
+    "status": "ok",
+    "phonetic": "/ˈfɹeɪzɪz/",
+    "part_of_speech": "noun",
+    "definition": "A short written or spoken expression."
+  },
+  {
+    "lemma": "picked",
+    "status": "ok",
+    "phonetic": "/pʰɪkt/",
+    "part_of_speech": "verb",
+    "definition": "To grasp and pull with the fingers or fingernails."
+  },
+  {
+    "lemma": "pictures",
+    "status": "ok",
+    "phonetic": "/ˈpɪktʃɚz/",
+    "part_of_speech": "noun",
+    "definition": "A representation of anything (as a person, a landscape, a building) upon canvas, paper, or other surface, by drawing, painting, printing, photography, etc."
+  },
+  {
+    "lemma": "piled",
+    "status": "ok",
+    "phonetic": "/paɪld/",
+    "part_of_speech": "verb",
+    "definition": "(often used with the preposition \"up\") To lay or throw into a pile or heap; to heap up; to collect into a mass; to accumulate"
+  },
+  {
+    "lemma": "pinch",
+    "status": "ok",
+    "phonetic": "/pɪntʃ/",
+    "part_of_speech": "noun",
+    "definition": "The action of squeezing a small amount of a person's skin and flesh, making it hurt."
+  },
+  {
+    "lemma": "piper",
+    "status": "ok",
+    "phonetic": "/ˈpaɪ.pə/",
+    "part_of_speech": "noun",
+    "definition": "A musician who plays a pipe."
+  },
+  {
+    "lemma": "piperine",
+    "status": "not_found"
+  },
+  {
+    "lemma": "plan",
+    "status": "ok",
+    "phonetic": "/plæn/",
+    "part_of_speech": "noun",
+    "definition": "A drawing showing technical details of a building, machine, etc., with unwanted details omitted, and often using symbols rather than detailed drawing to represent doors, valves, etc."
+  },
+  {
+    "lemma": "plant",
+    "status": "ok",
+    "phonetic": "/plænt/",
+    "part_of_speech": "noun",
+    "definition": "An organism that is not an animal, especially an organism capable of photosynthesis. Typically a small or herbaceous organism of this kind, rather than a tree."
+  },
+  {
+    "lemma": "planted",
+    "status": "ok",
+    "phonetic": "/ˈplæntəd/",
+    "part_of_speech": "verb",
+    "definition": "To place (a seed or plant) in soil or other substrate in order that it may live and grow."
+  },
+  {
+    "lemma": "plants",
+    "status": "ok",
+    "phonetic": "/plɑːnts/",
+    "part_of_speech": "noun",
+    "definition": "An organism that is not an animal, especially an organism capable of photosynthesis. Typically a small or herbaceous organism of this kind, rather than a tree."
+  },
+  {
+    "lemma": "plentiful",
+    "status": "ok",
+    "phonetic": "/ˈplɛntɪfl̩/",
+    "part_of_speech": "adjective",
+    "definition": "Existing in large number or ample amount."
+  },
+  {
+    "lemma": "points",
+    "status": "ok",
+    "phonetic": "/pɔɪnts/",
+    "part_of_speech": "noun",
+    "definition": "A discrete division of something."
+  },
+  {
+    "lemma": "ports",
+    "status": "ok",
+    "phonetic": "/pɔːts/",
+    "part_of_speech": "noun",
+    "definition": "A place on the coast at which ships can shelter, or dock to load and unload cargo or passengers."
+  },
+  {
+    "lemma": "portugal",
+    "status": "not_found"
+  },
+  {
+    "lemma": "potent",
+    "status": "ok",
+    "phonetic": "/ˈpəʊt(ə)nt/",
+    "part_of_speech": "noun",
+    "definition": "A heraldic fur formed by a regular tessellation of blue and white T shapes."
+  },
+  {
+    "lemma": "pounds",
+    "status": "ok",
+    "phonetic": "/paʊndz/",
+    "part_of_speech": "noun",
+    "definition": "A unit of mass equal to 16 avoirdupois ounces (= 453.592 37 g). Today this value is the most common meaning of \"pound\" as a unit of weight."
+  },
+  {
+    "lemma": "pour",
+    "status": "ok",
+    "phonetic": "/pɔː/",
+    "part_of_speech": "noun",
+    "definition": "The act of pouring."
+  },
+  {
+    "lemma": "pouring",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "power",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "powerful",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "practice",
+    "status": "ok",
+    "phonetic": "/ˈpɹæktɪs/",
+    "part_of_speech": "noun",
+    "definition": "Repetition of an activity to improve a skill."
+  },
+  {
+    "lemma": "praised",
+    "status": "ok",
+    "phonetic": "/pɹeɪzd/",
+    "part_of_speech": "verb",
+    "definition": "To give praise to; to commend, glorify, or worship."
+  },
+  {
+    "lemma": "precious",
+    "status": "ok",
+    "phonetic": "/ˈpɹɛʃəs/",
+    "part_of_speech": "noun",
+    "definition": "Someone (or something) who is loved; a darling."
+  },
+  {
+    "lemma": "presentation",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "preserve",
+    "status": "ok",
+    "phonetic": "/pɹəˈzɜːv/",
+    "part_of_speech": "noun",
+    "definition": "A sweet spread made of any of a variety of fruits."
+  },
+  {
+    "lemma": "prevent",
+    "status": "ok",
+    "phonetic": "/pɹəˈvɛnt/",
+    "part_of_speech": "verb",
+    "definition": "To stop (an outcome); to keep from (doing something)."
+  },
+  {
+    "lemma": "price",
+    "status": "ok",
+    "phonetic": "/pɹaɪs/",
+    "part_of_speech": "noun",
+    "definition": "The cost required to gain possession of something."
+  },
+  {
+    "lemma": "primarily",
+    "status": "ok",
+    "phonetic": "/pɹaɪˈmɛɹəli/",
+    "part_of_speech": "adverb",
+    "definition": "(focus) Of a primary or central nature, first and foremost"
+  },
+  {
+    "lemma": "prime",
+    "status": "ok",
+    "phonetic": "/pɹaɪ̯m/",
+    "part_of_speech": "noun",
+    "definition": "The first hour of daylight; the first canonical hour."
+  },
+  {
+    "lemma": "prized",
+    "status": "ok",
+    "phonetic": "/pɹaɪzd/",
+    "part_of_speech": "verb",
+    "definition": "To consider highly valuable; to esteem."
+  },
+  {
+    "lemma": "problem",
+    "status": "ok",
+    "phonetic": "/ˈpɹɒbləm/",
+    "part_of_speech": "noun",
+    "definition": "A difficulty that has to be resolved or dealt with."
+  },
+  {
+    "lemma": "process",
+    "status": "ok",
+    "phonetic": "/ˈpɹoʊsɛs/",
+    "part_of_speech": "noun",
+    "definition": "A series of events which produce a result (the product)."
+  },
+  {
+    "lemma": "processing",
+    "status": "ok",
+    "phonetic": "/ˈpɹəʊsɛsɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To perform a particular process on a thing."
+  },
+  {
+    "lemma": "produce",
+    "status": "ok",
+    "phonetic": "/pɹəˈdjuːs/",
+    "part_of_speech": "verb",
+    "definition": "To yield, make or manufacture; to generate."
+  },
+  {
+    "lemma": "produced",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "producers",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "production",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "properties",
+    "status": "ok",
+    "phonetic": "/ˈpɹɒpətiz/",
+    "part_of_speech": "noun",
+    "definition": "Something that is owned."
+  },
+  {
+    "lemma": "protest",
+    "status": "ok",
+    "phonetic": "/ˈpɹəʊ.tɛst/",
+    "part_of_speech": "noun",
+    "definition": "A formal objection, especially one by a group."
+  },
+  {
+    "lemma": "put",
+    "status": "ok",
+    "phonetic": "/pʊt/",
+    "part_of_speech": "noun",
+    "definition": "A right to sell something at a predetermined price."
+  },
+  {
+    "lemma": "quantities",
+    "status": "ok",
+    "phonetic": "/ˈkwɒn.tɪ.tiz/",
+    "part_of_speech": "noun",
+    "definition": "A fundamental, generic term used when referring to the measurement (count, amount) of a scalar, vector, number of items or to some other way of denominating the value of a collection or group of items."
+  },
+  {
+    "lemma": "quickly",
+    "status": "ok",
+    "phonetic": "/ˈkwɪkli/",
+    "part_of_speech": "adverb",
+    "definition": "Rapidly; with speed; fast."
+  },
+  {
+    "lemma": "rainfall",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "The amount of rain that falls on a single occasion"
+  },
+  {
+    "lemma": "ramesses",
+    "status": "not_found"
+  },
+  {
+    "lemma": "ransom",
+    "status": "ok",
+    "phonetic": "/ˈɹænsəm/",
+    "part_of_speech": "noun",
+    "definition": "Money paid for the freeing of a hostage."
+  },
+  {
+    "lemma": "rare",
+    "status": "ok",
+    "phonetic": "[ɹɜɹ]",
+    "part_of_speech": "noun",
+    "definition": "A scarce or uncommon item."
+  },
+  {
+    "lemma": "re",
+    "status": "ok",
+    "phonetic": "/ɹeɪ/",
+    "part_of_speech": "preposition",
+    "definition": "About, regarding, with reference to; especially in letters, documents and emails."
+  },
+  {
+    "lemma": "reach",
+    "status": "ok",
+    "phonetic": "/ɹiːt͡ʃ/",
+    "part_of_speech": "noun",
+    "definition": "The act of stretching or extending; extension."
+  },
+  {
+    "lemma": "reached",
+    "status": "ok",
+    "phonetic": "/ɹiːtʃt/",
+    "part_of_speech": "verb",
+    "definition": "To extend, stretch, or thrust out (for example a limb or object held in the hand)."
+  },
+  {
+    "lemma": "reason",
+    "status": "ok",
+    "phonetic": "/ˈɹiːzən/",
+    "part_of_speech": "noun",
+    "definition": "A cause:"
+  },
+  {
+    "lemma": "received",
+    "status": "ok",
+    "phonetic": "/ɹɪˈsiːvd/",
+    "part_of_speech": "verb",
+    "definition": "To take, as something that is offered, given, committed, sent, paid, etc.; to accept; to be given something."
+  },
+  {
+    "lemma": "receptor",
+    "status": "ok",
+    "phonetic": "/ɹɪˈsɛp.tə/",
+    "part_of_speech": "noun",
+    "definition": "A protein on a cell wall that binds with specific molecules so that they can be absorbed into the cell in order to control certain functions."
+  },
+  {
+    "lemma": "receptors",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "A protein on a cell wall that binds with specific molecules so that they can be absorbed into the cell in order to control certain functions."
+  },
+  {
+    "lemma": "recipes",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "A formula for preparing or using a medicine; a prescription; also, a medicine prepared from such instructions."
+  },
+  {
+    "lemma": "red",
+    "status": "ok",
+    "phonetic": "/ɹɛd/",
+    "part_of_speech": "noun",
+    "definition": "Any of a range of colours having the longest wavelengths, 670 nm, of the visible spectrum; a primary additive colour for transmitted light: the colour obtained by subtracting green and blue from white light using magenta and yellow filters; the colour of blood, ripe strawberries, etc."
+  },
+  {
+    "lemma": "reduce",
+    "status": "ok",
+    "phonetic": "/ɹɪˈdjuːs/",
+    "part_of_speech": "verb",
+    "definition": "To bring down the size, quantity, quality, value or intensity of something; to diminish, to lower."
+  },
+  {
+    "lemma": "regions",
+    "status": "ok",
+    "phonetic": "/ˈɹiːdʒənz/",
+    "part_of_speech": "noun",
+    "definition": "Any considerable and connected part of a space or surface; specifically, a tract of land or sea of considerable but indefinite extent; a country; a district; in a broad sense, a place without special reference to location or extent but viewed as an entity for geographical, social or cultural reasons."
+  },
+  {
+    "lemma": "regularly",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "relative",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "relay",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "relevant",
+    "status": "ok",
+    "phonetic": "/ˈɹɛləvənt/",
+    "part_of_speech": "adjective",
+    "definition": "Directly related, connected, or pertinent to a topic."
+  },
+  {
+    "lemma": "relies",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "verb",
+    "definition": "(with on or upon, formerly also with in) to trust; to have confidence in; to depend."
+  },
+  {
+    "lemma": "relieved",
+    "status": "ok",
+    "phonetic": "/ɹɪˈliːvd/",
+    "part_of_speech": "verb",
+    "definition": "To ease (a person, person's thoughts etc.) from mental distress; to stop (someone) feeling anxious or worried, to alleviate the distress of."
+  },
+  {
+    "lemma": "rely",
+    "status": "ok",
+    "phonetic": "/ɹɪˈlaɪ/",
+    "part_of_speech": "verb",
+    "definition": "(with on or upon, formerly also with in) to trust; to have confidence in; to depend."
+  },
+  {
+    "lemma": "remained",
+    "status": "ok",
+    "phonetic": "/ɹɪˈmeɪnd/",
+    "part_of_speech": "verb",
+    "definition": "To stay behind while others withdraw; to be left after others have been removed or destroyed; to be left after a number or quantity has been subtracted or cut off; to be left as not included or comprised."
+  },
+  {
+    "lemma": "replace",
+    "status": "ok",
+    "phonetic": "/ɹɪˈpleɪs/",
+    "part_of_speech": "verb",
+    "definition": "To restore to a former place, position, condition, etc.; to put back"
+  },
+  {
+    "lemma": "require",
+    "status": "ok",
+    "phonetic": "/ɹɪˈkwaɪə/",
+    "part_of_speech": "verb",
+    "definition": "To ask (someone) for something; to request."
+  },
+  {
+    "lemma": "revisit",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "An act of revisiting; a second or subsequent visit."
+  },
+  {
+    "lemma": "revolution",
+    "status": "ok",
+    "phonetic": "/ˌɹɛvəˈl(j)uːʃən/",
+    "part_of_speech": "noun",
+    "definition": "A political upheaval in a government or nation state characterized by great change."
+  },
+  {
+    "lemma": "rewarding",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "verb",
+    "definition": "To give a reward to or for."
+  },
+  {
+    "lemma": "rich",
+    "status": "ok",
+    "phonetic": "/ɹɪt͡ʃ/",
+    "part_of_speech": "verb",
+    "definition": "To enrich."
+  },
+  {
+    "lemma": "ripened",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "verb",
+    "definition": "To grow ripe; to become mature (said of grain, fruit, flowers etc.)"
+  },
+  {
+    "lemma": "river",
+    "status": "ok",
+    "phonetic": "/ˈɹɪvə/",
+    "part_of_speech": "noun",
+    "definition": "A large and often winding stream which drains a land mass, carrying water down from higher areas to a lower point, oftentimes ending in another body of water, such as an ocean or in an inland sea."
+  },
+  {
+    "lemma": "road",
+    "status": "ok",
+    "phonetic": "/ɹəʊd/",
+    "part_of_speech": "noun",
+    "definition": "A way used for travelling between places, originally one wide enough to allow foot passengers and horses to travel, now (US) usually one surfaced with asphalt or concrete and designed to accommodate many vehicles travelling in both directions. In the UK both senses are heard: a country road is the same as a country lane."
+  },
+  {
+    "lemma": "rock",
+    "status": "ok",
+    "phonetic": "/ɹɒk/",
+    "part_of_speech": "noun",
+    "definition": "A formation of minerals, specifically:"
+  },
+  {
+    "lemma": "roman",
+    "status": "ok",
+    "phonetic": "/ˈɹəʊmən/",
+    "part_of_speech": "noun",
+    "definition": "One of the main three types used for the Latin alphabet (the others being italics and blackletter), in which the ascenders are mostly straight."
+  },
+  {
+    "lemma": "rome",
+    "status": "not_found"
+  },
+  {
+    "lemma": "root",
+    "status": "ok",
+    "phonetic": "/ɹuːt/",
+    "part_of_speech": "noun",
+    "definition": "The part of a plant, generally underground, that anchors and supports the plant body, absorbs and stores water and nutrients, and in some plants is able to perform vegetative reproduction."
+  },
+  {
+    "lemma": "rosling",
+    "status": "not_found"
+  },
+  {
+    "lemma": "route",
+    "status": "ok",
+    "phonetic": "/ɹʉːt/",
+    "part_of_speech": "noun",
+    "definition": "A course or way which is traveled or passed."
+  },
+  {
+    "lemma": "rule",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "run",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "s",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "sahara",
+    "status": "not_found"
+  },
+  {
+    "lemma": "sal",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "Salt"
+  },
+  {
+    "lemma": "salary",
+    "status": "ok",
+    "phonetic": "/ˈsælɚi/",
+    "part_of_speech": "noun",
+    "definition": "A fixed amount of money paid to a worker, usually calculated on a monthly or annual basis, not hourly, as wages. Implies a degree of professionalism and/or autonomy."
+  },
+  {
+    "lemma": "salsas",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "A spicy tomato sauce, often including onions and hot peppers."
+  },
+  {
+    "lemma": "salty",
+    "status": "ok",
+    "phonetic": "/ˈsɒl.ti/",
+    "part_of_speech": "adjective",
+    "definition": "Tasting of salt."
+  },
+  {
+    "lemma": "same",
+    "status": "ok",
+    "phonetic": "/seɪm/",
+    "part_of_speech": "adjective",
+    "definition": "Not different or other; not another or others; not different as regards self; selfsame; identical."
+  },
+  {
+    "lemma": "sat",
+    "status": "ok",
+    "phonetic": "/sæt/",
+    "part_of_speech": "verb",
+    "definition": "(of a person) To be in a position in which the upper body is upright and supported by the buttocks."
+  },
+  {
+    "lemma": "satisfied",
+    "status": "ok",
+    "phonetic": "/ˈsætɪsfaɪd/",
+    "part_of_speech": "verb",
+    "definition": "To do enough for; to meet the needs of; to fulfill the wishes or requirements of."
+  },
+  {
+    "lemma": "say",
+    "status": "ok",
+    "phonetic": "/seɪ/",
+    "part_of_speech": "noun",
+    "definition": "A chance to speak; the right or power to influence or make a decision."
+  },
+  {
+    "lemma": "scavenge",
+    "status": "ok",
+    "phonetic": "/ˈskæv.ɪndʒ/",
+    "part_of_speech": "verb",
+    "definition": "To collect and remove refuse, or to search through refuse, carrion, or abandoned items for useful material"
+  },
+  {
+    "lemma": "scholars",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "screen",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "screens",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "sea",
+    "status": "ok",
+    "phonetic": "/siː/",
+    "part_of_speech": "noun",
+    "definition": "A large body of salt water."
+  },
+  {
+    "lemma": "searching",
+    "status": "ok",
+    "phonetic": "/ˈsɜːtʃɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To look in (a place) for something."
+  },
+  {
+    "lemma": "seas",
+    "status": "ok",
+    "phonetic": "/siːz/",
+    "part_of_speech": "noun",
+    "definition": "A large body of salt water."
+  },
+  {
+    "lemma": "seaside",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "The area by and around the sea; including the beach, promenade or cliffs"
+  },
+  {
+    "lemma": "seasoning",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "Something used to add taste or flavour to food, such as salt and pepper or other condiment, herb or spice."
+  },
+  {
+    "lemma": "seawater",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "The saltwater of a sea or ocean."
+  },
+  {
+    "lemma": "see",
+    "status": "ok",
+    "phonetic": "/siː/",
+    "part_of_speech": "verb",
+    "definition": "(stative) To perceive or detect with the eyes, or as if by sight."
+  },
+  {
+    "lemma": "seem",
+    "status": "ok",
+    "phonetic": "/siːm/",
+    "part_of_speech": "verb",
+    "definition": "To appear; to look outwardly; to be perceived as."
+  },
+  {
+    "lemma": "seeming",
+    "status": "ok",
+    "phonetic": "/ˈsiːmɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To appear; to look outwardly; to be perceived as."
+  },
+  {
+    "lemma": "selling",
+    "status": "ok",
+    "phonetic": "/ˈsɛlɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "(ditransitive) To transfer goods or provide services in exchange for money."
+  },
+  {
+    "lemma": "sensation",
+    "status": "ok",
+    "phonetic": "/sɛnˈseɪʃən/",
+    "part_of_speech": "noun",
+    "definition": "A physical feeling or perception from something that comes into contact with the body; something sensed."
+  },
+  {
+    "lemma": "sent",
+    "status": "ok",
+    "phonetic": "/sɛnt/",
+    "part_of_speech": "noun",
+    "definition": "A subdivision of currency, equal to one hundredth of an Estonian kroon."
+  },
+  {
+    "lemma": "separate",
+    "status": "ok",
+    "phonetic": "/ˈsɛpəɹət/",
+    "part_of_speech": "noun",
+    "definition": "(usually in the plural) Anything that is sold by itself, especially an article of clothing."
+  },
+  {
+    "lemma": "serpents",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "A snake."
+  },
+  {
+    "lemma": "settlers",
+    "status": "ok",
+    "phonetic": "/ˈsɛt.ləz/",
+    "part_of_speech": "noun",
+    "definition": "Someone who settles in a new location, especially one who takes up residence in a previously uninhabited place; a colonist."
+  },
+  {
+    "lemma": "shaker",
+    "status": "ok",
+    "phonetic": "/ˈʃeɪkɚ/",
+    "part_of_speech": "noun",
+    "definition": "A person or thing that shakes, or by means of which something is shaken."
+  },
+  {
+    "lemma": "shakers",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "A person or thing that shakes, or by means of which something is shaken."
+  },
+  {
+    "lemma": "shallow",
+    "status": "ok",
+    "phonetic": "/ˈʃaləʊ/",
+    "part_of_speech": "noun",
+    "definition": "A shallow portion of an otherwise deep body of water."
+  },
+  {
+    "lemma": "share",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "ship",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "should",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "shouldn",
+    "status": "not_found"
+  },
+  {
+    "lemma": "show",
+    "status": "ok",
+    "phonetic": "/ʃəʊ/",
+    "part_of_speech": "noun",
+    "definition": "A play, dance, or other entertainment."
+  },
+  {
+    "lemma": "showing",
+    "status": "ok",
+    "phonetic": "/ˈʃəʊɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To display, to have somebody see (something)."
+  },
+  {
+    "lemma": "sichuan",
+    "status": "not_found"
+  },
+  {
+    "lemma": "silk",
+    "status": "ok",
+    "phonetic": "/sɪlk/",
+    "part_of_speech": "noun",
+    "definition": "A fine fiber excreted by the silkworm or other arthropod (such as a spider)."
+  },
+  {
+    "lemma": "silks",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "A fine fiber excreted by the silkworm or other arthropod (such as a spider)."
+  },
+  {
+    "lemma": "similarly",
+    "status": "ok",
+    "phonetic": "/ˈsɪmələli/",
+    "part_of_speech": "adverb",
+    "definition": "(manner) In a like style or manner."
+  },
+  {
+    "lemma": "simple",
+    "status": "ok",
+    "phonetic": "/ˈsɪmpəl/",
+    "part_of_speech": "noun",
+    "definition": "A herbal preparation made from one plant, as opposed to something made from more than one plant."
+  },
+  {
+    "lemma": "simply",
+    "status": "ok",
+    "phonetic": "/ˈsɪmpli/",
+    "part_of_speech": "adverb",
+    "definition": "(manner) In a simple way or state; considered in or by itself; without addition; alone."
+  },
+  {
+    "lemma": "situation",
+    "status": "ok",
+    "phonetic": "/sɪtjuːˈeɪʃən/",
+    "part_of_speech": "noun",
+    "definition": "The combination of circumstances at a given moment; a state of affairs."
+  },
+  {
+    "lemma": "skin",
+    "status": "ok",
+    "phonetic": "/skɪn/",
+    "part_of_speech": "noun",
+    "definition": "The outer protective layer of the body of any animal, including of a human."
+  },
+  {
+    "lemma": "slabs",
+    "status": "ok",
+    "phonetic": "/slæbs/",
+    "part_of_speech": "noun",
+    "definition": "A large, flat piece of solid material; a solid object that is large and flat."
+  },
+  {
+    "lemma": "slide",
+    "status": "ok",
+    "phonetic": "/slaɪd/",
+    "part_of_speech": "noun",
+    "definition": "An item of play equipment that children can climb up and then slide down again."
+  },
+  {
+    "lemma": "small",
+    "status": "ok",
+    "phonetic": "/smoːl/",
+    "part_of_speech": "noun",
+    "definition": "Any part of something that is smaller or slimmer than the rest, now usually with anatomical reference to the back."
+  },
+  {
+    "lemma": "smaller",
+    "status": "ok",
+    "phonetic": "/ˈsmɑlɚ/",
+    "part_of_speech": "adjective",
+    "definition": "Not large or big; insignificant; few in number."
+  },
+  {
+    "lemma": "so",
+    "status": "ok",
+    "phonetic": "/səʊ/",
+    "part_of_speech": "adjective",
+    "definition": "True, accurate."
+  },
+  {
+    "lemma": "social",
+    "status": "ok",
+    "phonetic": "/ˈsəʊʃəl/",
+    "part_of_speech": "noun",
+    "definition": "A festive gathering to foster introductions."
+  },
+  {
+    "lemma": "society",
+    "status": "ok",
+    "phonetic": "/səˈsaɪ.ə.ti/",
+    "part_of_speech": "noun",
+    "definition": "A long-standing group of people sharing cultural aspects such as language, dress, norms of behavior and artistic forms."
+  },
+  {
+    "lemma": "sodium",
+    "status": "ok",
+    "phonetic": "/ˈsəʊdɪəm/",
+    "part_of_speech": "noun",
+    "definition": "The chemical element (symbol Na) with an atomic number of 11 and atomic weight of 22.98977. It is a soft, waxy, silvery, reactive alkali metal that is never found unbound in nature."
+  },
+  {
+    "lemma": "soldiers",
+    "status": "ok",
+    "phonetic": "/ˈsɒldʒəz/",
+    "part_of_speech": "noun",
+    "definition": "A member of an army, of any rank."
+  },
+  {
+    "lemma": "something",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "sometimes",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "soon",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "sophisticated",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "verb",
+    "definition": "To make less natural or innocent."
+  },
+  {
+    "lemma": "sought",
+    "status": "ok",
+    "phonetic": "/sɔːt/",
+    "part_of_speech": "verb",
+    "definition": "To try to find; to look for; to search for."
+  },
+  {
+    "lemma": "soulmates",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "Someone, especially a romantic partner, with whom one is exceptionally or uniquely compatible or has a special, almost spiritual connection."
+  },
+  {
+    "lemma": "sour",
+    "status": "ok",
+    "phonetic": "/ˈsaʊə/",
+    "part_of_speech": "noun",
+    "definition": "The sensation of a sour taste."
+  },
+  {
+    "lemma": "spain",
+    "status": "not_found"
+  },
+  {
+    "lemma": "speaking",
+    "status": "ok",
+    "phonetic": "/ˈspiːˌkiŋ/",
+    "part_of_speech": "adjective",
+    "definition": "Used in speaking."
+  },
+  {
+    "lemma": "speech",
+    "status": "ok",
+    "phonetic": "/ˈspiːtʃ/",
+    "part_of_speech": "noun",
+    "definition": "The faculty of uttering articulate sounds or words; the ability to speak or to use vocalizations to communicate."
+  },
+  {
+    "lemma": "spices",
+    "status": "ok",
+    "phonetic": "/ˈspaɪsɪz/",
+    "part_of_speech": "noun",
+    "definition": "Aromatic or pungent plant matter (usually dried) used to season or flavour food."
+  },
+  {
+    "lemma": "spicy",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "adjective",
+    "definition": "Of, pertaining to, or containing spice."
+  },
+  {
+    "lemma": "spoil",
+    "status": "ok",
+    "phonetic": "/spɔɪl/",
+    "part_of_speech": "noun",
+    "definition": "(Also in plural: spoils) Plunder taken from an enemy or victim."
+  },
+  {
+    "lemma": "spoken",
+    "status": "ok",
+    "phonetic": "/ˈspoʊkən/",
+    "part_of_speech": "verb",
+    "definition": "To communicate with one's voice, to say words out loud."
+  },
+  {
+    "lemma": "spread",
+    "status": "ok",
+    "phonetic": "/spɹɛd/",
+    "part_of_speech": "noun",
+    "definition": "The act of spreading."
+  },
+  {
+    "lemma": "sprinkling",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "verb",
+    "definition": "To cause (a substance) to fall in fine drops (for a liquid substance) or small pieces (for a solid substance)."
+  },
+  {
+    "lemma": "spur",
+    "status": "ok",
+    "phonetic": "/spɜː/",
+    "part_of_speech": "noun",
+    "definition": "A rigid implement, often roughly y-shaped, that is fixed to one's heel for the purpose of prodding a horse. Often worn by, and emblematic of, the cowboy or the knight."
+  },
+  {
+    "lemma": "squid",
+    "status": "ok",
+    "phonetic": "/skwɪd/",
+    "part_of_speech": "noun",
+    "definition": "Any of several carnivorous marine cephalopod mollusks, of the order Teuthida, having a mantle, eight arms, and a pair of tentacles"
+  },
+  {
+    "lemma": "st",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "interjection",
+    "definition": "Expressing a sudden desire for silence."
+  },
+  {
+    "lemma": "standard",
+    "status": "ok",
+    "phonetic": "/ˈstændəd/",
+    "part_of_speech": "noun",
+    "definition": "A principle or example or measure used for comparison."
+  },
+  {
+    "lemma": "stands",
+    "status": "ok",
+    "phonetic": "/stændz/",
+    "part_of_speech": "noun",
+    "definition": "The act of standing."
+  },
+  {
+    "lemma": "status",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "steal",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "still",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "stomach",
+    "status": "ok",
+    "phonetic": "/ˈstʌmək/",
+    "part_of_speech": "noun",
+    "definition": "An organ in animals that stores food in the process of digestion."
+  },
+  {
+    "lemma": "stories",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "A building; an edifice."
+  },
+  {
+    "lemma": "streams",
+    "status": "ok",
+    "phonetic": "/stɹiːmz/",
+    "part_of_speech": "noun",
+    "definition": "A small river; a large creek; a body of moving water confined by banks."
+  },
+  {
+    "lemma": "strong",
+    "status": "ok",
+    "phonetic": "/stɹɑŋ/",
+    "part_of_speech": "adjective",
+    "definition": "Capable of producing great physical force."
+  },
+  {
+    "lemma": "struck",
+    "status": "ok",
+    "phonetic": "/st͡ʃɹʌk/",
+    "part_of_speech": "verb",
+    "definition": "(sometimes with out or through) To delete or cross out; to scratch or eliminate."
+  },
+  {
+    "lemma": "subtle",
+    "status": "ok",
+    "phonetic": "/ˈsʌt(ə)l/",
+    "part_of_speech": "adjective",
+    "definition": "Hard to grasp; not obvious or easily understood; barely noticeable."
+  },
+  {
+    "lemma": "success",
+    "status": "ok",
+    "phonetic": "/səkˈsɛs/",
+    "part_of_speech": "noun",
+    "definition": "The achievement of one's aim or goal."
+  },
+  {
+    "lemma": "sucking",
+    "status": "ok",
+    "phonetic": "/ˈsʌkɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To use the mouth and lips to pull in (a liquid, especially milk from the breast)."
+  },
+  {
+    "lemma": "sun",
+    "status": "ok",
+    "phonetic": "/sʌn/",
+    "part_of_speech": "noun",
+    "definition": "A star, especially when seen as the centre of any single solar system."
+  },
+  {
+    "lemma": "supplies",
+    "status": "ok",
+    "phonetic": "/səˈplaɪz/",
+    "part_of_speech": "noun",
+    "definition": "The act of supplying."
+  },
+  {
+    "lemma": "support",
+    "status": "ok",
+    "phonetic": "/səˈpɔːt/",
+    "part_of_speech": "noun",
+    "definition": "(sometimes attributive) Something which supports."
+  },
+  {
+    "lemma": "surface",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "sweat",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "sweet",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "sweeter",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "adjective",
+    "definition": "Having a pleasant taste, especially one relating to the basic taste sensation induced by sugar."
+  },
+  {
+    "lemma": "sweetness",
+    "status": "ok",
+    "phonetic": "/ˈswiːtnəs/",
+    "part_of_speech": "noun",
+    "definition": "The condition of being sweet or sugary."
+  },
+  {
+    "lemma": "symbol",
+    "status": "ok",
+    "phonetic": "/ˈsɪmbəl/",
+    "part_of_speech": "noun",
+    "definition": "A character or glyph representing an idea, concept or object."
+  },
+  {
+    "lemma": "synonymous",
+    "status": "ok",
+    "phonetic": "/sɪˈnɒnɪməs/",
+    "part_of_speech": "adjective",
+    "definition": "(construed with with, narrower sense) having an identical meaning"
+  },
+  {
+    "lemma": "t",
+    "status": "not_found"
+  },
+  {
+    "lemma": "table",
+    "status": "ok",
+    "phonetic": "/ˈteɪbəl/",
+    "part_of_speech": "noun",
+    "definition": "Furniture with a top surface to accommodate a variety of uses."
+  },
+  {
+    "lemma": "tables",
+    "status": "ok",
+    "phonetic": "/ˈteɪbl̩z/",
+    "part_of_speech": "noun",
+    "definition": "Furniture with a top surface to accommodate a variety of uses."
+  },
+  {
+    "lemma": "tabletops",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "(furniture) the flat, horizontal surface of a table"
+  },
+  {
+    "lemma": "take",
+    "status": "ok",
+    "phonetic": "/teɪk/",
+    "part_of_speech": "noun",
+    "definition": "The or an act of taking."
+  },
+  {
+    "lemma": "talk",
+    "status": "ok",
+    "phonetic": "/toːk/",
+    "part_of_speech": "verb",
+    "definition": "To communicate, usually by means of speech."
+  },
+  {
+    "lemma": "talks",
+    "status": "ok",
+    "phonetic": "/ˈtɔːks/",
+    "part_of_speech": "verb",
+    "definition": "To communicate, usually by means of speech."
+  },
+  {
+    "lemma": "taste",
+    "status": "ok",
+    "phonetic": "/teɪst/",
+    "part_of_speech": "noun",
+    "definition": "One of the sensations produced by the tongue in response to certain chemicals; the quality of giving this sensation."
+  },
+  {
+    "lemma": "tax",
+    "status": "ok",
+    "phonetic": "/tæks/",
+    "part_of_speech": "noun",
+    "definition": "Money paid to the government other than for transaction-specific goods and services."
+  },
+  {
+    "lemma": "team",
+    "status": "ok",
+    "phonetic": "/tiːm/",
+    "part_of_speech": "noun",
+    "definition": "A set of draught animals, such as two horses in front of a carriage."
+  },
+  {
+    "lemma": "teases",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "One who teases."
+  },
+  {
+    "lemma": "technologies",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "The organization of knowledge for practical purposes."
+  },
+  {
+    "lemma": "ted",
+    "status": "ok",
+    "phonetic": "/tɛd/",
+    "part_of_speech": "noun",
+    "definition": "A teddy boy."
+  },
+  {
+    "lemma": "telling",
+    "status": "ok",
+    "phonetic": "/ˈtɛlɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "(archaic outside of idioms) To count, reckon, or enumerate."
+  },
+  {
+    "lemma": "texts",
+    "status": "ok",
+    "phonetic": "/tɛks/",
+    "part_of_speech": "noun",
+    "definition": "A writing consisting of multiple glyphs, characters, symbols or sentences."
+  },
+  {
+    "lemma": "th",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "than",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "thanks",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "that",
+    "status": "ok",
+    "phonetic": "/ˈðæt/",
+    "part_of_speech": "noun",
+    "definition": "Something being indicated that is there; one of those."
+  },
+  {
+    "lemma": "the",
+    "status": "ok",
+    "phonetic": "/ði/",
+    "part_of_speech": "adverb",
+    "definition": "With a comparative or with more and a verb phrase, establishes a correlation with one or more other such comparatives."
+  },
+  {
+    "lemma": "their",
+    "status": "not_found"
+  },
+  {
+    "lemma": "them",
+    "status": "ok",
+    "phonetic": "/ðʌm/",
+    "part_of_speech": "pronoun",
+    "definition": "(plural) Those ones."
+  },
+  {
+    "lemma": "themselves",
+    "status": "ok",
+    "phonetic": "/ðəmˈsɛlvz/",
+    "part_of_speech": "pronoun",
+    "definition": "The reflexive case of they, the third-person plural personal pronoun. The group of people, animals or objects previously mentioned, as the object of a verb or following a preposition (also used for emphasis)."
+  },
+  {
+    "lemma": "then",
+    "status": "ok",
+    "phonetic": "/ðen/",
+    "part_of_speech": "conjunction",
+    "definition": "Used in comparisons, to introduce the basis of comparison."
+  },
+  {
+    "lemma": "there",
+    "status": "ok",
+    "phonetic": "/ðeː(ɹ)/",
+    "part_of_speech": "noun",
+    "definition": "That place."
+  },
+  {
+    "lemma": "these",
+    "status": "ok",
+    "phonetic": "/ðiːz/",
+    "part_of_speech": "pronoun",
+    "definition": "The thing, item, etc. being indicated."
+  },
+  {
+    "lemma": "they",
+    "status": "ok",
+    "phonetic": "/ðeɪ/",
+    "part_of_speech": "pronoun",
+    "definition": "(the third-person plural) A group of people, animals, plants or objects previously mentioned."
+  },
+  {
+    "lemma": "thing",
+    "status": "ok",
+    "phonetic": "/θɪŋ/",
+    "part_of_speech": "noun",
+    "definition": "That which is considered to exist as a separate entity, object, quality or concept."
+  },
+  {
+    "lemma": "third",
+    "status": "ok",
+    "phonetic": "/θɜːd/",
+    "part_of_speech": "noun",
+    "definition": "The person or thing in the third position."
+  },
+  {
+    "lemma": "this",
+    "status": "ok",
+    "phonetic": "/ðəs/",
+    "part_of_speech": "noun",
+    "definition": "Something being indicated that is here; one of these."
+  },
+  {
+    "lemma": "those",
+    "status": "ok",
+    "phonetic": "/ðəʊz/",
+    "part_of_speech": "pronoun",
+    "definition": "(demonstrative) The thing, person, idea, quality, event, action or time indicated or understood from context, especially if more remote geographically, temporally or mentally than one designated as \"this\", or if expressing distinction."
+  },
+  {
+    "lemma": "though",
+    "status": "ok",
+    "phonetic": "/ðəʊ/",
+    "part_of_speech": "adverb",
+    "definition": "Despite that; however."
+  },
+  {
+    "lemma": "thought",
+    "status": "ok",
+    "phonetic": "/θɔːt/",
+    "part_of_speech": "verb",
+    "definition": "To ponder, to go over in one's head."
+  },
+  {
+    "lemma": "thousands",
+    "status": "not_found"
+  },
+  {
+    "lemma": "three",
+    "status": "ok",
+    "phonetic": "/θɹiː/",
+    "part_of_speech": "noun",
+    "definition": "The digit/figure 3."
+  },
+  {
+    "lemma": "through",
+    "status": "ok",
+    "phonetic": "/θɹuː/",
+    "part_of_speech": "noun",
+    "definition": "A large slab of stone laid in a dry-stone wall from one side to the other; a perpend."
+  },
+  {
+    "lemma": "throughline",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "(authorship) A theme that runs through the plot of a film or other dramatic work."
+  },
+  {
+    "lemma": "thunder",
+    "status": "ok",
+    "phonetic": "/ˈθʌndə/",
+    "part_of_speech": "noun",
+    "definition": "The loud rumbling, cracking, or crashing sound caused by expansion of rapidly heated air around a lightning bolt."
+  },
+  {
+    "lemma": "time",
+    "status": "ok",
+    "phonetic": "/tɑem/",
+    "part_of_speech": "noun",
+    "definition": "The inevitable progression into the future with the passing of present and past events."
+  },
+  {
+    "lemma": "to",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "today",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "together",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "tongues",
+    "status": "ok",
+    "phonetic": "/tʌŋz/",
+    "part_of_speech": "noun",
+    "definition": "The flexible muscular organ in the mouth that is used to move food around, for tasting and that is moved into various positions to modify the flow of air from the lungs in order to produce different sounds in speech."
+  },
+  {
+    "lemma": "tons",
+    "status": "ok",
+    "phonetic": "/tʌnz/",
+    "part_of_speech": "noun",
+    "definition": "A unit of weight (mass) equal to 2240 pounds (a long ton) or 2000 pounds (a short ton) or 1000 kilograms (a metric ton)."
+  },
+  {
+    "lemma": "tool",
+    "status": "ok",
+    "phonetic": "/tuːl/",
+    "part_of_speech": "noun",
+    "definition": "A mechanical device intended to make a task easier."
+  },
+  {
+    "lemma": "tools",
+    "status": "ok",
+    "phonetic": "/tuːlz/",
+    "part_of_speech": "noun",
+    "definition": "A mechanical device intended to make a task easier."
+  },
+  {
+    "lemma": "towards",
+    "status": "ok",
+    "phonetic": "/tɘˈwoːdz/",
+    "part_of_speech": "preposition",
+    "definition": "In the direction of."
+  },
+  {
+    "lemma": "trade",
+    "status": "ok",
+    "phonetic": "/tɹeɪd/",
+    "part_of_speech": "noun",
+    "definition": "Buying and selling of goods and services on a market."
+  },
+  {
+    "lemma": "traders",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "One who earns a living by trading goods or securities."
+  },
+  {
+    "lemma": "trading",
+    "status": "ok",
+    "phonetic": "/tɹeɪdɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To engage in trade."
+  },
+  {
+    "lemma": "trails",
+    "status": "ok",
+    "phonetic": "/tɹeɪlz/",
+    "part_of_speech": "noun",
+    "definition": "The track or indication marking the route followed by something that has passed, such as the footprints of animal on land or the contrail of an airplane in the sky."
+  },
+  {
+    "lemma": "trampling",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "verb",
+    "definition": "To crush something by walking on it."
+  },
+  {
+    "lemma": "transformations",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "The act of transforming or the state of being transformed."
+  },
+  {
+    "lemma": "trees",
+    "status": "ok",
+    "phonetic": "/tɹiːz/",
+    "part_of_speech": "noun",
+    "definition": "Fast growing function based on Kruskal's tree theorem."
+  },
+  {
+    "lemma": "trend",
+    "status": "ok",
+    "phonetic": "/tɹɛnd/",
+    "part_of_speech": "noun",
+    "definition": "An inclination in a particular direction."
+  },
+  {
+    "lemma": "trigger",
+    "status": "ok",
+    "phonetic": "/ˈtɹɪɡə/",
+    "part_of_speech": "noun",
+    "definition": "A finger-operated lever used to fire a gun."
+  },
+  {
+    "lemma": "tropical",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "noun",
+    "definition": "A tropical plant."
+  },
+  {
+    "lemma": "try",
+    "status": "ok",
+    "phonetic": "/tɹaɪ/",
+    "part_of_speech": "noun",
+    "definition": "An attempt."
+  },
+  {
+    "lemma": "turn",
+    "status": "ok",
+    "phonetic": "/tɜːn/",
+    "part_of_speech": "verb",
+    "definition": "(heading) to make a non-linear physical movement."
+  },
+  {
+    "lemma": "two",
+    "status": "ok",
+    "phonetic": "/tuː/",
+    "part_of_speech": "noun",
+    "definition": "The digit/figure 2."
+  },
+  {
+    "lemma": "umami",
+    "status": "ok",
+    "phonetic": "/uˈmɑːmi/",
+    "part_of_speech": "noun",
+    "definition": "One of the five basic tastes, the savory taste of foods such as seaweed, cured fish, aged cheeses and meats."
+  },
+  {
+    "lemma": "uncontested",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "adjective",
+    "definition": "Not contested or disputed; not made the object of competition."
+  },
+  {
+    "lemma": "unequal",
+    "status": "ok",
+    "phonetic": "/ʌnˈiːkwəl/",
+    "part_of_speech": "noun",
+    "definition": "One who is not an equal."
+  },
+  {
+    "lemma": "unlike",
+    "status": "ok",
+    "phonetic": "/ʌnˈlaɪk/",
+    "part_of_speech": "noun",
+    "definition": "Something that is not like something else; something different."
+  },
+  {
+    "lemma": "unpopular",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "unrelated",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "up",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "upon",
+    "status": "ok",
+    "phonetic": "/əˈpɒn/",
+    "part_of_speech": "adverb",
+    "definition": "Being the target of an action."
+  },
+  {
+    "lemma": "use",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "used",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "using",
+    "status": "ok",
+    "phonetic": "/ˈjuːzɪŋ/",
+    "part_of_speech": "verb",
+    "definition": "To utilize or employ."
+  },
+  {
+    "lemma": "valuable",
+    "status": "ok",
+    "phonetic": "/ˈvæljuəbl̩/",
+    "part_of_speech": "noun",
+    "definition": "A personal possession such as jewellery, of relatively great monetary value; — usually used in plural form."
+  },
+  {
+    "lemma": "valued",
+    "status": "ok",
+    "phonetic": "/ˈvæljuːd/",
+    "part_of_speech": "verb",
+    "definition": "To estimate the value of; judge the worth of something."
+  },
+  {
+    "lemma": "variety",
+    "status": "ok",
+    "phonetic": "/vəˈɹaɪ.ɪ.ti/",
+    "part_of_speech": "noun",
+    "definition": "The quality of being varied; diversity."
+  },
+  {
+    "lemma": "vasco",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "vats",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "venice",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "vessel",
+    "status": "ok",
+    "phonetic": "/ˈvɛs.l̩/",
+    "part_of_speech": "noun",
+    "definition": "Any craft designed for transportation on water, such as a ship or boat."
+  },
+  {
+    "lemma": "via",
+    "status": "ok",
+    "phonetic": "/ˈvaɪə/",
+    "part_of_speech": "noun",
+    "definition": "A main road or highway, especially in ancient Rome. (Mainly used in set phrases, below.)"
+  },
+  {
+    "lemma": "video",
+    "status": "ok",
+    "phonetic": "/ˈvɪ.di.əʊ/",
+    "part_of_speech": "noun",
+    "definition": "Television, television show, movie."
+  },
+  {
+    "lemma": "viewed",
+    "status": "ok",
+    "phonetic": "/vjuːd/",
+    "part_of_speech": "verb",
+    "definition": "To look at."
+  },
+  {
+    "lemma": "vine",
+    "status": "ok",
+    "phonetic": "/vaɪn/",
+    "part_of_speech": "noun",
+    "definition": "The climbing plant that produces grapes."
+  },
+  {
+    "lemma": "visigoths",
+    "status": "not_found"
+  },
+  {
+    "lemma": "visitors",
+    "status": "ok",
+    "phonetic": "/ˈvɪzɪtəz/",
+    "part_of_speech": "noun",
+    "definition": "Someone who visits someone else; someone staying as a guest."
+  },
+  {
+    "lemma": "visual",
+    "status": "ok",
+    "phonetic": "/ˈvɪʒuəl/",
+    "part_of_speech": "noun",
+    "definition": "Any element of something that depends on sight."
+  },
+  {
+    "lemma": "visually",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "adverb",
+    "definition": "By means of sight."
+  },
+  {
+    "lemma": "wand",
+    "status": "ok",
+    "phonetic": "/wɒnd/",
+    "part_of_speech": "noun",
+    "definition": "A hand-held narrow rod, usually used for pointing or instructing, or as a traditional emblem of authority."
+  },
+  {
+    "lemma": "was",
+    "status": "not_found"
+  },
+  {
+    "lemma": "wasn",
+    "status": "not_found"
+  },
+  {
+    "lemma": "water",
+    "status": "ok",
+    "phonetic": "/ˈwoːtə/",
+    "part_of_speech": "noun",
+    "definition": "A substance (of molecular formula H₂O) found at room temperature and pressure as a clear liquid; it is present naturally as rain, and found in rivers, lakes and seas; its solid form is ice and its gaseous form is steam."
+  },
+  {
+    "lemma": "wave",
+    "status": "ok",
+    "phonetic": "/weɪv/",
+    "part_of_speech": "verb",
+    "definition": "To move back and forth repeatedly and somewhat loosely."
+  },
+  {
+    "lemma": "way",
+    "status": "ok",
+    "phonetic": "/weɪ/",
+    "part_of_speech": "noun",
+    "definition": "(heading) To do with a place or places."
+  },
+  {
+    "lemma": "we",
+    "status": "ok",
+    "phonetic": "/wiː/",
+    "part_of_speech": "pronoun",
+    "definition": "(personal) The speakers/writers, or the speaker/writer and at least one other person (not the person being addressed). (This is the exclusive we.)"
+  },
+  {
+    "lemma": "wealthy",
+    "status": "ok",
+    "phonetic": "/ˈwɛl.θi/",
+    "part_of_speech": "noun",
+    "definition": "A rich person."
+  },
+  {
+    "lemma": "well",
+    "status": "ok",
+    "phonetic": "/wɛl/",
+    "part_of_speech": "adjective",
+    "definition": "In good health."
+  },
+  {
+    "lemma": "were",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "west",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "what",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "when",
+    "status": "ok",
+    "phonetic": "/ʍɛn/",
+    "part_of_speech": "noun",
+    "definition": "The time at which something happens."
+  },
+  {
+    "lemma": "wherever",
+    "status": "ok",
+    "phonetic": "/wɛəˈɹɛvə/",
+    "part_of_speech": "adverb",
+    "definition": "An emphatic form of where."
+  },
+  {
+    "lemma": "whether",
+    "status": "ok",
+    "phonetic": "/ˈwɛðə(ɹ)/",
+    "part_of_speech": "pronoun",
+    "definition": "Which of two."
+  },
+  {
+    "lemma": "which",
+    "status": "ok",
+    "phonetic": "/wɪt͡ʃ/",
+    "part_of_speech": "pronoun",
+    "definition": "(interrogative) What one or ones (of those mentioned or implied)."
+  },
+  {
+    "lemma": "while",
+    "status": "ok",
+    "phonetic": "/waɪl/",
+    "part_of_speech": "noun",
+    "definition": "An uncertain duration of time, a period of time."
+  },
+  {
+    "lemma": "white",
+    "status": "ok",
+    "phonetic": "/waɪt/",
+    "part_of_speech": "noun",
+    "definition": "The color/colour of snow or milk; the colour of light containing equal amounts of all visible wavelengths."
+  },
+  {
+    "lemma": "who",
+    "status": "ok",
+    "phonetic": "/huː/",
+    "part_of_speech": "noun",
+    "definition": "A person under discussion; a question of which person."
+  },
+  {
+    "lemma": "why",
+    "status": "ok",
+    "phonetic": "/waɪ/",
+    "part_of_speech": "noun",
+    "definition": "Reason"
+  },
+  {
+    "lemma": "widder",
+    "status": "not_found"
+  },
+  {
+    "lemma": "wide",
+    "status": "ok",
+    "phonetic": "/wɑed/",
+    "part_of_speech": "noun",
+    "definition": "A ball that passes so far from the batsman that the umpire deems it unplayable; the arm signal used by an umpire to signal a wide; the extra run added to the batting side's score"
+  },
+  {
+    "lemma": "will",
+    "status": "ok",
+    "phonetic": "/wɪl/",
+    "part_of_speech": "verb",
+    "definition": "(now uncommon or literary) To wish, desire (something)."
+  },
+  {
+    "lemma": "with",
+    "status": "ok",
+    "phonetic": null,
+    "part_of_speech": "adverb",
+    "definition": "Along, together with others, in a group, etc."
+  },
+  {
+    "lemma": "without",
+    "status": "ok",
+    "phonetic": "/wɪθˈʌʊt/",
+    "part_of_speech": "adverb",
+    "definition": "Outside, externally. This is still used in the names of some civil parishes in England, e.g. St Cuthbert Without."
+  },
+  {
+    "lemma": "wood",
+    "status": "ok",
+    "phonetic": "/wʊd/",
+    "part_of_speech": "noun",
+    "definition": "The substance making up the central part of the trunk and branches of a tree. Used as a material for construction, to manufacture various items, etc. or as fuel."
+  },
+  {
+    "lemma": "word",
+    "status": "ok",
+    "phonetic": "/wɜːd/",
+    "part_of_speech": "noun",
+    "definition": "The smallest unit of language that has a particular meaning and can be expressed by itself; the smallest discrete, meaningful unit of language. (contrast morpheme.)"
+  },
+  {
+    "lemma": "words",
+    "status": "ok",
+    "phonetic": "/wɜːdz/",
+    "part_of_speech": "noun",
+    "definition": "The smallest unit of language that has a particular meaning and can be expressed by itself; the smallest discrete, meaningful unit of language. (contrast morpheme.)"
+  },
+  {
+    "lemma": "work",
+    "status": "ok",
+    "phonetic": "/wɜːk/",
+    "part_of_speech": "noun",
+    "definition": "(heading) Employment."
+  },
+  {
+    "lemma": "worked",
+    "status": "ok",
+    "phonetic": "/wɜːkt/",
+    "part_of_speech": "verb",
+    "definition": "To do a specific task by employing physical or mental powers."
+  },
+  {
+    "lemma": "works",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "world",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "would",
+    "status": "unavailable"
+  },
+  {
+    "lemma": "year",
+    "status": "ok",
+    "phonetic": "/jɪə/",
+    "part_of_speech": "noun",
+    "definition": "A solar year, the time it takes the Earth to complete one revolution of the Sun (between 365.24 and 365.26 days depending on the point of reference)."
+  },
+  {
+    "lemma": "years",
+    "status": "ok",
+    "phonetic": "/ji.ə(ɹ)z/",
+    "part_of_speech": "noun",
+    "definition": "A solar year, the time it takes the Earth to complete one revolution of the Sun (between 365.24 and 365.26 days depending on the point of reference)."
+  },
+  {
+    "lemma": "you",
+    "status": "ok",
+    "phonetic": "/jʉː/",
+    "part_of_speech": "verb",
+    "definition": "To address (a person) using the pronoun you (in the past, especially to use you rather than thou, when you was considered more formal)."
+  },
+  {
+    "lemma": "your",
+    "status": "not_found"
+  },
+  {
+    "lemma": "yourself",
+    "status": "ok",
+    "phonetic": "/jɔːˈsɛlf/",
+    "part_of_speech": "pronoun",
+    "definition": "(reflexive pronoun) Your own self (singular)."
+  }
+]

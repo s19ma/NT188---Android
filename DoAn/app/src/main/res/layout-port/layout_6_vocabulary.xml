@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8FAFC">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp"
+            android:paddingTop="36dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sổ từ vựng cá nhân"
+                android:textSize="24sp"
+                android:textColor="#FF0F172A"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+                android:layout_marginBottom="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/bg_search_bar"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="16dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🔍  Tìm kiếm từ vựng..."
+                    android:textSize="14sp"
+                    android:textColor="#FF94A3B8"
+                    android:fontFamily="Inter" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:id="@+id/tab_vocab_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tất cả (48)"
+                    android:background="@drawable/bg_chip_selected"
+                    android:textColor="#FFFFFFFF"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="8dp"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginEnd="8dp" />
+
+                <TextView
+                    android:id="@+id/tab_vocab_learning"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đang học"
+                    android:background="@drawable/bg_chip_unselected"
+                    android:textColor="#FF64748B"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="8dp"
+                    android:textSize="13sp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginEnd="8dp" />
+
+                <TextView
+                    android:id="@+id/tab_vocab_mastered"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đã thuộc"
+                    android:background="@drawable/bg_chip_unselected"
+                    android:textColor="#FF64748B"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="8dp"
+                    android:textSize="13sp"
+                    android:clickable="true"
+                    android:focusable="true" />
+            </LinearLayout>
+
+            <!-- STUDY ALL FLASHCARD BANNER -->
+            <LinearLayout
+                android:id="@+id/btn_study_flashcard_all"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:background="@drawable/bg_card_primary"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:elevation="2dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🎴 Ôn tập tất cả từ vựng bằng Flashcard"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFFFF"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter" />
+            </LinearLayout>
+
+            <!-- DYNAMIC VOCABULARY CARDS CONTAINER -->
+            <LinearLayout
+                android:id="@+id/container_vocab_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- BOTTOM NAV -->
+    <LinearLayout
+        android:id="@+id/bottom_navigation"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="#FFFFFFFF"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:elevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout android:id="@+id/nav_home" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center" android:clickable="true" android:focusable="true" android:orientation="vertical">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginBottom="3dp" android:src="@drawable/ic_nav_home" android:contentDescription="nav_home"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Home" android:textSize="11sp" android:textColor="#FF64748B" android:fontFamily="Inter" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/nav_vocabulary" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center" android:clickable="true" android:focusable="true" android:orientation="vertical">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginBottom="3dp" android:src="@drawable/ic_nav_vocab" android:contentDescription="nav_vocabulary"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Từ vựng" android:textSize="11sp" android:textColor="#FF4F46E5" android:textStyle="bold" android:fontFamily="Inter" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/nav_flashcard" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center" android:clickable="true" android:focusable="true" android:orientation="vertical">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginBottom="3dp" android:src="@drawable/ic_nav_flashcard" android:contentDescription="nav_flashcard"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ôn tập" android:textSize="11sp" android:textColor="#FF64748B" android:fontFamily="Inter" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/nav_progress" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center" android:clickable="true" android:focusable="true" android:orientation="vertical">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginBottom="3dp" android:src="@drawable/ic_nav_progress" android:contentDescription="nav_progress"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tiến độ" android:textSize="11sp" android:textColor="#FF64748B" android:fontFamily="Inter" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/nav_profile" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:gravity="center" android:clickable="true" android:focusable="true" android:orientation="vertical">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginBottom="3dp" android:src="@drawable/ic_nav_profile" android:contentDescription="nav_profile"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hồ sơ" android:textSize="11sp" android:textColor="#FF64748B" android:fontFamily="Inter" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

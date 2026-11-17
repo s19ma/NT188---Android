@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8FAFC">
+
+    <!-- Frame: 2.2. Đăng kí (390x844) -->
+
+    <!-- TEXT: ‹ Quay lại -->
+    <TextView
+        android:text="‹ Quay lại"
+        android:textSize="20sp"
+        android:textColor="#FF4F46E5"
+        android:gravity="start"
+        android:textStyle="bold"
+        android:fontFamily="Inter"
+        android:layout_width="90dp"
+        android:layout_height="24dp" />
+
+    <!-- FRAME: Box -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="390dp"
+        android:layout_height="820dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="52dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp">
+
+        <!-- TEXT: Tạo tài khoản -->
+        <TextView
+            android:text="Tạo tài khoản"
+            android:textSize="26sp"
+            android:textColor="#FF0F172A"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:fontFamily="Inter"
+        android:layout_width="170dp"
+        android:layout_height="31dp" />
+
+        <!-- TEXT: Bắt đầu học tiếng Anh qua video -->
+        <TextView
+            android:text="Bắt đầu học tiếng Anh qua video"
+            android:textSize="14sp"
+            android:textColor="#FF64748B"
+            android:gravity="start"
+            android:fontFamily="Inter"
+        android:layout_width="215dp"
+        android:layout_height="17dp" />
+
+        <!-- FRAME: Box -->
+        <LinearLayout
+            android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="69dp">
+
+            <!-- TEXT: HỌ TÊN -->
+            <TextView
+                android:text="HỌ TÊN"
+                android:textSize="12sp"
+                android:textColor="#FF64748B"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="46dp"
+        android:layout_height="15dp" />
+
+            <!-- FRAME: Box -->
+            <LinearLayout
+                android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+                android:background="@drawable/bg_rounded_box"
+                android:paddingLeft="14dp"
+                android:paddingTop="14dp"
+                android:paddingRight="14dp"
+                android:paddingBottom="14dp">
+
+                <!-- TEXT: Nguyễn Văn A -->
+                <TextView
+                    android:text="Nguyễn Văn A"
+                    android:textSize="15sp"
+                    android:textColor="#FF94A3B8"
+                    android:gravity="start"
+                    android:fontFamily="Inter"
+        android:layout_width="100dp"
+        android:layout_height="18dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- FRAME: Box -->
+        <LinearLayout
+            android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="69dp">
+
+            <!-- TEXT: EMAIL -->
+            <TextView
+                android:text="EMAIL"
+                android:textSize="12sp"
+                android:textColor="#FF64748B"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="37dp"
+        android:layout_height="15dp" />
+
+            <!-- FRAME: Box -->
+            <LinearLayout
+                android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+                android:background="@drawable/bg_rounded_box"
+                android:paddingLeft="14dp"
+                android:paddingTop="14dp"
+                android:paddingRight="14dp"
+                android:paddingBottom="14dp">
+
+                <!-- TEXT: you@example.com -->
+                <TextView
+                    android:text="you@example.com"
+                    android:textSize="15sp"
+                    android:textColor="#FF94A3B8"
+                    android:gravity="start"
+                    android:fontFamily="Inter"
+        android:layout_width="134dp"
+        android:layout_height="18dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- FRAME: Box -->
+        <LinearLayout
+            android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="69dp">
+
+            <!-- TEXT: MẬT KHẨU -->
+            <TextView
+                android:text="MẬT KHẨU"
+                android:textSize="12sp"
+                android:textColor="#FF64748B"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="64dp"
+        android:layout_height="15dp" />
+
+            <!-- FRAME: Box -->
+            <LinearLayout
+                android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+                android:background="@drawable/bg_rounded_box"
+                android:paddingLeft="14dp"
+                android:paddingTop="14dp"
+                android:paddingRight="14dp"
+                android:paddingBottom="14dp">
+
+                <!-- TEXT: •••••••• -->
+                <TextView
+                    android:text="••••••••"
+                    android:textSize="15sp"
+                    android:textColor="#FF94A3B8"
+                    android:gravity="start"
+                    android:fontFamily="Inter"
+        android:layout_width="68dp"
+        android:layout_height="18dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- FRAME: Box -->
+        <LinearLayout
+            android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="69dp">
+
+            <!-- TEXT: XÁC NHẬN MẬT KHẨU -->
+            <TextView
+                android:text="XÁC NHẬN MẬT KHẨU"
+                android:textSize="12sp"
+                android:textColor="#FF64748B"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="131dp"
+        android:layout_height="15dp" />
+
+            <!-- FRAME: Box -->
+            <LinearLayout
+                android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+                android:background="@drawable/bg_rounded_box"
+                android:paddingLeft="14dp"
+                android:paddingTop="14dp"
+                android:paddingRight="14dp"
+                android:paddingBottom="14dp">
+
+                <!-- TEXT: •••••••• -->
+                <TextView
+                    android:text="••••••••"
+                    android:textSize="15sp"
+                    android:textColor="#FF94A3B8"
+                    android:gravity="start"
+                    android:fontFamily="Inter"
+        android:layout_width="68dp"
+        android:layout_height="18dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- FRAME: Box -->
+        <LinearLayout
+            android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="52dp"
+            android:background="@drawable/bg_rounded_box"
+            android:paddingLeft="0dp"
+            android:paddingTop="14dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="14dp">
+
+            <!-- TEXT: Đăng ký -->
+            <TextView
+                android:text="Đăng ký"
+                android:textSize="20sp"
+                android:textColor="#FFFFFFFF"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="79dp"
+        android:layout_height="24dp" />
+        </LinearLayout>
+
+        <!-- TEXT: Đã có tài khoản? Đăng nhập -->
+        <TextView
+            android:text="Đã có tài khoản?  Đăng nhập"
+            android:textSize="15sp"
+            android:textColor="#FF64748B"
+            android:gravity="center_horizontal"
+            android:fontFamily="Inter"
+        android:layout_width="350dp"
+        android:layout_height="18dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

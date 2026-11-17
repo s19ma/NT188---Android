@@ -1,0 +1,16 @@
+[Unit]
+Description=Check English Through Video email worker and queue
+After=network-online.target
+OnFailure=english-video-email-alert.service
+
+[Service]
+Type=oneshot
+User=azureuser
+Group=azureuser
+WorkingDirectory=/home/azureuser/english-video/backend
+EnvironmentFile=/home/azureuser/english-video/backend/.env
+ExecStart=/usr/bin/systemctl is-active --quiet english-video-email-worker.service
+ExecStart=/home/azureuser/english-video/backend/.venv/bin/python -m scripts.email_outbox_status --check
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true

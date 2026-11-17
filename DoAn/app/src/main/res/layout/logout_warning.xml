@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF">
+
+    <!-- Frame: Logout Warning (360x500) -->
+
+    <!-- RECTANGLE: BG -->
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/bg_rounded_box" />
+
+    <!-- TEXT: Course Completed -->
+    <TextView
+        android:text="Are you sure 
+you want to logout ?"
+        android:textSize="32sp"
+        android:textColor="#FFFF383C"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:fontFamily="Mulish"
+        android:layout_width="306dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="264dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- FRAME: BUTTON -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="108dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="404dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#FFFFFFFF">
+
+        <!-- GROUP: BUTTON -->
+        <View
+        android:layout_width="108dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- TEXT: OK -->
+        <TextView
+            android:text="OK"
+            android:textSize="24sp"
+            android:textColor="#FFFFFFFF"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:fontFamily="Mulish"
+        android:layout_width="38dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="9dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- FRAME: face-with-raised-eyebrow - Streamline-Emoji -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="166dp"
+        android:layout_height="166dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#FFFFFFFF">
+
+        <!-- GROUP: Group -->
+        <View
+        android:layout_width="138dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- INSTANCE: x-01 -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#FFFFFFFF">
+
+        <!-- VECTOR: Icon -->
+        <ImageView
+            android:src="@drawable/ic_icon"
+            android:scaleType="fitXY"
+        android:layout_width="16dp"
+        android:layout_height="16dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

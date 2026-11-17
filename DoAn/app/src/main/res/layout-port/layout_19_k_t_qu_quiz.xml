@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8FAFC">
+
+    <!-- Frame: 19. Kết quả quiz (390x844) -->
+
+    <!-- FRAME: Header -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="142dp"
+        android:layout_height="64dp"
+        android:background="#FFFFFFFF">
+
+        <!-- TEXT: Back -->
+        <TextView
+            android:text="‹"
+            android:textSize="24sp"
+            android:textColor="#FF4F45E5"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:fontFamily="Inter"
+        android:layout_width="20dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- TEXT: Action -->
+        <TextView
+            android:text="✎"
+            android:textSize="12sp"
+            android:textColor="#FF4F45E5"
+            android:gravity="end"
+            android:textStyle="bold"
+            android:fontFamily="Inter"
+        android:layout_width="54dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginTop="23dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- FRAME: Box -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="390dp"
+        android:layout_height="780dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="0dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp">
+
+        <!-- TEXT: Hoàn thành! -->
+        <TextView
+            android:text="Hoàn thành!"
+            android:textSize="24sp"
+            android:textColor="#FF0F172A"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:fontFamily="Inter"
+        android:layout_width="144dp"
+        android:layout_height="29dp" />
+
+        <!-- FRAME: Box -->
+        <LinearLayout
+            android:orientation="vertical"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- TEXT: 80% -->
+            <TextView
+                android:text="80%"
+                android:textSize="36sp"
+                android:textColor="#FF4F46E5"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="80dp"
+        android:layout_height="44dp" />
+        </LinearLayout>
+
+        <!-- TEXT: 4 / 5 câu đúng -->
+        <TextView
+            android:text="4 / 5 câu đúng"
+            android:textSize="14sp"
+            android:textColor="#FF64748B"
+            android:gravity="start"
+            android:fontFamily="Inter"
+        android:layout_width="96dp"
+        android:layout_height="17dp" />
+
+        <!-- FRAME: Box -->
+        <LinearLayout
+            android:orientation="horizontal"
+        android:layout_width="218dp"
+        android:layout_height="100dp"
+            android:background="@drawable/bg_rounded_box"
+            android:paddingLeft="12dp"
+            android:paddingTop="12dp"
+            android:paddingRight="12dp"
+            android:paddingBottom="12dp">
+
+            <!-- TEXT: Câu 1 · Multiple Choice -->
+            <TextView
+                android:text="Câu 1 · Multiple Choice"
+                android:textSize="13sp"
+                android:textColor="#FF0F172A"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="143dp"
+        android:layout_height="16dp" />
+
+            <!-- FRAME: Box -->
+            <LinearLayout
+                android:orientation="vertical"
+        android:layout_width="49dp"
+        android:layout_height="21dp"
+                android:background="@drawable/bg_rounded_box"
+                android:paddingLeft="10dp"
+                android:paddingTop="4dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="4dp">
+
+                <!-- TEXT: Đúng -->
+                <TextView
+                    android:text="Đúng"
+                    android:textSize="11sp"
+                    android:textColor="#FF15803D"
+                    android:gravity="start"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="29dp"
+        android:layout_height="13dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- FRAME: Box -->
+        <LinearLayout
+            android:orientation="horizontal"
+        android:layout_width="167dp"
+        android:layout_height="100dp"
+            android:background="@drawable/bg_rounded_box"
+            android:paddingLeft="12dp"
+            android:paddingTop="12dp"
+            android:paddingRight="12dp"
+            android:paddingBottom="12dp">
+
+            <!-- TEXT: Câu 2 · Điền từ -->
+            <TextView
+                android:text="Câu 2 · Điền từ"
+                android:textSize="13sp"
+                android:textColor="#FF0F172A"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="92dp"
+        android:layout_height="16dp" />
+
+            <!-- FRAME: Box -->
+            <LinearLayout
+                android:orientation="vertical"
+        android:layout_width="49dp"
+        android:layout_height="21dp"
+                android:background="@drawable/bg_rounded_box"
+                android:paddingLeft="10dp"
+                android:paddingTop="4dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="4dp">
+
+                <!-- TEXT: Đúng -->
+                <TextView
+                    android:text="Đúng"
+                    android:textSize="11sp"
+                    android:textColor="#FF15803D"
+                    android:gravity="start"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="29dp"
+        android:layout_height="13dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- FRAME: Box -->
+        <LinearLayout
+            android:orientation="horizontal"
+        android:layout_width="167dp"
+        android:layout_height="100dp"
+            android:background="@drawable/bg_rounded_box"
+            android:paddingLeft="12dp"
+            android:paddingTop="12dp"
+            android:paddingRight="12dp"
+            android:paddingBottom="12dp">
+
+            <!-- TEXT: Câu 3 · Dictation -->
+            <TextView
+                android:text="Câu 3 · Dictation"
+                android:textSize="13sp"
+                android:textColor="#FF0F172A"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="104dp"
+        android:layout_height="16dp" />
+
+            <!-- FRAME: Box -->
+            <LinearLayout
+                android:orientation="vertical"
+        android:layout_width="37dp"
+        android:layout_height="21dp"
+                android:background="@drawable/bg_rounded_box"
+                android:paddingLeft="10dp"
+                android:paddingTop="4dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="4dp">
+
+                <!-- TEXT: Sai -->
+                <TextView
+                    android:text="Sai"
+                    android:textSize="11sp"
+                    android:textColor="#FFEF4444"
+                    android:gravity="start"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="17dp"
+        android:layout_height="13dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- FRAME: Box -->
+        <LinearLayout
+            android:orientation="horizontal"
+        android:layout_width="225dp"
+        android:layout_height="60dp"
+            android:background="@drawable/bg_rounded_box"
+            android:paddingLeft="12dp"
+            android:paddingTop="12dp"
+            android:paddingRight="12dp"
+            android:paddingBottom="12dp">
+
+            <!-- TEXT: Câu 4 · Phrase Ordering -->
+            <TextView
+                android:text="Câu 4 · Phrase Ordering"
+                android:textSize="13sp"
+                android:textColor="#FF0F172A"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="150dp"
+        android:layout_height="16dp" />
+
+            <!-- FRAME: Box -->
+            <LinearLayout
+                android:orientation="vertical"
+        android:layout_width="49dp"
+        android:layout_height="21dp"
+                android:background="@drawable/bg_rounded_box"
+                android:paddingLeft="10dp"
+                android:paddingTop="4dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="4dp">
+
+                <!-- TEXT: Đúng -->
+                <TextView
+                    android:text="Đúng"
+                    android:textSize="11sp"
+                    android:textColor="#FF15803D"
+                    android:gravity="start"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+        android:layout_width="29dp"
+        android:layout_height="13dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- FRAME: Box -->
+        <LinearLayout
+            android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+            android:background="@drawable/bg_rounded_box"
+            android:paddingLeft="0dp"
+            android:paddingTop="14dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="14dp">
+
+            <!-- TEXT: Xem đáp án / lịch sử -->
+            <TextView
+                android:text="Xem đáp án / lịch sử"
+                android:textSize="15sp"
+                android:textColor="#FF4F46E5"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="146dp"
+        android:layout_height="18dp" />
+        </LinearLayout>
+
+        <!-- FRAME: Box -->
+        <LinearLayout
+            android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="46dp"
+            android:background="@drawable/bg_rounded_box"
+            android:paddingLeft="0dp"
+            android:paddingTop="14dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="14dp">
+
+            <!-- TEXT: Làm lại -->
+            <TextView
+                android:text="Làm lại"
+                android:textSize="15sp"
+                android:textColor="#FFFFFFFF"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="51dp"
+        android:layout_height="18dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

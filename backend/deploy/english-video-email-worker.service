@@ -1,0 +1,20 @@
+[Unit]
+Description=English Through Video email outbox worker
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=azureuser
+Group=azureuser
+WorkingDirectory=/home/azureuser/english-video/backend
+EnvironmentFile=/home/azureuser/english-video/backend/.env
+ExecStart=/home/azureuser/english-video/backend/.venv/bin/python -m scripts.email_outbox_worker
+Restart=always
+RestartSec=10
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

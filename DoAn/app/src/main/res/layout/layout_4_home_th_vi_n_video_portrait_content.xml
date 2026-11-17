@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8FAFC">
+
+    <!-- MAIN SCROLLABLE CONTENT -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp"
+            android:paddingTop="36dp"
+            android:paddingBottom="20dp">
+
+            <!-- HEADER TITLE -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thư viện video"
+                android:textSize="24sp"
+                android:textColor="#FF0F172A"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+                android:layout_marginBottom="16dp" />
+
+            <!-- SEARCH BAR BLOCK -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@drawable/bg_search_bar"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="16dp"
+                android:layout_marginBottom="16dp">
+
+                <EditText
+                    android:id="@+id/et_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="🔍  Tìm video hoặc từ vựng..."
+                    android:textSize="14sp"
+                    android:textColor="#FF0F172A"
+                    android:textColorHint="#FF94A3B8"
+                    android:background="@null"
+                    android:fontFamily="Inter" />
+            </LinearLayout>
+
+            <!-- STREAK / CALENDAR CARD -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_home_streak"
+                android:orientation="vertical"
+                android:padding="14dp"
+                android:elevation="1dp"
+                android:layout_marginBottom="18dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="4dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Chuỗi học tập"
+                        android:textSize="16sp"
+                        android:textColor="#FF3730A3"
+                        android:textStyle="bold"
+                        android:fontFamily="Inter" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/streak_count" android:text="-- ngày"
+                        android:textSize="13sp"
+                        android:textColor="#FF6D28D9"
+                        android:textStyle="bold"
+                        android:background="@drawable/bg_streak_badge"
+                        android:paddingHorizontal="9dp"
+                        android:paddingVertical="5dp"
+                        android:fontFamily="Inter" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hoàn thành tối đa 30 thẻ đến hạn để giữ chuỗi."
+                    android:textSize="12sp"
+                    android:textColor="#FF64748B"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="Inter" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="7">
+
+                    <TextView android:layout_width="0dp" android:layout_height="38dp" android:layout_weight="1" android:id="@+id/streak_day_0" android:text="T2\n✓" android:textSize="11sp" android:textColor="#FF4F46E5" android:gravity="center" android:background="@drawable/bg_streak_done" android:layout_marginEnd="4dp" android:textStyle="bold" />
+                    <TextView android:layout_width="0dp" android:layout_height="38dp" android:layout_weight="1" android:id="@+id/streak_day_1" android:text="T3\n✓" android:textSize="11sp" android:textColor="#FF4F46E5" android:gravity="center" android:background="@drawable/bg_streak_done" android:layout_marginEnd="4dp" android:textStyle="bold" />
+                    <TextView android:layout_width="0dp" android:layout_height="38dp" android:layout_weight="1" android:id="@+id/streak_day_2" android:text="T4\n✓" android:textSize="11sp" android:textColor="#FF4F46E5" android:gravity="center" android:background="@drawable/bg_streak_done" android:layout_marginEnd="4dp" android:textStyle="bold" />
+                    <TextView android:layout_width="0dp" android:layout_height="38dp" android:layout_weight="1" android:id="@+id/streak_day_3" android:text="T5\n✓" android:textSize="11sp" android:textColor="#FF4F46E5" android:gravity="center" android:background="@drawable/bg_streak_done" android:layout_marginEnd="4dp" android:textStyle="bold" />
+                    <TextView android:layout_width="0dp" android:layout_height="38dp" android:layout_weight="1" android:id="@+id/streak_day_4" android:text="T6\n✓" android:textSize="11sp" android:textColor="#FFFFFFFF" android:gravity="center" android:background="@drawable/bg_streak_today" android:layout_marginEnd="4dp" android:textStyle="bold" />
+                    <TextView android:layout_width="0dp" android:layout_height="38dp" android:layout_weight="1" android:id="@+id/streak_day_5" android:text="T7\n•" android:textSize="11sp" android:textColor="#FF94A3B8" android:gravity="center" android:background="@drawable/bg_streak_pending" android:layout_marginEnd="4dp" />
+                    <TextView android:layout_width="0dp" android:layout_height="38dp" android:layout_weight="1" android:id="@+id/streak_day_6" android:text="CN\n•" android:textSize="11sp" android:textColor="#FF94A3B8" android:gravity="center" android:background="@drawable/bg_streak_pending" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- SECTION: TẤT CẢ VIDEO & FILTER CHIPS -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Danh sách video"
+                android:textSize="18sp"
+                android:textColor="#FF0F172A"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+                android:layout_marginBottom="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:id="@+id/tab_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tất cả"
+                    android:background="@drawable/bg_chip_selected"
+                    android:textColor="#FFFFFFFF"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="8dp"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginEnd="8dp" />
+
+                <TextView
+                    android:id="@+id/tab_learning"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đang học"
+                    android:background="@drawable/bg_chip_unselected"
+                    android:textColor="#FF64748B"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="8dp"
+                    android:textSize="13sp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginEnd="8dp" />
+
+                <TextView
+                    android:id="@+id/tab_completed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hoàn thành"
+                    android:background="@drawable/bg_chip_unselected"
+                    android:textColor="#FF64748B"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="8dp"
+                    android:textSize="13sp"
+                    android:clickable="true"
+                    android:focusable="true" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/video_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#475569" />
+
+            <LinearLayout
+                android:id="@+id/video_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- BOTTOM NAVIGATION BAR -->
+    <LinearLayout
+        android:id="@+id/bottom_navigation"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="#FFFFFFFF"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:elevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:id="@+id/nav_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginBottom="3dp" android:src="@drawable/ic_nav_home" android:contentDescription="nav_home"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Home" android:textSize="11sp" android:textColor="#FF4F46E5" android:textStyle="bold" android:fontFamily="Inter" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/nav_vocabulary"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginBottom="3dp" android:src="@drawable/ic_nav_vocab" android:contentDescription="nav_vocabulary"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Từ vựng" android:textSize="11sp" android:textColor="#FF64748B" android:fontFamily="Inter" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/nav_flashcard"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginBottom="3dp" android:src="@drawable/ic_nav_flashcard" android:contentDescription="nav_flashcard"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ôn tập" android:textSize="11sp" android:textColor="#FF64748B" android:fontFamily="Inter" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/nav_progress"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginBottom="3dp" android:src="@drawable/ic_nav_progress" android:contentDescription="nav_progress"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tiến độ" android:textSize="11sp" android:textColor="#FF64748B" android:fontFamily="Inter" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/nav_profile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginBottom="3dp" android:src="@drawable/ic_nav_profile" android:contentDescription="nav_profile"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hồ sơ" android:textSize="11sp" android:textColor="#FF64748B" android:fontFamily="Inter" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

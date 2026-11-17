@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF">
+
+    <!-- Frame: 5.2. Chi tiết video (390x877) -->
+
+    <!-- FRAME: Box -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="390dp"
+        android:layout_height="844dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#FFFFFFFF">
+
+        <!-- FRAME: Video preview -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="350dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="82dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- TEXT: Play -->
+            <TextView
+                android:text="▶"
+                android:textSize="42sp"
+                android:textColor="#FFFFFFFF"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- TEXT: Video title -->
+        <TextView
+            android:text="The Importance of Time Management"
+            android:textSize="16sp"
+            android:textColor="#FF0F1729"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:fontFamily="Inter"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="284dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- TEXT: Metadata -->
+        <TextView
+            android:text="Intermediate · 12:45 · 432 lượt xem"
+            android:textSize="11sp"
+            android:textColor="#FF63738C"
+            android:gravity="start"
+            android:fontFamily="Inter"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="308dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- TEXT: Description -->
+        <TextView
+            android:text="Video này chia sẻ các mẹo thực tế để quản lý thời gian hiệu quả."
+            android:textSize="12sp"
+            android:textColor="#FF63738C"
+            android:gravity="start"
+            android:fontFamily="Inter"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="338dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- FRAME: Progress -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="350dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="392dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- TEXT: Tiến độ xem 6:45 / 12:45 -->
+            <TextView
+                android:text="Tiến độ xem                                      6:45 / 12:45"
+                android:textSize="11sp"
+                android:textColor="#FF0F1729"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="325dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- FRAME: Progress bar -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="326dp"
+        android:layout_height="6dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="34dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/bg_rounded_box">
+
+                <!-- FRAME: Progress value -->
+                <LinearLayout
+        android:layout_width="170dp"
+        android:layout_height="6dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+                    android:background="@drawable/bg_rounded_box" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Continue button -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="466dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- TEXT: Tiếp tục xem -->
+            <TextView
+                android:text="Tiếp tục xem"
+                android:textSize="13sp"
+                android:textColor="#FFFFFFFF"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="334dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="11dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Chip button -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="112dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="522dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- TEXT: Tóm tắt -->
+            <TextView
+                android:text="Tóm tắt"
+                android:textSize="13sp"
+                android:textColor="#FF4F45E5"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="92dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Chip button -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="112dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="522dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- TEXT: Từ chính -->
+            <TextView
+                android:text="Từ chính"
+                android:textSize="13sp"
+                android:textColor="#FF4F45E5"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="92dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- TEXT: Chapter -->
+        <TextView
+            android:text="Chương 1    Introduction"
+            android:textSize="11sp"
+            android:textColor="#FF63738C"
+            android:gravity="start"
+            android:fontFamily="Inter"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="580dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- TEXT: Chapter -->
+        <TextView
+            android:text="Chương 2    Time Management Tips"
+            android:textSize="11sp"
+            android:textColor="#FF63738C"
+            android:gravity="start"
+            android:fontFamily="Inter"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="614dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- TEXT: Chapter -->
+        <TextView
+            android:text="Chương 3    Common Mistakes"
+            android:textSize="11sp"
+            android:textColor="#FF63738C"
+            android:gravity="start"
+            android:fontFamily="Inter"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="648dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- TEXT: Chapter -->
+        <TextView
+            android:text="Chương 4    Conclusion"
+            android:textSize="11sp"
+            android:textColor="#FF63738C"
+            android:gravity="start"
+            android:fontFamily="Inter"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="682dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- FRAME: Delete button -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="728dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/bg_rounded_box">
+
+            <!-- TEXT: Xóa video -->
+            <TextView
+                android:text="Xóa video"
+                android:textSize="13sp"
+                android:textColor="#FF4F45E5"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="334dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="11dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!-- FRAME: Header -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="154dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+            android:background="#FFFFFFFF">
+
+            <!-- TEXT: Back -->
+            <TextView
+                android:text="‹"
+                android:textSize="24sp"
+                android:textColor="#FF4F45E5"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="20dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TEXT: Title -->
+            <TextView
+                android:text="Chi tiết video"
+                android:textSize="15sp"
+                android:textColor="#FF0F1729"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- TEXT: Action -->
+            <TextView
+                android:text="✎"
+                android:textSize="12sp"
+                android:textColor="#FF4F45E5"
+                android:gravity="end"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="54dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginTop="23dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

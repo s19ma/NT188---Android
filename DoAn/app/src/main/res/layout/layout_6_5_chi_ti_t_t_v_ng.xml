@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8FAFC">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="24dp"
+            android:paddingTop="36dp"
+            android:paddingBottom="32dp">
+
+            <!-- BACK BUTTON -->
+            <TextView
+                android:id="@+id/tv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="‹ Quay lại"
+                android:textSize="16sp"
+                android:textColor="#FF4F46E5"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginBottom="20dp" />
+
+            <!-- WORD & PHONETIC CARD -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_card_white"
+                android:orientation="vertical"
+                android:paddingHorizontal="20dp"
+            android:paddingTop="36dp"
+            android:paddingBottom="20dp"
+                android:elevation="2dp"
+                android:layout_marginBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="6dp">
+
+                    <TextView
+                        android:id="@+id/tv_detail_word"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="productivity"
+                        android:textSize="26sp"
+                        android:textColor="#FF0F172A"
+                        android:textStyle="bold"
+                        android:fontFamily="Inter" />
+
+                    <TextView
+                        android:id="@+id/tv_detail_level"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Trình độ: B1"
+                        android:textColor="#FF4F46E5"
+                        android:background="@drawable/bg_chip_unselected"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="4dp"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_detail_phonetic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="/ˌprɒdʌkˈtɪvəti/  ·  noun"
+                    android:textSize="14sp"
+                    android:textColor="#FF64748B"
+                    android:fontFamily="Inter"
+                    android:layout_marginBottom="12dp" />
+
+                <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#FFE2E8F0" android:layout_marginBottom="12dp" />
+
+                <TextView
+                    android:id="@+id/tv_detail_meaning"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nghĩa: năng suất, hiệu quả làm việc"
+                    android:textSize="15sp"
+                    android:textColor="#FF334155"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter" />
+            </LinearLayout>
+
+            <!-- EXAMPLE CARD -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_card_white"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:elevation="2dp"
+                android:layout_marginBottom="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ví dụ trong câu"
+                    android:textSize="14sp"
+                    android:textColor="#FF0F172A"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:id="@+id/tv_detail_example"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Good time management can improve your productivity.\nQuản lý thời gian tốt có thể cải thiện năng suất của bạn."
+                    android:textSize="14sp"
+                    android:textColor="#FF334155"
+                    android:lineSpacingExtra="4dp"
+                    android:fontFamily="Inter" />
+            </LinearLayout>
+
+            <!-- SYNONYMS & ANTONYMS CARD -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_card_white"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:elevation="2dp"
+                android:layout_marginBottom="24dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đồng nghĩa / Trái nghĩa"
+                    android:textSize="14sp"
+                    android:textColor="#FF0F172A"
+                    android:textStyle="bold"
+                    android:fontFamily="Inter"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:id="@+id/tv_detail_synonyms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• Đồng nghĩa: efficiency, effectiveness, output\n• Trái nghĩa: laziness, inefficiency, idleness"
+                    android:textSize="14sp"
+                    android:textColor="#FF334155"
+                    android:lineSpacingExtra="4dp"
+                    android:fontFamily="Inter" />
+            </LinearLayout>
+
+            <!-- ACTION BUTTONS ROW -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/btn_edit"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_card_primary"
+                    android:text="Chỉnh sửa"
+                    android:textColor="#FFFFFFFF"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_marginEnd="8dp" />
+
+                <TextView
+                    android:id="@+id/btn_delete"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_button_danger"
+                    android:text="Xóa"
+                    android:textColor="#FFEF4444"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:clickable="true"
+                    android:focusable="true" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

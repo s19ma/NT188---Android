@@ -1,0 +1,18 @@
+[Unit]
+Description=Check English Through Video staging worker and queue
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=english-video-staging
+Group=english-video-staging
+WorkingDirectory=/opt/english-video-staging/backend
+EnvironmentFile=/etc/english-video-staging/api-worker.env
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/usr/bin/systemctl is-active --quiet english-video-staging-worker.service
+ExecStart=/opt/english-video-staging/backend/.venv/bin/python -m scripts.email_outbox_status --check
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true

@@ -1,0 +1,23 @@
+[Unit]
+Description=English Through Video staging API
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=english-video-staging
+Group=english-video-staging
+WorkingDirectory=/opt/english-video-staging/backend
+EnvironmentFile=/etc/english-video-staging/api-worker.env
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/opt/english-video-staging/backend/.venv/bin/uvicorn app.main:app --host 127.0.0.1 --port 18000
+Restart=on-failure
+RestartSec=10
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8FAFC">
+
+    <!-- Frame: 2.1 Xác minh OTP (390x844) -->
+
+    <!-- TEXT: ‹ Quay lại -->
+    <TextView
+        android:text="‹ Quay lại"
+        android:textSize="20sp"
+        android:textColor="#FF4F46E5"
+        android:gravity="start"
+        android:textStyle="bold"
+        android:fontFamily="Inter"
+        android:layout_width="90dp"
+        android:layout_height="24dp" />
+
+    <!-- FRAME: Box -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="390dp"
+        android:layout_height="820dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="52dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp">
+
+        <!-- RECTANGLE: Rectangle -->
+        <LinearLayout
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+            android:background="@drawable/bg_rounded_box" />
+
+        <!-- TEXT: English Through Video -->
+        <TextView
+            android:text="English Through Video"
+            android:textSize="24sp"
+            android:textColor="#FF0F172A"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:fontFamily="Inter"
+        android:layout_width="350dp"
+        android:layout_height="29dp" />
+
+        <!-- TEXT: Học tiếng Anh qua video, từ vựng theo ngữ cảnh -->
+        <TextView
+            android:text="Học tiếng Anh qua video, từ vựng theo ngữ cảnh"
+            android:textSize="14sp"
+            android:textColor="#FF64748B"
+            android:gravity="center_horizontal"
+            android:fontFamily="Inter"
+        android:layout_width="350dp"
+        android:layout_height="17dp" />
+
+        <!-- TEXT: Chúng tôi vừa gửi mã xác thực qua email của bạn -->
+        <TextView
+            android:text="Chúng tôi vừa gửi mã xác thực qua email 
+của bạn"
+            android:textSize="16sp"
+            android:textColor="#FF000000"
+            android:gravity="center_horizontal"
+            android:fontFamily="Inter"
+        android:layout_width="308dp"
+        android:layout_height="38dp" />
+
+        <!-- GROUP: Group 3 -->
+        <View
+        android:layout_width="385dp"
+        android:layout_height="53dp" />
+
+        <!-- TEXT: Không nhận được mã OTP? Gửi lại mã -->
+        <TextView
+            android:text="Không nhận được mã OTP?
+Gửi lại mã"
+            android:textSize="16sp"
+            android:gravity="center_horizontal"
+        android:layout_width="206dp"
+        android:layout_height="48dp" />
+
+        <!-- FRAME: Box -->
+        <LinearLayout
+            android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="46dp"
+            android:background="@drawable/bg_rounded_box"
+            android:paddingLeft="0dp"
+            android:paddingTop="14dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="14dp">
+
+            <!-- TEXT: Tiếp tục -->
+            <TextView
+                android:text="Tiếp tục"
+                android:textSize="15sp"
+                android:textColor="#FFFFFFFF"
+                android:gravity="start"
+                android:textStyle="bold"
+                android:fontFamily="Inter"
+        android:layout_width="60dp"
+        android:layout_height="18dp" />
+        </LinearLayout>
+
+        <!-- TEXT: Đã có tài khoản? Đăng nhập -->
+        <TextView
+            android:text="Đã có tài khoản?  Đăng nhập"
+            android:textSize="15sp"
+            android:textColor="#FF64748B"
+            android:gravity="start"
+            android:fontFamily="Inter"
+        android:layout_width="203dp"
+        android:layout_height="18dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
