@@ -1,0 +1,10 @@
+[Unit]
+Description=Run the daily licensed video import
+
+[Timer]
+OnCalendar=*-*-* 02:15:00
+Persistent=true
+Unit=english-video-import.service
+
+[Install]
+WantedBy=timers.target

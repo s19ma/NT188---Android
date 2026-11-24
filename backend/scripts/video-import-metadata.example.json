@@ -1,0 +1,13 @@
+{
+  "title": "A licensed English lesson",
+  "description": "Short description shown in the app.",
+  "category": "Learning",
+  "cefr_level": "B1",
+  "source_url": "https://example.org/original-video-page",
+  "license": "CC BY 4.0",
+  "rights_confirmed": true,
+  "summary": {
+    "summary_text": "A concise Vietnamese summary of the lesson.",
+    "key_points": ["Key point one", "Key point two", "Key point three"]
+  }
+}

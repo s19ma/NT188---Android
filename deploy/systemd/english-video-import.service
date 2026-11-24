@@ -1,0 +1,12 @@
+[Unit]
+Description=Import up to ten licensed English Through Video lessons
+After=network-online.target english-video-api.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=azureuser
+Group=azureuser
+WorkingDirectory=/home/azureuser/english-video/backend
+EnvironmentFile=/home/azureuser/english-video/backend/.env
+ExecStart=/home/azureuser/english-video/backend/.venv/bin/python -m scripts.import_inbox_videos

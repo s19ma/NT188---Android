@@ -59,6 +59,12 @@ class Settings(BaseSettings):
     azure_translator_key: SecretStr | None = None
     azure_translator_endpoint: str = "https://api.cognitive.microsofttranslator.com"
 
+    # Scheduled, server-side imports. Source media is supplied by the owner and
+    # must carry a redistributable licence recorded in metadata.json.
+    video_import_inbox: str = "/home/azureuser/english-video/incoming-videos"
+    video_import_archive: str = "/home/azureuser/english-video/imported-videos"
+    video_import_daily_limit: int = 10
+
     model_config = SettingsConfigDict(
         env_file=".env",
         env_file_encoding="utf-8",
