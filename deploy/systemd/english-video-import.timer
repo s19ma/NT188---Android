@@ -2,7 +2,8 @@
 Description=Run the daily licensed video import
 
 [Timer]
-OnCalendar=*-*-* 02:15:00
+# 19:15 UTC is 02:15 the following day in Vietnam/Thailand (UTC+7).
+OnCalendar=*-*-* 19:15:00 UTC
 Persistent=true
 Unit=english-video-import.service
 
